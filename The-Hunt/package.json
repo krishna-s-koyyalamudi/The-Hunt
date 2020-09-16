@@ -1,0 +1,14 @@
+{
+  "name": "the-hunt",
+  "version": "1.0.0",
+  "description": "Treasure Hunt App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishna-Koyyalamudi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
