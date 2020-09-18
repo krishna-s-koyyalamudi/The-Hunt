@@ -6,7 +6,8 @@ A user can create a quest containing number of locations that can be identified 
 
 ## Technology Stack
 
-Considering requirements provided in RFP, we have put our effort in selecting proper technologies so that it check all our boxes mentioned by client. Coming to backend language, we have decided to use Node.js as it is light-weight and efficient when it comes to real-time applications that should run across distributed devices like
+Considering requirements provided in RFP, we have put our effort in selecting proper technologies so that it check all our boxes mentioned by client. Coming to backend language, we have decided to use Node.js as it is light-weight and efficient when it comes to real-time applications that should run across distributed devices like:
+
     •	an iPhone SE
     •	an Android device
     •	a laptop computer
