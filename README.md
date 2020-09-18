@@ -28,6 +28,10 @@ Coming to Front-End, we have thought of using HTML, CSS and JavaScript. We have 
 
 Apart from that, JavaScript seemed to be fast, responsive and thought it will be suitable for all platforms such as Android and IOS. Secondly, we are using Heroku application to deploy our application as this is open source and feasible to host. 
 
+### Framework
+
+Regarding frameworks, as per our client suggestion we thought of using NestJS. This will also help us to organize our code by providing a proper structure.
+
 
 ## Application Architecture Understanding
 
