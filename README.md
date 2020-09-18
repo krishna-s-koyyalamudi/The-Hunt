@@ -8,7 +8,7 @@ A user can create a quest containing number of locations that can be identified 
 
 Considering requirements provided in RFP, we have put our effort in selecting proper technologies so that it check all our boxes mentioned by client. 
 
-## Backend Language
+### Backend Language
 
 Coming to backend language, we have decided to use Node.js as it is light-weight and efficient when it comes to real-time applications that should run across distributed devices like:
 
@@ -17,7 +17,7 @@ Coming to backend language, we have decided to use Node.js as it is light-weight
     •	a laptop computer
     •	an iPad
     
-## Frontend Language
+### Frontend Language
 
 Coming to Front-End, we have thought of using HTML, CSS and JavaScript. We have accessed factors like:
 
@@ -25,6 +25,8 @@ Coming to Front-End, we have thought of using HTML, CSS and JavaScript. We have 
     •	Available time to deliver.
     •	Security.
     •	Availability Of resources.
+
+Apart from that, JavaScript seemed to be fast, responsive and thought it will be suitable for all platforms such as Android and IOS. Secondly, we are using Heroku application to deploy our application as this is open source and feasible to host. 
 
 
 ## Application Architecture Understanding
