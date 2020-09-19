@@ -1,5 +1,5 @@
 ## Heroku Link:
-   Here is our application login page host link on heroku.
+   Here is hosted link of our application on heroku.
    
    https://glacial-thicket-85194.herokuapp.com/
 
