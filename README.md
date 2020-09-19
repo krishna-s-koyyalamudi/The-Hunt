@@ -15,7 +15,9 @@ Coming to backend language, we have decided to use Node.js as it is light-weight
     •	an iPhone SE
     •	an Android device
     •	a laptop computer
-    •	an iPad
+    •	an iPad 
+    
+ And Node.js offers an Easy Scalability and it is has been regarded as a full-stack JavaScript for serving both the client and the server-side applications.
     
 ### Frontend Language
 
