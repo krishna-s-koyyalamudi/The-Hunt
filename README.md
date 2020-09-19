@@ -38,6 +38,8 @@ And it is very secure and it has a Quickly Reacting Features and Apps
 
 Regarding frameworks, as per our client suggestion we thought of using NestJS. This will also help us to organize our code by providing a proper structure.
 
+By using this framework it has Nestbuilding efficient and  scalable Node. js server-side applications because it uses  modern JavaScript, is built with TypeScript
+
 ### API's 
 
 For accessing the location we have various API’s like Google Maps and Mapbox. Here in this application we thought of using Google Maps. And for authentication and authorization purpose we are thought of using Open authorization.
