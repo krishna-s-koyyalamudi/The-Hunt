@@ -47,4 +47,4 @@ For accessing the location we have various API’s like Google Maps and Mapbox. 
 
 ## Application Architecture Understanding
 
-![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Architecture%20Diagram.png?raw=true)
+![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
