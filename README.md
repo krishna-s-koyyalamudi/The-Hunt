@@ -32,6 +32,8 @@ Apart from that, JavaScript seemed to be fast, responsive and thought it will be
 
 BY using  the above technologies there will be a Speedy Development and User-driven Outcomes and  using the Using certain modern frameworks will enable faster development of elements 
 
+And it is very secure and it has a Quickly Reacting Features and Apps
+
 ### Framework
 
 Regarding frameworks, as per our client suggestion we thought of using NestJS. This will also help us to organize our code by providing a proper structure.
