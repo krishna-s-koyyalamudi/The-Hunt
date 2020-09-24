@@ -1,3 +1,8 @@
+## Heroku Link:
+   Here is hosted link of our application on heroku.
+   
+   https://glacial-thicket-85194.herokuapp.com/
+
 # The-Hunt
 “The Hunt game” is an outdoor collaborative game which allows the authorized users to play with other team members or to compete with other players in finding the hidden locations in a quest. We are designing this game in view that this is compatible with iPhone SE, Laptop, Tablet, and Android phones. 
 
@@ -47,4 +52,4 @@ For accessing the location we have various API’s like Google Maps and Mapbox. 
 
 ## Application Architecture Understanding
 
-![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Architecture%20Diagram.png?raw=true)
+![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
