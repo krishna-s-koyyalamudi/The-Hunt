@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS player (
+    `playerId` INT,
+    `teamId` INT,
+    `userId` INT,
+    `playerName` VARCHAR(6) CHARACTER SET utf8,
+    `datetimeInvited` DATETIME,
+    `datetimeAccepted` DATETIME,
+    `datetimeRejected` DATETIME,
+    `datetimeDeleted` INT
+);
+INSERT INTO player VALUES
+    (911,1001,12346,'Ravi','2020-09-09 00:00:00','2020-09-10 00:00:00',NULL,NULL),
+    (912,1001,56536,'Anusha','2020-09-09 00:00:00',NULL,'2020-09-13 00:00:00',NULL),
+    (913,1001,53562,'Sandy','2020-09-09 00:00:00','2020-09-10 00:00:00',NULL,NULL),
+    (914,1002,87688,'Devi','2020-09-10 00:00:00','2020-09-12 00:00:00',NULL,NULL),
+    (915,1002,67783,'Tarun','2020-09-10 00:00:00','2020-09-10 00:00:00',NULL,NULL),
+    (916,1002,66773,'Aswin','2020-09-10 00:00:00',NULL,'2020-09-10 00:00:00',NULL),
+    (917,1001,36737,'Raghu','2020-09-09 00:00:00','2020-09-10 00:00:00',NULL,NULL),
+    (918,1002,35627,'Eswar','2020-09-10 00:00:00','2020-09-11 00:00:00',NULL,NULL);
