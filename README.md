@@ -49,6 +49,16 @@ By using this framework it has Nestbuilding efficient and  scalable Node. js ser
 
 For accessing the location we have various API’s like Google Maps and Mapbox. Here in this application we thought of using Google Maps. And for authentication and authorization purpose we are thought of using Open authorization.
 
+## Testing:
+  
+ Here for testing we are using Cypress. Cypress is purely javascript based front end testing tool.
+ 
+ Using Cypress, developers can create:
+
+Unit tests
+Integration tests
+End to End tests
+
 
 ## Application Architecture Understanding
 
