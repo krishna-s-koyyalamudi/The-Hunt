@@ -12,7 +12,7 @@ app.use(express.static('public'))
 //app.use('/static', express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/login.html')
+  res.sendFile(__dirname + 'views\Login\Login.html')
 });
 
 app.post('/', function (req, res) {
