@@ -1,10 +1,11 @@
 CREATE TABLE IF NOT EXISTS user (
-    `email` VARCHAR(22) CHARACTER SET utf8,
-    `password` VARCHAR(12) CHARACTER SET utf8,
-    `userId` INT,
+    `email` VARCHAR(30) CHARACTER SET utf8,
+    `password` VARCHAR(8) CHARACTER SET utf8,
+    `userId` INT(10) NOT NULL,
     `userName` VARCHAR(9) CHARACTER SET utf8,
-    `dateCreated` DATETIME,
-    `dateLastAccessed` DATETIME
+    `dateCreated` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,,
+    `dateLastAccessed` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+     PRIMARY KEY(userId);	
 
 );
 INSERT INTO user VALUES
