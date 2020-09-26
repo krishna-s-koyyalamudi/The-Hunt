@@ -42,10 +42,9 @@ background: #fafafa;
     border-radius: 6px;
     background-color:  #00674c;
     color: white;
-    padding: 0px;
-
-   
+    padding: 0px; 
 }
+
 #two,#three{
     margin:10px;
     margin-left: auto;
