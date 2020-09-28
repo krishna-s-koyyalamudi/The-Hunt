@@ -87,6 +87,7 @@
 
 ## Sprint 3
 ### Highest
+
 * Design -The app will remind me a day before.
 * Implement - The app will remind me a day before.
 * Design - On the day of the competition, the app will show the start date time and the starting location.
@@ -96,5 +97,27 @@
 * Implement - User can request for third and final clue which makes it easy to be successful.
 * Approval for - User can request for third and final clue which makes it easy to be successful.
 * Design - User can request for third and final clue which makes it easy to be successful.
+* Design - User gets closer to the location,display should indicate warm color.
+* Design - User moves faraway to the location,display should indicate dark color.
+* Implement - User moves faraway to the location,display should indicate dark color
+
+### Medium
+
+* Deploy -  The app will remind me a day before.
+* Deploy - On the day of the competition, the app will show the start date time and the starting location.
+* Implement - User can start moving towards the clue, if unsuccessful he/she can request a second clue.
+* Deployment - User can request for third and final clue which makes it easy to be successful.
+* Implementation - User gets closer to the location,display should indicate warm color.
+* Deployment - User gets closer to the location,display should indicate warm color.
+* Deployment -  User moves faraway to the location,display should indicate dark color.
+* Design - User gets within the location circle, display celebrates and says "Congratulations, you scored!"
+* Implement - User gets within the location circle, display celebrates and says "Congratulations, you scored!"
+* Design - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
+* Implement - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
+
+### Low
+* Design - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
+* Implement - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
+* Deploy - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
 
 ## Sprint 4 (GDP 2)
