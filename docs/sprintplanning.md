@@ -76,6 +76,10 @@
 * Implement-The hunt master specifies the end date and time for the competition.
 ### Medium
 * Deploy-The hunt master specifies the start date and time for the competition.
+* The hunt master specifies the end date and time for the competition.
+* user serve as hunt master,he can choose an existing quest for competition.
+* A hunting master invites a list of teams to participate about a week before the match.
+* As a team captain user can accept or reject the invitation.
 ### Low
 
 ## Sprint 3
