@@ -87,6 +87,14 @@
 
 ## Sprint 3
 ### Highest
-* 
+* Design -The app will remind me a day before.
+* Implement - The app will remind me a day before.
+* Design - On the day of the competition, the app will show the start date time and the starting location.
+* Implementation - On the day of the competition, the app will show the start date time and the starting location.
+* Get Approval for - User can start moving towards the clue, if unsuccessful he/she can request a second clue
+* Design - User can start moving towards the clue, if unsuccessful he/she can request a second clue.
+* Implement - User can request for third and final clue which makes it easy to be successful.
+* Approval for - User can request for third and final clue which makes it easy to be successful.
+* Design - User can request for third and final clue which makes it easy to be successful.
 
 ## Sprint 4 (GDP 2)
