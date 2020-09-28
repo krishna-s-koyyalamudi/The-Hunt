@@ -53,6 +53,7 @@
 * Design-The designer provides a UNIQUE Quest name among all quests
 * Implement-The designer provides a UNIQUE Quest name among all quests
 * Cypress test for Login page
+* Cypress test for Sign Up page
 * Cypress test for competition page
 * Cypress test for the Create Team page
 * Cypress test for User can serve as a designer of the quest they create.
