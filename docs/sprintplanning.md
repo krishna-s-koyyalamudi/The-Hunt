@@ -75,13 +75,18 @@
 * Design-The hunt master specifies the end date and time for the competition.
 * Implement-The hunt master specifies the end date and time for the competition.
 ### Medium
-* Deploy-The hunt master specifies the start date and time for the competition.
-* The hunt master specifies the end date and time for the competition.
-* user serve as hunt master,he can choose an existing quest for competition.
-* A hunting master invites a list of teams to participate about a week before the match.
-* As a team captain user can accept or reject the invitation.
+* Deploy-  The hunt master specifies the start date and time for the competition.
+* Deploy - The hunt master specifies the end date and time for the competition.
+* Design - user serve as hunt master,he can choose an existing quest for competition.
+* Implement - user serve as hunt master,he can choose an existing quest for competition.
+* Design - A hunting master invites a list of teams to participate about a week before the match.
+* Implement -  A hunting master invites a list of teams to participate about a week before the match.
+* Design - As a team captain user can accept or reject the invitation.
+* Implement - As a team captain user can accept or reject the invitation.
 ### Low
 
 ## Sprint 3
+### Highest
+* 
 
 ## Sprint 4 (GDP 2)
