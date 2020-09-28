@@ -64,7 +64,18 @@
 
 ## Sprint 2
 ### Highest
+* Design- The user serves as the hunt master of the competion.
+* Implement- The user serves as the hunt master of the competion.
+* Design -User can serve as hunt master or he can choose an existing quest for competition.
+* Implement- User serve as hunt master,he can choose an existing quest for competition.
+* Design- A hunting master invites a list of teams to participate about a week before the match
+* Implement- A hunting master invites a list of teams to participate about a week before the match
+* Design-The hunt master specifies the start date and time for the competition.
+* Implement-The hunt master specifies the start date and time for the competition.
+* Design-The hunt master specifies the end date and time for the competition.
+* Implement-The hunt master specifies the end date and time for the competition.
 ### Medium
+* Deploy-The hunt master specifies the start date and time for the competition.
 ### Low
 
 ## Sprint 3
