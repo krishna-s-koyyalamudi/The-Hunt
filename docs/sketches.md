@@ -15,7 +15,7 @@
 
 #### 4. Forgot Password (link) <-- does not reflect comments
 
-
+![](https://raw.githubusercontent.com/Krishna-Koyyalamudi/The-Hunt/master/UI/UI_Screens/ForgotPassword.png)
 
 #### 5. Password Reset Code 
 
