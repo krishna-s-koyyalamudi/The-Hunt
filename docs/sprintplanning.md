@@ -83,9 +83,7 @@
 * Design-The hunt master specifies the end date and time for the competition.
 * Implement-The hunt master specifies the end date and time for the competition.
 ### Medium
-* Deploy-  The hunt master specifies the start date and time for the competition.
-* Deploy - The hunt master specifies the end date and time for the competition.
-* Design - user serve as hunt master,he can choose an existing quest for competition.
+* * Design - user serve as hunt master,he can choose an existing quest for competition.
 * Implement - user serve as hunt master,he can choose an existing quest for competition.
 * Design - A hunting master invites a list of teams to participate about a week before the match.
 * Implement -  A hunting master invites a list of teams to participate about a week before the match.
@@ -111,13 +109,9 @@
 
 ### Medium
 
-* Deploy -  The app will remind me a day before.
-* Deploy - On the day of the competition, the app will show the start date time and the starting location.
 * Implement - User can start moving towards the clue, if unsuccessful he/she can request a second clue.
 * Deployment - User can request for third and final clue which makes it easy to be successful.
 * Implementation - User gets closer to the location,display should indicate warm color.
-* Deployment - User gets closer to the location,display should indicate warm color.
-* Deployment -  User moves faraway to the location,display should indicate dark color.
 * Design - User gets within the location circle, display celebrates and says "Congratulations, you scored!"
 * Implement - User gets within the location circle, display celebrates and says "Congratulations, you scored!"
 * Design - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
@@ -126,6 +120,5 @@
 ### Low
 * Design - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
 * Implement - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
-* Deploy - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
 
 ## Sprint 4 (GDP 2)
