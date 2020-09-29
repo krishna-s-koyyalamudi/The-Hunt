@@ -4,35 +4,18 @@
 
 ### High /Highest
 
-* Create(Design) Login page
-* Approval - Create(Design) Login page
-* Create(Design) a Signup page
-* Approval - Create(Design) a Signup page 
-* Implement User sign Up page
-* Implement Login Page
-* Create(Design) a Team page
-* Approval - Create(Design) a Team page
-* Create(Design) Forgot password page
-* Approval - Create(Design ) Forgot password page
-* Implement Forgot password page
+* As a user, I can SignUp to the App.
+* As a user, I want to Login to the app so I can participate.
+* As a user, I want to reset my password so I can regain access to the app
 
 ### Medium
 
-* Create(Design) a Quest page
-* Approval - Create ( Design) a Quest page
-* Implement Quest page
-* Implement the team page
-* Implement User password reset page
-* Create(Design) a competition page
-* Approval - Create(Design) a competition page
-* Implement the competition page
-* Create(Design) a Location page
-* Approval - Create( Design) a Location page
-* Create(Design) a clues page 
-* Approval - Create(Design) a clues page
+* As a user,I can create Teams.
+* As a user,I can create Quest.
+* As a user,I can create competition.
 
 ### Low /Lowest
-* Implement User profile account details page
+* As a User,I can accesss the User profile account details page
 
 
 ## Sprint 1
