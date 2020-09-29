@@ -9,42 +9,23 @@
 * As a user, I want to reset my password so I can regain access to the app
 
 ### Medium
-
+* As a Admin,I can access to all information including app settings.
 * As a user,I can create Teams.
 * As a user,I can create Quest.
 * As a user,I can create competition.
 
 ### Low /Lowest
-* As a User,I can accesss the User profile account details page
+* As a User,I can accesss the my profile account details page.
 
 
 ## Sprint 1
 ### High/Highest
-* Implement Create a Team Page
-* Implement the Clue page.
-* Create(Design) Manage invites page
-* Implement Manage invite page.
-* Implement-Team name should be unique and 3-25 characters long.
-* Design - The designer provides a starting location for the quest.
-* Implement- The designer provides a starting location for the quest.
-* Design - The designer provides a set of four unordered locations for the quest.
-* Implement - The designer provides a set of four unordered locations for the quest.
-* Design- For each location, the designer provides location coordinates (Lat, Long, default radius)
-* Implement -For each location, the designer provides location coordinates (Lat, Long, default radius)
-* Design- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
-* Implement- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
+* As a user,I can provide Team names.
+* As a user,I can provide list of emails of invited members.
+
 
 ### Medium
-* Design- User can serve as a designer of the quest they create.
-* Implement- User can serve as a designer of the quest they create.
-* Design "User can accept the team invite and become a team player or reject it." page
-* Implement "User can accept the team invite and become a team player or reject it." page
-* Design- After three days, if not accepted, assume rejection.
-* Implement- After three days, if not accepted, assume rejection.
-* Design-Whenever the user gets an invite - He/She has the option to explicitly decline.
-* Implement- Whenever the user gets an invite - He/She has the option to explicitly decline.
-* Design-The designer provides a UNIQUE Quest name among all quests
-* Implement-The designer provides a UNIQUE Quest name among all quests
+* As a user,I can accept the team invite and become a team player or reject it.
 
 ### Low
 * Design-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
