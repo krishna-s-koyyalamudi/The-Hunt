@@ -15,6 +15,7 @@
 * Implement Forgot password page
 
 ### Medium
+
 * Create(Design) a Quest page
 * Approval - Create ( Design) a Quest page
 * Implement Quest page
@@ -37,7 +38,8 @@
 * Implement Create a Team Page
 * Implement the Clue page.
 * Create(Design) Manage invites page
-* Implement Manage invite page
+* Implement Manage invite page.
+* Implement-Team name should be unique and 3-25 characters long.
 * Design - The designer provides a starting location for the quest.
 * Implement- The designer provides a starting location for the quest.
 * Design - The designer provides a set of four unordered locations for the quest.
@@ -45,9 +47,7 @@
 * Design- For each location, the designer provides location coordinates (Lat, Long, default radius)
 * Implement -For each location, the designer provides location coordinates (Lat, Long, default radius)
 * Design- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
-* implement- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
-
-
+* Implement- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
 
 ### Medium
 * Design- User can serve as a designer of the quest they create.
@@ -60,15 +60,10 @@
 * Implement- Whenever the user gets an invite - He/She has the option to explicitly decline.
 * Design-The designer provides a UNIQUE Quest name among all quests
 * Implement-The designer provides a UNIQUE Quest name among all quests
-* Cypress test for Login page
-* Cypress test for Sign Up page
-* Cypress test for competition page
-* Cypress test for the Create Team page
-* Cypress test for User can serve as a designer of the quest they create.
-* Cypress test for the quest page
-* Cypress test for clues page
-  
 
+### Low
+* Design-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Implement-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 ### Highest
@@ -89,7 +84,6 @@
 * Implement -  A hunting master invites a list of teams to participate about a week before the match.
 * Design - As a team captain user can accept or reject the invitation.
 * Implement - As a team captain user can accept or reject the invitation.
-### Low
 
 ## Sprint 3
 ### Highest
@@ -109,9 +103,13 @@
 
 ### Medium
 
+* Deploy -  The app will remind me a day before.
+* Deploy - On the day of the competition, the app will show the start date time and the starting location.
 * Implement - User can start moving towards the clue, if unsuccessful he/she can request a second clue.
 * Deployment - User can request for third and final clue which makes it easy to be successful.
 * Implementation - User gets closer to the location,display should indicate warm color.
+* Deployment - User gets closer to the location,display should indicate warm color.
+* Deployment -  User moves faraway to the location,display should indicate dark color.
 * Design - User gets within the location circle, display celebrates and says "Congratulations, you scored!"
 * Implement - User gets within the location circle, display celebrates and says "Congratulations, you scored!"
 * Design - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
@@ -120,5 +118,6 @@
 ### Low
 * Design - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
 * Implement - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
+* Deploy - After reaching the destination,User is asked to return to the starting location to wait for the other players to return.
 
 ## Sprint 4 (GDP 2)
