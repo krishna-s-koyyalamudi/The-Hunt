@@ -5,16 +5,22 @@ var db =  require("./database.js")
 
 app.use(express.static("public"));
 
+port = process.env.PORT || 80
+
 app.get('/', (req, res) => {
-  //res.render('/index')
   res.sendFile(__dirname + '/Login.html')
-  
 });
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c6c579d537c64ed03d489d32dc922a04df855f00
 app.use(bodyparser.json({type:"application/*+json"}));
 
+app.listen(port, () => {
+  console.log('Example app listening on port 80!')
+});
 app.get("/api/users", (req, res, next) => {
   var sql = "select * from user"
   var params = []
@@ -30,8 +36,5 @@ app.get("/api/users", (req, res, next) => {
     });
 });
 
-app.listen(8000, () => {
-  console.log('Example app listening on port 8000!')
-});
 
 //app.post("/addcustomer", jsonparser, customer.addcustomer);
