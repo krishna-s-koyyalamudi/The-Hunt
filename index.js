@@ -11,11 +11,6 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/Login.html')
 });
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> c6c579d537c64ed03d489d32dc922a04df855f00
 app.use(bodyparser.json({type:"application/*+json"}));
 
 app.listen(port, () => {
