@@ -72,3 +72,11 @@ End to End tests
 [Class Common Repo Link](https://github.com/Krishna-Koyyalamudi/The-Hunt)
 
 [NW Jira Link](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-266&issueLimit=100)
+
+## References
+
+[Rest API with Node.js and Express JS](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+
+[HTML Layouts with Pugjs](https://dev.to/nkratzmeyer/shared-html-layouts-with-pugjs-2j04)
+
+
