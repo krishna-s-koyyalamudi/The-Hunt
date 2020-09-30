@@ -13,11 +13,9 @@ app.get('/', (req, res) => {
 
 app.use(bodyparser.json({type:"application/*+json"}));
 
-<<<<<<< HEAD
 app.listen(port, () => {
   console.log('Example app listening on port 80!')
 });
-=======
 app.get("/api/users", (req, res, next) => {
   var sql = "select * from user"
   var params = []
@@ -33,9 +31,5 @@ app.get("/api/users", (req, res, next) => {
     });
 });
 
-app.listen(8000, () => {
-  console.log('Example app listening on port 8000!')
-});
 
 //app.post("/addcustomer", jsonparser, customer.addcustomer);
->>>>>>> 8eb9c555e1908ae93b551bb6cb2eb549ee4e83c5
