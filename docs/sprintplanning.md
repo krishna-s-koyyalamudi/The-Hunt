@@ -45,16 +45,16 @@
 * Implement- As a User,User can serve as a designer of the quest they create.
 * Design As a user, "User can accept the team invite and become a team player or reject it." page
 * Implement As a user,"User can accept the team invite and become a team player or reject it." page
-* Design- After three days, if not accepted, assume rejection.
-* Implement- After three days, if not accepted, assume rejection.
+* Design-As a user,After three days, if invite is not accepted, assume rejection.
+* Implement- As a user,After three days, if invite is not accepted, assume rejection.
 * Design-Whenever the user gets an invite - He/She has the option to explicitly decline.
 * Implement- Whenever the user gets an invite - He/She has the option to explicitly decline.
-* Design-The designer provides a UNIQUE Quest name among all quests
-* Implement-The designer provides a UNIQUE Quest name among all quests
+* Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
+* Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
 
 ### Low
-* Design-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
-* Implement-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Design-As a user, while he/she  as player- The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Implement-As a user, while he/she  as player-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 ### Highest
