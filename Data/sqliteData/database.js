@@ -14,7 +14,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
             email VARCHAR(30) ,
             password VARCHAR(8) ,
             userId INT(10) PRIMARY KEY NOT NULL UNIQUE AUTO INCREMENT,
-            userName VARCHAR(9) ,
+            userName VARCHAR(15) ,
             dateCreated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
             dateLastAccessed DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
              )`,
@@ -24,9 +24,15 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
                   // Table already created
               }else{
                   // Table just created, creating some rows
-                  var insert = 'INSERT INTO user (userId, email, password,userName,dateCreated,dateLastAccessed) VALUES (?,?,?.?,?,?)'
-                  db.run(insert, ["admin","admin@example.com",md5("admin123456")])
-                  db.run(insert, ["user","user@example.com",md5("user123456")])
+                  var insert = 'INSERT INTO user (email, password,userName) VALUES (?,?,?)'
+                  db.run(insert, ["ravuluri@gmail.com",md5("ravi1432"),"ravi"])
+                  db.run(insert, ["anusha12@gmail.com",md5("anus1233"),"anuravi"])
+                  db.run(insert, ["sandy@gmail.com",md5("sandy123"),"sandy12"])
+                  db.run(insert, ["devi@gmail.com",md5("devi4590"),"devi45"])
+                  db.run(insert, ["tarun@gmail.com",md5("tarun231"),"tarunfarhen"])
+                  db.run(insert, ["aswin@gmail.com",md5("aswin456"),"aswinrebeca"])
+                  db.run(insert, ["raghu@gmail.com",md5("raghu2345"),"raghunikki"])
+                  db.run(insert, ["eswar@gmail.com",md5("eswar546"),"eswarfox"])
               }
           });  
       }
