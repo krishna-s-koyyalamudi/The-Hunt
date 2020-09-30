@@ -4,32 +4,57 @@
 
 ### High /Highest
 
-* As a user, I can SignUp to the App.
-* As a user, I want to Login to the app so I can participate.
-* As a user, I want to reset my password so I can regain access to the app
+* Design-As a user, Player can SignUp to the App.
+* Implement-As a user, Player can SignUp to the App.
+* Design-As a user, Player can Login to the App.
+* Implement-As a user, Player can Login to the App.
+* Design-As a user, Player can reset the password so that Player can regain access to the app.
+* Implement-As a user, Player can reset the password so that Player can regain access to the app.
 
 ### Medium
-* As a Admin,I can access to all information including app settings.
-* As a user,I can create Teams.
-* As a user,I can create Quest.
-* As a user,I can create competition.
+* Design-As a Admin,He/she can access to all information including app settings.
+* Implement-As a Admin,He/she can access to all information including app settings.
+* Design-As a user,Player can create Teams.
+* Implement-As a user,Player can create Teams.
+* Design-As a user,Player can create Quest.
+* Implement-As a user,Player can create Quest.
+* Design-As a user,Player can create competition.
+* Implement-As a user,Player can create competition.
+* Design-As a user,Player can create competition.
 
 ### Low /Lowest
-* As a User,I can accesss the my profile account details page.
+* Design-As a User,player can accesss his/her profile account details page.
+* Implement-As a User,player can accesss his/her profile account details page.
 
 
 ## Sprint 1
 ### High/Highest
-* As a user,I can provide Team names.
-* As a user,I can provide list of emails of invited members.
-
+* Design-As a user,player can provide Team name that is  unique and 3-25 characters long.
+* Implement-As a user,player can provide Team name that is  unique and 3-25 characters long.
+* Design - As a user,designer provides a starting location for the quest.
+* Implement- As a user,The designer provides a starting location for the quest.
+* Design - As a user,The designer provides a set of four unordered locations for the quest.
+* Implement - As a user,The designer provides a set of four unordered locations for the quest.
+* Design- As a user,the designer provides location coordinates (Lat, Long, default radius)for each location.
+* Implement -As a user,the designer provides location coordinates (Lat, Long, default radius)for each location.
+* Design- As a user,the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location.
+* Implement- As a user,the the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location
 
 ### Medium
-* As a user,I can accept the team invite and become a team player or reject it.
+* Design- User can serve as a designer of the quest they create.
+* Implement- User can serve as a designer of the quest they create.
+* Design "User can accept the team invite and become a team player or reject it." page
+* Implement "User can accept the team invite and become a team player or reject it." page
+* Design- After three days, if not accepted, assume rejection.
+* Implement- After three days, if not accepted, assume rejection.
+* Design-Whenever the user gets an invite - He/She has the option to explicitly decline.
+* Implement- Whenever the user gets an invite - He/She has the option to explicitly decline.
+* Design-The designer provides a UNIQUE Quest name among all quests
+* Implement-The designer provides a UNIQUE Quest name among all quests
 
 ### Low
-* Design- As a Player I can belong to 0 or more teams by providing unique names(3-25 characeters)
-* Implement- As a player,I can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Design-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Implement-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 ### Highest

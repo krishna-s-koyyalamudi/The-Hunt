@@ -65,3 +65,10 @@ End to End tests
 ## Application Architecture Understanding
 
 ![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
+
+
+## Links
+
+[Class Common Repo Link](https://github.com/Krishna-Koyyalamudi/The-Hunt)
+
+[NW Jira Link](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-266&issueLimit=100)
