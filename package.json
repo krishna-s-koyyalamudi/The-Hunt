@@ -1,32 +1,24 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "Here is hosted link of our application on heroku.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "name": "The-hunt",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   },
+  "engines":{"node": "^12.18.4"},
   "dependencies": {
     "body-parser": "^1.19.0",
-    "cypress": "^5.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "express": "^4.16.4",
+    "http-errors": "~1.6.3",
     "md5": "^2.3.0",
-    "prettier": "^2.1.2",
+    "morgan": "~1.9.1",
     "pug": "^3.0.0",
     "sqlite3": "^5.0.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Krishna-Koyyalamudi/The-Hunt.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Krishna-Koyyalamudi/The-Hunt/issues"
-  },
-  "homepage": "https://github.com/Krishna-Koyyalamudi/The-Hunt#readme"
+  "devDependencies": {
+    "cypress": "^5.2.0",
+    "prettier": "2.1.2"
+  }
 }
