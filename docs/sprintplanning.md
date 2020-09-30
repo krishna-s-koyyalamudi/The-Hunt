@@ -41,10 +41,10 @@
 * Implement- As a user,the the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location
 
 ### Medium
-* Design- User can serve as a designer of the quest they create.
-* Implement- User can serve as a designer of the quest they create.
-* Design "User can accept the team invite and become a team player or reject it." page
-* Implement "User can accept the team invite and become a team player or reject it." page
+* Design-As a User,User can serve as a designer of the quest they create.
+* Implement- As a User,User can serve as a designer of the quest they create.
+* Design As a user, "User can accept the team invite and become a team player or reject it." page
+* Implement As a user,"User can accept the team invite and become a team player or reject it." page
 * Design- After three days, if not accepted, assume rejection.
 * Implement- After three days, if not accepted, assume rejection.
 * Design-Whenever the user gets an invite - He/She has the option to explicitly decline.
