@@ -11,6 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< HEAD
     "heroku": "^7.43.2"
+=======
+    "md5": "^2.3.0",
+    "sqlite3": "^5.0.0"
+>>>>>>> 8eb9c555e1908ae93b551bb6cb2eb549ee4e83c5
   }
 }

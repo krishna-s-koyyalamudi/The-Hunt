@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyparser = require("body-parser");
 const app = express();
+var db =  require("./database.js")
 
 app.use(express.static("public"));
 
@@ -12,6 +13,29 @@ app.get('/', (req, res) => {
 
 app.use(bodyparser.json({type:"application/*+json"}));
 
+<<<<<<< HEAD
 app.listen(port, () => {
   console.log('Example app listening on port 80!')
 });
+=======
+app.get("/api/users", (req, res, next) => {
+  var sql = "select * from user"
+  var params = []
+  db.all(sql, params, (err, rows) => {
+      if (err) {
+        res.status(400).json({"error":err.message});
+        return;
+      }
+      res.json({
+          "message":"success",
+          "data":rows
+      })
+    });
+});
+
+app.listen(8000, () => {
+  console.log('Example app listening on port 8000!')
+});
+
+//app.post("/addcustomer", jsonparser, customer.addcustomer);
+>>>>>>> 8eb9c555e1908ae93b551bb6cb2eb549ee4e83c5
