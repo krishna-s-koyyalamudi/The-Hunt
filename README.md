@@ -23,6 +23,8 @@ Coming to backend language, we have decided to use Node.js as it is light-weight
     •	an iPad 
 
 And Node.js offers an Easy Scalability and it is has been regarded as a full-stack JavaScript for serving both the client and the server-side applications.
+
+The ability of Node. js to simultaneously handle multiple requests and provide prompt responses makes it an ideal solution for client-focused web app development. This runtime environment is found more frequently on single-page applications than any other backend technology
     
 ### Frontend Language
 
