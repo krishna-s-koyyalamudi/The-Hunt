@@ -4,32 +4,33 @@
 
 ### High /Highest
 
-* As a user, I can SignUp to the App.
-* As a user, I want to Login to the app so I can participate.
-* As a user, I want to reset my password so I can regain access to the app
+* As a user, Player can SignUp to the App.
+* As a user, Player can Login to the App.
+* As a user, Player can reset the password so that Player can regain access to the app.
 
 ### Medium
-* As a Admin,I can access to all information including app settings.
-* As a user,I can create Teams.
-* As a user,I can create Quest.
-* As a user,I can create competition.
+* As a Admin,He/she can access to all information including app settings.
+* As a user,Player can create Teams.
+* As a user,Player can create Quest.
+* As a user,Player can create competition.
 
 ### Low /Lowest
-* As a User,I can accesss the my profile account details page.
+* As a User,player can accesss his/her profile account details page.
 
 
 ## Sprint 1
 ### High/Highest
-* As a user,I can provide Team names.
-* As a user,I can provide list of emails of invited members.
-
+* As a user,Player can provide Team names that should be unique and 3-25 characters long.
+* As a user,Player can provide list of emails of invited members.
+* As a user,Player can accept the team invite and become a team player or reject it.
+* As a user,after getting the invite,he/she can explicitly decline.
+* As a User,The player can accpet the invite to join the competition.
 
 ### Medium
-* As a user,I can accept the team invite and become a team player or reject it.
+* As a user,if the Player did not accept the invite after three days of invite,assume rejection.
+* As a user,if the Player did not accept the invite after three days of invite,the invite should disappear and invite should be declined.
 
 ### Low
-* Design- As a Player I can belong to 0 or more teams by providing unique names(3-25 characeters)
-* Implement- As a player,I can belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 ### Highest
