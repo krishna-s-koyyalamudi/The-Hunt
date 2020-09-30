@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
 
 
 
-
 app.use(bodyparser.json({type:"application/*+json"}));
 
 app.get("/api/users", (req, res, next) => {
