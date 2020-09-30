@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   //res.render('/index')
-  res.sendFile(__dirname + '\\views\\Login\\Login.html')
+  res.sendFile(__dirname + '\\index.html')
 });
 
 app.use(bodyparser.json({type:"application/*+json"}));
