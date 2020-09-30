@@ -66,6 +66,7 @@ End to End tests
 
 ![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
 
+
 ## Reminders
 
 1. No spaces in folders and file names.
@@ -79,6 +80,7 @@ End to End tests
 [Class Common Repo Link](https://github.com/Krishna-Koyyalamudi/The-Hunt)
 
 [NW Jira Link](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-266&issueLimit=100)
+
 [Course Syllabus](https://denisecase.github.io/44-691-gdp1-syllabus/)
 
 ## References
