@@ -4,19 +4,14 @@ const app = express();
 
 app.use(express.static("public"));
 
+port = process.env.PORT || 80
+
 app.get('/', (req, res) => {
-  //res.render('/index')
   res.sendFile(__dirname + '/Login.html')
-  
 });
-
-
-
 
 app.use(bodyparser.json({type:"application/*+json"}));
 
-app.listen(8000, () => {
-  console.log('Example app listening on port 8000!')
+app.listen(port, () => {
+  console.log('Example app listening on port 80!')
 });
-
-//app.post("/addcustomer", jsonparser, customer.addcustomer);
