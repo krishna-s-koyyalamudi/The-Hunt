@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.use(bodyparser.json({type:"application/*+json"}));
 
-app.listen(port, () => {
+app.listen(8000, () => {
   console.log('Example app listening on port 80!')
 });
 app.get("/api/users", (req, res, next) => {
