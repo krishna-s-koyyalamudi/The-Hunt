@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Login.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css" rel="stylesheet" />
-
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <title>Login Page</title>
 </head>
 
 <body>
+ 
     <header class="p-3">
         <h5 style="text-align:center;">The Hunt</h5>
     </header>
@@ -19,19 +19,27 @@
         <label class="text-center headText">Login</label>
         <form target="_blank" action="./LeaderBoard.html">
             <input type="text" placeholder="Email" id="uname" name="uname" class="pl-2"><br><br>
+<<<<<<< HEAD
             <input  type="password" placeholder="Password" id="password" name="password" class="pl-2"><br><br>
             <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="signup"><br><br>
             <!-- <main-button></main-button> -->
+=======
+            <input type="password" placeholder="Password" id="password" name="password" class="pl-2"><br><br>
+<!--            
+            <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="signup"><br><br> -->
+        
+>>>>>>> 879a67a72d3317e10f2aa0ba9e1b851eaa7d67c9
     
-            <button class="btnText" href="./views/ForgetPassword/forgetpassword1.html">Forgot your password?</button>
-          <!-- <input type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup"><br><br> -->
-            <button type="submit" class="rounded-100 col-sm-3 mt-3 text-center" style="width: 100px;">Register</button> <br><br>
+            <main-button id="signup">Log In</main-button> 
+            <button class="btnText" href="../signup/register.html">Forgot your password?</button>
+            <!-- <input type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup"><br><br> -->
+            <main-button id="signup">Register</main-button> 
             <i class="fas fa-grip-lines"></i>
         </form>
-
-    </section>
-
-    <script src="/views/Login/Login.js"></script>
+        <!-- <main-button>Register</main-button> -->
+    </section>           
+    <script src="views/Login/Login.js"></script>
 </body>
 
 </html>
+

@@ -67,8 +67,26 @@ End to End tests
 ![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
 
 
+## Reminders
+
+1. No spaces in folders and file names.
+1. Don't work on stale code - ALWAYS pull first
+1. Don't work on your desktop - organize your repos either by class or under a common folder (e.g., github or other). 
+1. Deploy as you work - if everything passes tests, we want to add / commit / push and deploy frequently (several times a week).  We should see your app develop throughout the sprint.
+1. Do hard things early. Do not delay figuring out the hard questions. 
+
 ## Links
 
 [Class Common Repo Link](https://github.com/Krishna-Koyyalamudi/The-Hunt)
 
 [NW Jira Link](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-266&issueLimit=100)
+
+## References
+
+[Build a Rest API with Node.js SQLite and Express JS](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+
+[Shared HTML Layouts with Pugjs](https://dev.to/nkratzmeyer/shared-html-layouts-with-pugjs-2j04)
+
+[Custom Elements- Syllabus Examples](https://denisecase.github.io/44-691-gdp1-syllabus/)
+
+
