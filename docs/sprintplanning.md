@@ -31,14 +31,14 @@
 ### High/Highest
 * Design-As a user,player can provide Team name that is  unique and 3-25 characters long.
 * Implement-As a user,player can provide Team name that is  unique and 3-25 characters long.
-* Design - The designer provides a starting location for the quest.
-* Implement- The designer provides a starting location for the quest.
-* Design - The designer provides a set of four unordered locations for the quest.
-* Implement - The designer provides a set of four unordered locations for the quest.
-* Design- For each location, the designer provides location coordinates (Lat, Long, default radius)
-* Implement -For each location, the designer provides location coordinates (Lat, Long, default radius)
-* Design- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
-* Implement- For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
+* Design - As a user,designer provides a starting location for the quest.
+* Implement- As a user,The designer provides a starting location for the quest.
+* Design - As a user,The designer provides a set of four unordered locations for the quest.
+* Implement - As a user,The designer provides a set of four unordered locations for the quest.
+* Design- As a user,the designer provides location coordinates (Lat, Long, default radius)for each location.
+* Implement -As a user,the designer provides location coordinates (Lat, Long, default radius)for each location.
+* Design- As a user,the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location.
+* Implement- As a user,the the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location
 
 ### Medium
 * Design- User can serve as a designer of the quest they create.
