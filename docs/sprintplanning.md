@@ -4,63 +4,63 @@
 
 ### High /Highest
 
-* Design-As a user, Player can SignUp to the App.
-* Implement-As a user, Player can SignUp to the App.
-* Design-As a user, Player can Login to the App.
-* Implement-As a user, Player can Login to the App.
-* Design-As a user, Player can reset the password so that Player can regain access to the app.
-* Implement-As a user, Player can reset the password so that Player can regain access to the app.
+* Design-As a user, I can SignUp to the App.
+* Implement-As a user, I can SignUp to the App.
+* Design-As a user, I can Login to the App.
+* Implement-As a user, I can Login to the App.
+* Design-As a user, I can reset the password so that Player can regain access to the app.
+* Implement-As a user, I can reset the password so that Player can regain access to the app.
 
 ### Medium
 
-* Design-As a Admin,He/she can access to all information including app settings.
+* Design- As a Admin,He/she can access to all information including app settings.
 * Implement-As a Admin,He/she can access to all information including app settings.
-* Design-As a user,Player can create Teams.
-* Implement-As a user,Player can create Teams.
-* Design-As a user,Player can create Quest.
-* Implement-As a user,Player can create Quest.
-* Design-As a user,Player can create competition.
-* Implement-As a user,Player can create competition.
-* Design-As a user,Player can create competition.
+* Design-As a user,I can create Teams.
+* Implement-As a user,I can create Teams.
+* Design-As a user,I can create Quest.
+* Implement-As a user,I can create Quest.
+* Design-As a user,I can create competition.
+* Implement-As a user,I can create competition.
+* Design-As a user,I can create competition.
 
 ### Low /Lowest
 
-* Design-As a User,player can accesss his/her profile account details page.
-* Implement-As a User,player can accesss his/her profile account details page.
+* Design-As a User,I can accesss my profile account details page.
+* Implement-As a User,player can accesss my profile account details page.
 
 
 ## Sprint 1
 
 ### High/Highest
 
-* Design-As a user,player can provide Team name that is  unique and 3-25 characters long.
-* Implement-As a user,player can provide Team name that is  unique and 3-25 characters long.
-* Design - As a user,designer provides a starting location for the quest.
-* Implement- As a user,The designer provides a starting location for the quest.
-* Design - As a user,The designer provides a set of four unordered locations for the quest.
-* Implement - As a user,The designer provides a set of four unordered locations for the quest.
-* Design- As a user,the designer provides location coordinates (Lat, Long, default radius)for each location.
-* Implement -As a user,the designer provides location coordinates (Lat, Long, default radius)for each location.
-* Design- As a user,the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location.
-* Implement- As a user,the the designer provides 3 ordered string clues. (Later a clue may include a photo) for each location
+* Design-As a user,I can provide Team name that is  unique and 3-25 characters long.
+* Implement-As a user,I can provide Team name that is  unique and 3-25 characters long.
+* Design - As a user,when I serve as designer,I provides a starting location for the quest.
+* Implement- As a user,when I serve as designer,I provides a starting location for the quest.
+* Design - As a user,when I serve as designer,I provides a set of four unordered locations for the quest.
+* Implement - As a user,when I serve designe, I provides a set of four unordered locations for the quest.
+* Design- As a user,when I serve  as designer,I provides location coordinates (Lat, Long, default radius)for each location.
+* Implement -As a user,I serve as designer,I provides location coordinates (Lat, Long, default radius)for each location.
+* Design- As a user,I serve as designer,I provides 3 ordered string clues. (Later a clue may include a photo) for each location.
+* Implement- As a user,I serve asdesigner,I provides 3 ordered string clues. (Later a clue may include a photo) for each location
 
 ### Medium
 
-* Design-As a User,User can serve as a designer of the quest they create.
-* Implement- As a User,User can serve as a designer of the quest they create.
-* Design As a user, "User can accept the team invite and become a team player or reject it." page
-* Implement As a user,"User can accept the team invite and become a team player or reject it." page
-* Design-As a user,After three days, if invite is not accepted, assume rejection.
-* Implement- As a user,After three days, if invite is not accepted, assume rejection.
-* Design-Whenever the user gets an invite - He/She has the option to explicitly decline.
-* Implement- Whenever the user gets an invite - He/She has the option to explicitly decline.
+* Design-As a User,I can serve as a designer of the quest they create.
+* Implement- As a User,I can serve as a designer of the quest they create.
+* Design As a user, I can accept the team invite and become a team player or reject it.
+* Implement As a user,I can accept the team invite and become a team player or reject it.
+* Design-As a user,After three days, if I wont accept invite, assume rejection.
+* Implement- As a user,After three days, if I wont accept invite, assume rejection.
+* Design-As a user,If I gets invite,I can explicitly decline.
+* Implement-As a user,If I gets invite,I can to explicitly decline.
 * Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
 * Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
 
 ### Low/Lowest
 
-* Design-As a user, while he/she  as player- The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
-* Implement-As a user, while he/she  as player-The Player can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Design-As a user, I can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Implement-As a user,I can belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 
