@@ -64,7 +64,7 @@ End to End tests
 
 ## Application Architecture Understanding
 
-![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
+![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.png)
 
 
 ## Reminders
