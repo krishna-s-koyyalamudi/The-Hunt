@@ -32,4 +32,8 @@ app.get("/api/users", (req, res, next) => {
 });
 
 
+app.get("/register", (req,res)=>{
+  res.send("This is where the user registers with mail,password and username");
+} )
+
 //app.post("/addcustomer", jsonparser, customer.addcustomer);
