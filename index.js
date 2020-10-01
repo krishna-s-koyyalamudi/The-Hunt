@@ -5,7 +5,7 @@ var db =  require("./database.js")
 
 app.use(express.static("public"));
 
-port = process.env.PORT || 80
+// port = process.env.PORT || 80
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '\\views\\Login\\Login.html')
@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 
 app.use(bodyparser.json({type:"application/*+json"}));
 
-app.listen(port, () => {
-  console.log('Example app listening on port 80!')
+app.listen(8000, () => {
+  console.log('Example app listening on port 8000!')
 });
 app.get("/api/users", (req, res, next) => {
   var sql = "select * from user"
