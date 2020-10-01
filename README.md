@@ -105,8 +105,8 @@ End to End tests
 ![Password hint screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordHint.png)<br>
 ![Create competition invalid inputs screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)<br>
 ![Location Screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Location_Screen.jpeg)
-AS soon as the user login with his credentials:
-Case 1: As soon as the user login and able to see notification of team invite.
+- AS soon as the user login with his credentials:<br>
+- Case 1: able to see notification of team invite.
 ![Team Invite](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/TeamInvite.png)<br>
 
  
