@@ -111,7 +111,7 @@ End to End tests
 - case 2: If he is a first time user, then a screen will appear displaying either to create a team or create Quest
 ![Create Team or Quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Hunt.png)
 - Case 3: User would like to create a team and send invitation to his friends then the screens would be:
-[send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
+![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
 
 
  
