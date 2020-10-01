@@ -94,14 +94,13 @@ End to End tests
 
 ![Sign up](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png) <br>
 ![Login page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen.png) <br>
-![Login page wrong password screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen_WrongPassword.png) <br>
+![Login page wrong password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen_WrongPassword.png) <br>
+![New password screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/New_password.png)
 ![Team Invite](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/TeamInvite.png)<br>
-![Create Event](https://github.com/Dixith1196/THE-HUNT/blob/master/createEvent.PNG) <br>
-![create_quest](https://github.com/Dixith1196/THE-HUNT/blob/master/createQuest.PNG?raw=true) <br>
-![profile](https://github.com/Dixith119https://github.com6/THE-HUNT/blob/master/prof.PNG) <br>
+![Create quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png) <br>
+![team creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/teamCreation.png) <br>
 ![Create Competition](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Create_Competition.PNG)<br>
-![Team Creation](https://github.com/sumana-reddy/GDP-UI-Design-team/blob/master/Teamcreation.png)
-![Forgot password](https://github.com/sumana-reddy/GDP-UI-Design-team/blob/master/Forgot_password.png)
+![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)
 ![Password_reset_code](https://github.com/sumana-reddy/GDP-UI-Design-team/blob/master/Password_reset_Code.png)
 ![Location_Screen](https://github.com/sumana-reddy/GDP-UI-Design-team/blob/master/Location%20Screen.jpeg)
 
