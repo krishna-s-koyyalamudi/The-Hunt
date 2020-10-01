@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS Quests (
     `questStartLocationLongitude` NUMERIC(8, 6),
     `dateCreated` DATETIME,
     `dateLastAccessed` VARCHAR(19) CHARACTER SET utf8
+PRIMARY KEY(questId);
 );
 INSERT INTO Quests VALUES
     (121,'Mask on',1121,44.968046,-94.420307,'2020-06-11 00:00:00','2020-06-11 00:00:00'),

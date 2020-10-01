@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS Location (
     `lcationLatitude` NUMERIC(8, 6),
     `locationLongitude` NUMERIC(9, 6),
     `locationValue` INT
+PRIMARY KEY(locationId);
 );
 INSERT INTO Location VALUES
     (666,121,44.33328,-89.132008,20),
