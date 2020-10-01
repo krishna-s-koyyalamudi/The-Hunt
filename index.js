@@ -8,8 +8,10 @@ app.use(express.static("public"));
 port = process.env.PORT || 80
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/Login.html')
+  res.sendFile(__dirname + '\\views\\Login\\Login.html')
+  console.log(__dirname + 'views\\Login\\Login.html', "link")
 });
+
 
 app.use(bodyparser.json({type:"application/*+json"}));
 
