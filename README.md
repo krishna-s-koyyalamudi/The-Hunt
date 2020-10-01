@@ -100,8 +100,9 @@ End to End tests
 ![Create quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png) <br>
 ![team creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/teamCreation.png) <br>
 ![Create Competition](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Create_Competition.PNG)<br>
-![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)
-![Password_reset_code](https://github.com/sumana-reddy/GDP-UI-Design-team/blob/master/Password_reset_Code.png)
-![Location_Screen](https://github.com/sumana-reddy/GDP-UI-Design-team/blob/master/Location%20Screen.jpeg)
-
+![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)<br>
+![Password_reset_code](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Password_reset_Code.png)<br>
+![Password hint screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordHint.png)<br>
+![Create competition invalid inputs screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)<br>
+![Location Screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Location_Screen.jpeg)
 
