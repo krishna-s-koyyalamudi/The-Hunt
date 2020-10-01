@@ -37,3 +37,6 @@ window.customElements.define('main-button', class extends HTMLElement {
     }
   }
 
+  function goToRegister(){
+    window.location.href = "\\views\\Signup\\Signup.html";
+  }
