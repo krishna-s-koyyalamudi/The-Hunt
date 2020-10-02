@@ -26,27 +26,38 @@
             <!-- <button class="btnText" onclick="goToRegister()">Register</button> -->
             <i class="fas fa-grip-lines"></i>
         </form>
-            <form action="/forgetPassword">
-                <span class="d-flex flex-row">
-                    <button class="btnText"><a>Forgot your password?</a></button>
-                </span>
-            </form>
+        <form action="/forgetPassword">
+            <span class="d-flex flex-row">
+                <button class="btnText"><a>Forgot your password?</a></button>
+            </span>
+        </form>
 
-            <form action="/register">
-                <button type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register"
-                    id="signup">Register
-                    </button<br><br>
-            </form>
+        <form action="/register">
+            <button type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup">Register
+                </button<br><br>
+        </form>
 
-            <!-- <main-button>Register</main-button> -->
+        <!-- <main-button>Register</main-button> -->
     </section>
 
     <script>
         function checkvalidation1() {
+            var re = /\S+@\S+\.\S+/;
+            var x = document.getElementById('uname').value;
+
+
+
 
             if (document.getElementById('uname').value == "") {
                 alert('please fill the Username');
                 return false
+            } else {
+                if (re.test(x)) {
+                
+                }
+                else {
+                    alert("Please enter valid email address");
+                }
             }
             if (document.getElementById('password').value == "") {
                 alert('please fill the password');
@@ -57,10 +68,15 @@
 
         }
 
+        function validateEmail(email) {
+
+
+        }
+
 
 
         // function goToRegister() {
-        //     window.location.href =  "./views/Signup/Signup.html";
+        //     window.location.href = "./views/Signup/Signup.html";
         // }
     </script>
 
