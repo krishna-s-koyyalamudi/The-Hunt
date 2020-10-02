@@ -1,15 +1,18 @@
-var sqlite3 = require('sqlite3').verbose()
+const sqlite3 = require('sqlite3').verbose();
 var md5 = require('md5')
 
-const DBSOURCE = "db.sqlite"
-
-let db = new sqlite3.Database(DBSOURCE, (err) => {
+// open database in memory
+let db = new sqlite3.Database(':memory:', (err) => {
     if (err) {
-      // Cannot open database
-      console.error(err.message)
-      throw err
-    }else{
-        console.log('Connected to the SQLite database.')
+    return console.error(err.message);
+    }
+    console.log('Connected to the in-memory SQlite database.'); }); 
+    // close the database connection
+    db.close((err) => {  
+    if (err) { 
+    return console.error(err.message); }
+    console.log('Close the database connection.');
+    });
         db.run(`CREATE TABLE IF NOT EXISTS user (
             email VARCHAR(30) ,
             password VARCHAR(8) ,
