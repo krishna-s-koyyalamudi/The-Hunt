@@ -24,7 +24,14 @@
     if(document.getElementById('uname').value==""){
       alert('please fill the Username');
       return false 
-    }
+    } 
+    if(document.getElementById('password').value==""){
+      alert('please fill the password');
+      return false 
+    }   
+
+  alert("successfully login");
+
   }
  
   function goToRegister() {
