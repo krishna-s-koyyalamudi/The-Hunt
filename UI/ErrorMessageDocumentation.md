@@ -8,3 +8,6 @@
 ## Sign up Page:
 * Invalid Email id: 
   * This message pop up when user gives invalid email id.
+## Create Competition Page:
+* Invalid Details:
+  * This message pop up shows when ever user gives invalid format of date and competition name.

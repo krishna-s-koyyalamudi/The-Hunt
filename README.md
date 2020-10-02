@@ -1,7 +1,7 @@
 ## Heroku Link:
    Here is hosted link of our application on heroku.
    
-   https://glacial-thicket-85194.herokuapp.com/
+   https://hunt2020.herokuapp.com/
 
 # The-Hunt
 “The Hunt game” is an outdoor collaborative game which allows the authorized users to play with other team members or to compete with other players in finding the hidden locations in a quest. We are designing this game in view that this is compatible with iPhone SE, Laptop, Tablet, and Android phones. 
@@ -64,4 +64,58 @@ End to End tests
 
 ## Application Architecture Understanding
 
-![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
+![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.png)
+
+
+## Reminders
+
+1. No spaces in folders and file names.
+1. Don't work on stale code - ALWAYS pull first
+1. Don't work on your desktop - organize your repos either by class or under a common folder (e.g., github or other). 
+1. Deploy as you work - if everything passes tests, we want to add / commit / push and deploy frequently (several times a week).  We should see your app develop throughout the sprint.
+1. Do hard things early. Do not delay figuring out the hard questions. 
+
+## Links
+
+[Class Common Repo Link](https://github.com/Krishna-Koyyalamudi/The-Hunt)
+
+[NW Jira Link](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-266&issueLimit=100)
+
+## References
+
+[Build a Rest API with Node.js SQLite and Express JS](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+
+[Shared HTML Layouts with Pugjs](https://dev.to/nkratzmeyer/shared-html-layouts-with-pugjs-2j04)
+
+[Custom Elements- Syllabus Examples](https://denisecase.github.io/44-691-gdp1-syllabus/)
+
+
+## Sketches
+
+![Sign up](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png) <br>
+![Login page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen.png) <br>
+![Login page wrong password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen_WrongPassword.png) <br>
+![New password screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/New_password.png)
+
+![Create quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png) <br>
+
+![Create Competition](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Create_Competition.PNG)<br>
+![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)<br>
+![Password_reset_code](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Password_reset_Code.png)<br>
+![Password hint screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordHint.png)<br>
+![Create competition invalid inputs screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)<br>
+![Location Screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Location_Screen.jpeg)
+- AS soon as the user login with his credentials:<br>
+- Case 1: able to see notification of team invite.<br>
+![Team Invite](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/TeamInvite.png)<br>
+- case 2: If he is a first time user, then a screen will appear displaying either to create a team or create Quest
+![Create Team or Quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Hunt.png)
+- Case 3: User would like to create a team and send invitation to his friends then the screens would be:<br>
+![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
+- As soon as you click on submit button,invite players screen will be appeared.
+![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
+
+
+ 
+
+
