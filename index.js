@@ -3,14 +3,18 @@ const bodyparser = require("body-parser");
 const app = express();
 var db =  require("./database.js")
 
+app.set('view engine', 'pug');
+
 app.use(express.static("public"));
 
 port = process.env.PORT || 80
 
 app.get('/', (req, res) => {
+  // res.render('index');
   res.sendFile(__dirname + '\\views\\Login\\Login.html')
   console.log(__dirname + 'views\\Login\\Login.html', "link")
 });
+
 
 
 app.use(bodyparser.json({type:"application/*+json"}));
