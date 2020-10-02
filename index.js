@@ -108,7 +108,7 @@ app.delete("/api/user/:id", (req, res, next) => {
 
 
 app.get("/register", (req,res)=>{
-  res.send("This is where the user registers with mail,password and username");
+  res.send("This is where the user can register with mail,password and username");
 } )
 app.listen(port, () => {
   console.log('Example app listening on port 80!')
