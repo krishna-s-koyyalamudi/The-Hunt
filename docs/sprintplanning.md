@@ -2,7 +2,7 @@
 
 ## Sprint 0
 
-### High /Highest
+
 
 1. Design-As a user, I want to SignUp to the App. [J68](http://cs04.nwmissouri.edu/projects/GDPGAM/issues/GDPGAM-68?filter=allopenissues) [AC-68]()
 1. Design-As a user, I want to Login to the App.
@@ -11,10 +11,6 @@
 * Implement-As a user, I want to SignUp to the App.
 * Implement-As a user, I want to Login to the App.
 * Implement-As a user, I want to reset the password so that I can regain access to the app.
-
-
-
-### Medium
 
 * Design- As a Admin, I want to access to all information including app settings.
 * Implement-As a Admin, I want to access to all information including app settings.
@@ -26,7 +22,6 @@
 * Implement-As a user, I want to create competition.
 * Design-As a user, I want to create competition.
 
-### Low /Lowest
 
 * Design-As a User, I want to accesss my profile account details page.
 * Implement-As a User, I want to accesss my profile account details page.
@@ -34,7 +29,6 @@
 
 ## Sprint 1
 
-### High/Highest
 
 * Design-As a user, I want to provide Team name that is  unique and 3-25 characters long.
 * Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long.
@@ -47,7 +41,6 @@
 * Design- As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location.
 * Implement- As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location
 
-### Medium
 
 * Design-As a User, I want to serve as a designer of the quest they create.
 * Implement- As a User, I want to serve as a designer of the quest they create.
@@ -62,14 +55,12 @@
 * Design - As a user, I want to Design the accept or reject the team invitation screen.
 * Implement- As a user, I want to implement the accept or reject the team invitation screen.
 
-### Low/Lowest
+
 
 * Design-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
 * Implement-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
-
-### High/ Highest
 
 * Design- As a user, I want to serve as the hunt master of the competion.
 * Implement- As a user, I want to serve as the hunt master of the competion.
@@ -82,7 +73,6 @@
 * Design-As a hunt master, I can specify the end date and time for the competition.
 * Implement- As a hunt master, I can specify the end date and time for the competition.
 
-### Medium
 
 * Design - As a hunt master, I can choose an existing quest for competition.
 * Implement - As a hunt master, I can choose an existing quest for competition.
@@ -93,7 +83,6 @@
 
 ## Sprint 3
 
-### High/ Highest
 
 * Design -As a user, the app will remind me a day before.
 * Implement - As a user, the app will remind me a day before.
@@ -108,7 +97,6 @@
 * Design - As a User, whenever I move faraway to the location,the display should indicate dark color.
 * Implement - As a User, whenever I move faraway to the location,the display should indicate dark color
 
-### Medium
 
 * Deploy -  As a user, the app will remind me a day before.
 * Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location.
@@ -122,7 +110,6 @@
 * Design - As a user, After reaching the destination,asked to return to the starting location to wait for the other players to return.
 * Implement - As a user, After reaching the destination,is asked to return to the starting location to wait for the other players to return.
 
-### Low/Lowest
 
 * Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
 * Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return.
