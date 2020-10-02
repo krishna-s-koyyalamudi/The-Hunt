@@ -4,37 +4,37 @@
 
 ### High /Highest
 
-* Design-As a user, I can SignUp to the App.
-* Implement-As a user, I can SignUp to the App.
-* Design-As a user, I can Login to the App.
-* Implement-As a user, I can Login to the App.
-* Design-As a user, I can reset the password so that Player can regain access to the app.
-* Implement-As a user, I can reset the password so that Player can regain access to the app.
+* Design-As a user, I want to SignUp to the App.
+* Implement-As a user, I want to SignUp to the App.
+* Design-As a user, I want to Login to the App.
+* Implement-As a user, I want to Login to the App.
+* Design-As a user, I want to reset the password so that I can regain access to the app.
+* Implement-As a user, I want to reset the password so that I can regain access to the app.
 
 ### Medium
 
-* Design- As a Admin, He/she can access to all information including app settings.
-* Implement-As a Admin, He/she can access to all information including app settings.
-* Design-As a user, I can create Teams.
-* Implement-As a user, I can create Teams.
-* Design-As a user, I can create Quest.
-* Implement-As a user, I can create Quest.
-* Design-As a user, I can create competition.
-* Implement-As a user, I can create competition.
-* Design-As a user, I can create competition.
+* Design- As a Admin, I want to access to all information including app settings.
+* Implement-As a Admin, I want to access to all information including app settings.
+* Design-As a user, I want to create Teams.
+* Implement-As a user, I want to create Teams.
+* Design-As a user, I want to  create Quest.
+* Implement-As a user, I want to create Quest.
+* Design-As a user, I want to create competition.
+* Implement-As a user, I want to create competition.
+* Design-As a user, I want to create competition.
 
 ### Low /Lowest
 
-* Design-As a User, I can accesss my profile account details page.
-* Implement-As a User, player can accesss my profile account details page.
+* Design-As a User, I want to accesss my profile account details page.
+* Implement-As a User, I want to accesss my profile account details page.
 
 
 ## Sprint 1
 
 ### High/Highest
 
-* Design-As a user, I can provide Team name that is  unique and 3-25 characters long.
-* Implement-As a user, I can provide Team name that is  unique and 3-25 characters long.
+* Design-As a user, I want to provide Team name that is  unique and 3-25 characters long.
+* Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long.
 * Design - As a user, when I serve as designer,I provides a starting location for the quest.
 * Implement- As a user, when I serve as designer,I provides a starting location for the quest.
 * Design - As a user, when I serve as designer,I provides a set of four unordered locations for the quest.
@@ -46,10 +46,10 @@
 
 ### Medium
 
-* Design-As a User, I can serve as a designer of the quest they create.
-* Implement- As a User, I can serve as a designer of the quest they create.
-* Design As a user, I can accept the team invite and become a team player or reject it.
-* Implement As a user, I can accept the team invite and become a team player or reject it.
+* Design-As a User, I want to serve as a designer of the quest they create.
+* Implement- As a User, I want to serve as a designer of the quest they create.
+* Design As a user, I want to accept the team invite and become a team player or reject it.
+* Implement As a user, I want to accept the team invite and become a team player or reject it.
 * Design-As a user, After three days, if I wont accept invite, assume rejection.
 * Implement- As a user, After three days, if I wont accept invite, assume rejection.
 * Design-As a user, If I gets invite,I can explicitly decline.
@@ -59,19 +59,19 @@
 
 ### Low/Lowest
 
-* Design-As a user, I can belong to 0 or more teams by providing unique names(3-25 characeters)
-* Implement-As a user, I can belong to 0 or more teams by providing unique names(3-25 characeters)
+* Design-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
+* Implement-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 
 ### High/ Highest
 
-* Design- As a user, I can serve as the hunt master of the competion.
+* Design- As a user, I want to serve as the hunt master of the competion.
 * Implement- As a user, I want to serve as the hunt master of the competion.
-* Design - As an hunt master, I can choose an existing quest for competition.
-* Implement- As an hunt master, I can choose an existing quest for competition.
-* Design- As a hunt master, I can invite a list of teams to participate about a week before the match.
-* Implement- As a hunt master, I can invite a list of teams to participate about a week before the match.
+* Design - As an hunt master, I want to choose an existing quest for competition.
+* Implement- As an hunt master, I want to choose an existing quest for competition.
+* Design- As a hunt master, I want to invite a list of teams to participate about a week before the match.
+* Implement- As a hunt master, I want to invite a list of teams to participate about a week before the match.
 * Design-As a hunt master, I can specify the start date and time for the competition.
 * Implement-As a hunt master,I can specify the start date and time for the competition.
 * Design-As a hunt master, I can specify the end date and time for the competition.
