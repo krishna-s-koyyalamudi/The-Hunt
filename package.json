@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,10 @@
     "express": "^4.17.1",
     "heroku": "^7.43.2",
     "md5": "^2.3.0",
-    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
     "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
