@@ -44,8 +44,10 @@
         function checkvalidation1() {
             var re = /\S+@\S+\.\S+/;
             var x = document.getElementById('uname').value;
+            var reg  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+            var y = document.getElementById('password').value;
 
-
+             
 
 
             if (document.getElementById('uname').value == "") {
@@ -57,11 +59,22 @@
                 }
                 else {
                     alert("Please enter valid email address");
+                    return false
                 }
             }
             if (document.getElementById('password').value == "") {
                 alert('please fill the password');
                 return false
+            } 
+            else
+            {
+                if (reg.test(y)) {
+                
+            }
+            else {
+                alert("password should contain atleast one number and one special character");
+                return false
+            }  
             }
 
             alert("login successful");
