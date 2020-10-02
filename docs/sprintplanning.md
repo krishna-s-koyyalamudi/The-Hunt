@@ -4,12 +4,15 @@
 
 ### High /Highest
 
-* Design-As a user, I want to SignUp to the App.
+1. Design-As a user, I want to SignUp to the App.
+1. Design-As a user, I want to Login to the App.
+1. Design-As a user, I want to reset the password so that I can regain access to the app.
+
 * Implement-As a user, I want to SignUp to the App.
-* Design-As a user, I want to Login to the App.
 * Implement-As a user, I want to Login to the App.
-* Design-As a user, I want to reset the password so that I can regain access to the app.
 * Implement-As a user, I want to reset the password so that I can regain access to the app.
+
+
 
 ### Medium
 
