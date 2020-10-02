@@ -17,22 +17,30 @@
     </header>
     <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4 bg-light shadow-lg rounded">
         <label class="text-center headText">Login</label>
-        <form target="_blank" action="Login Successful">
+        <form action="Login Successful">
             <input type="text" placeholder="Email" id="uname" name="uname" class="pl-2"><br><br>
             <input type="password" placeholder="Password" id="password" name="password" class="pl-2"><br><br>
-            <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="signup" onclick="checkvalidation1()"><br>
+            <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="signup"
+                onclick="checkvalidation1()"><br>
             <!-- <main-button></main-button> -->
             <!-- <button class="btnText" onclick="goToRegister()">Register</button> -->
             <i class="fas fa-grip-lines"></i>
         </form>
         <br>
-        <span class="d-flex flex-row">
-            <button class="btnText"><a href="views\ForgetPassword\forgetpassword1.html">Forgot your password?</a></button>
-             </span>
-        <button type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup" onclick="goToRegister()">Register
-            </button<br><br>
+        <form action="/forgetPassword">
+            <span class="d-flex flex-row">
+                <button class="btnText"><a href="views\ForgetPassword\forgetpassword1.html">Forgot your
+                        password?</a></button>
+            </span>
+        </form>
 
-            <!-- <main-button>Register</main-button> -->
+        <form action="/register">
+            <button type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup"
+                onclick="goToRegister()">Register
+                </button<br><br>
+        </form>
+
+        <!-- <main-button>Register</main-button> -->
     </section>
 
     <script src="views\Login\Login.js"></script>
