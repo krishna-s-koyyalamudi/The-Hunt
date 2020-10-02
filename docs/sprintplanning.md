@@ -59,6 +59,8 @@
 * Implement-As a user, If I gets invite,I can to explicitly decline.
 * Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
 * Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
+* Design - As a user, I want to Design the accept or reject the team invitation screen.
+* Implement- As a user, I want to implement the accept or reject the team invitation screen.
 
 ### Low/Lowest
 
