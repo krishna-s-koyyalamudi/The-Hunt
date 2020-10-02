@@ -17,7 +17,11 @@
     </header>
     <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4 bg-light shadow-lg rounded">
         <label class="text-center headText">Login</label>
+<<<<<<< HEAD
         <form action="Login Successful">
+=======
+        
+>>>>>>> e6859747b00864f7adbf3ffad92a1a1d23494daa
             <input type="text" placeholder="Email" id="uname" name="uname" class="pl-2"><br><br>
             <input type="password" placeholder="Password" id="password" name="password" class="pl-2"><br><br>
             <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="signup"
@@ -25,7 +29,7 @@
             <!-- <main-button></main-button> -->
             <!-- <button class="btnText" onclick="goToRegister()">Register</button> -->
             <i class="fas fa-grip-lines"></i>
-        </form>
+        
         <br>
         <form action="/forgetPassword">
             <span class="d-flex flex-row">
@@ -43,7 +47,29 @@
         <!-- <main-button>Register</main-button> -->
     </section>
 
-    <script src="views\Login\Login.js"></script>
+    <script>
+     function checkvalidation1(){
+
+if(document.getElementById('uname').value==""){
+  alert('please fill the Username');
+  return false 
+} 
+if(document.getElementById('password').value==""){
+  alert('please fill the password');
+  return false 
+}   
+
+alert("successfully login");
+
+}
+
+
+
+function goToRegister(){
+window.location.href = "views/Signup/Signup.html";
+}
+    </script>
+    
 
 </body>
 
