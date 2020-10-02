@@ -38,14 +38,14 @@
 
 * Design-As a user, I want to provide Team name that is  unique and 3-25 characters long.
 * Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long.
-* Design - As a user, when I serve as designer,I provides a starting location for the quest.
-* Implement- As a user, when I serve as designer,I provides a starting location for the quest.
-* Design - As a user, when I serve as designer,I provides a set of four unordered locations for the quest.
+* Design - As a user, when I serve as designer, I want to provide a starting location for the quest.
+* Implement- As a user, when I serve as designer, I want to provide a starting location for the quest.
+* Design - As a user, when I serve as designer, I want to provides a set of four unordered locations for the quest.
 * Implement - As a user, when I serve designe, I provides a set of four unordered locations for the quest.
-* Design- As a user, when I serve  as designer,I provides location coordinates (Lat, Long, default radius)for each location.
-* Implement -As a user, I serve as designer,I provides location coordinates (Lat, Long, default radius)for each location.
-* Design- As a user, I serve as designer,I provides 3 ordered string clues. (Later a clue may include a photo) for each location.
-* Implement- As a user, I serve asdesigner,I provides 3 ordered string clues. (Later a clue may include a photo) for each location
+* Design- As a user, when I serve  as designer, I provides location coordinates (Lat, Long, default radius)for each location.
+* Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location.
+* Design- As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location.
+* Implement- As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location
 
 ### Medium
 
@@ -55,7 +55,7 @@
 * Implement As a user, I want to accept the team invite and become a team player or reject it.
 * Design-As a user, After three days, if I wont accept invite, assume rejection.
 * Implement- As a user, After three days, if I wont accept invite, assume rejection.
-* Design-As a user, If I gets invite,I can explicitly decline.
+* Design-As a user, If I gets invite, I can explicitly decline.
 * Implement-As a user, If I gets invite,I can to explicitly decline.
 * Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
 * Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
