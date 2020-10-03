@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
   //console.log(__dirname + 'views\\Login\\Login.html', "link")
 });
 
+app.get('/dashboard', (req, res)=> {
+  res.render(__dirname + '/views')
+})
+
 app.get("/forgetPassword", (re, res) => {
   res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
 })

@@ -1,2 +1,29 @@
-main
-h1 "This is a body"
+//- extends layout.pug
+
+//- block content
+//-     p This content is from about.pug!
+//-     p About my cool site!
+
+doctype html
+| 
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='register.css')
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css' rel='stylesheet')
+  link(rel='stylesheet' href='layout.css')
+  title *******Page Title********
+// This page layout can be used to design Pages similar to Login sign in and other authentication web pages
+body
+    header.p-3
+        h5 The Hunt
+    br
+    section.d-flex.align-items-center.mx-auto.mt-5.p-5.flex-column.col-lg-4.bg-light.shadow-lg.rounded
+        label.text-center.headText *********Actoion Name/Page********
+    br content which is to be displayed inside the box
+// Footer will contain icons like home, quest, Add and profile.
+footer
+  input.icon(type='image' src='home.png' alt='home')
+  input.icon(type='image' src='target.png' alt='LeaderBoard')
+  input.icon(type='image' src='plus.png' alt='Add')
+  input.icon(type='image' src='user (2).png' alt='Profile')
