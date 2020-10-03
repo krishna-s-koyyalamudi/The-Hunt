@@ -38,5 +38,4 @@ let db = new sqlite3.Database(':memory:', (err) => {
                   db.run(insert, ["eswar@gmail.com",md5("eswar546"),"eswarfox"])
               }
           });  
-      }
-  });
+  
