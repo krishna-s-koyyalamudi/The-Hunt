@@ -17,9 +17,10 @@ app.get('/dashboard', (req, res)=> {
   res.render(__dirname + '/views')
 })
 
-app.get("/forgetPassword", (re, res) => {
+app.get("/forgetPassword", (req, res) => {
   res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
 });
+
 
 app.get("/register", (req, res) => {
   res.sendFile(__dirname + "/views/Signup/Signup.html");

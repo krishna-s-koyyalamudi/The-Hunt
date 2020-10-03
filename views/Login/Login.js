@@ -38,6 +38,7 @@
     window.location.href = "views/Signup/Signup.html";
   }
 
-  function goToRegister(){
-    window.location.href = "views/Signup/Signup.html";
+
+  function goToForgotPassword(){
+       window.location.href = "//views/ForgetPassword/forgetpassword1.html";
   }
