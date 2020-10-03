@@ -19,11 +19,11 @@ app.get('/dashboard', (req, res)=> {
 
 app.get("/forgetPassword", (re, res) => {
   res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
-})
+});
 
 app.get("/register", (req, res) => {
   res.sendFile(__dirname + "/views/Signup/Signup.html");
-})
+});
 
 
 app.use(bodyparser.json({ type: "application/*+json" }));
