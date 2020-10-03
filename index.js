@@ -22,11 +22,6 @@ app.get("/forgetPassword", (req, res) => {
 });
 
 
-app.get("/register", (req, res) => {
-  res.sendFile(__dirname + "/views/Signup/Signup.html");
-});
-
-
 app.use(bodyparser.json({ type: "application/*+json" }));
 
 
