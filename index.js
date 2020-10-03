@@ -11,7 +11,6 @@ port = process.env.PORT || 80
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/Login.html')
-  //console.log(__dirname + 'views\\Login\\Login.html', "link")
 });
 
 app.get('/dashboard', (req, res)=> {
