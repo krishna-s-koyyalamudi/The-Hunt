@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="A.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <title>Create Comepetition Page</title>
+    <Style>
+
+
+    </Style>
+</head>
+
+<body>
+ 
+    <header class="p-3">
+        <h5 style="text-align:center;">The Hunt</h5>
+    </header>
+    <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4 bg-light shadow-lg rounded">
+        <label class="text-center headText">Create Competition</label><br></br>
+        <form target="_blank" action="./LeaderBoard.html">
+            <input type="text" placeholder="Enter Competition" id="uname" name="uname" class="pl-2"><br><br>
+            <label for="starttime">Startdate&time:</label>
+            <input type="datetime-local" id="starttime" name="starttime">
+            
+            <label for="Endtime">Enddate&time:</label>
+            <input type="datetime-local" id="Endtime" name="Endtime">
+            <br></br>
+            <main-button id="signup">Create Competition</main-button> 
+              
+            <i class="fas fa-grip-lines"></i>
+        </form>
+        <!-- <main-button>Register</main-button> -->
+    </section>           
+    <script src="views/Login/Login.js"></script> 
+</body>
+
+</html>
