@@ -4,16 +4,16 @@
 
 1. Design - As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/projects/GDPGAM/issues/GDPGAM-68?filter=allopenissues) [AC-68](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/068.md)
 1. Design - As a user, I want to Signup to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/066.md)
-1. Design - As a user, I want to reset the password so that I can regain access to the app. [J235](http://cs04.nwmissouri.edu/browse/GDPGAM-235) [AC-235](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0235.md)
-1. Design - As a user, I want to provide Team name that is  unique and 3-25 characters long.[J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87) [AC-87]()
-1. Design - As a user, I want to serve as designer, so that I can provide a starting location for the quest.[J88](http://cs04.nwmissouri.edu/browse/GDPGAM-88)[AC-88]()
-1. Design - As a user, I want to serve as designer, so that I can provide a set of four unordered locations for the quest.[J134](http://cs04.nwmissouri.edu/browse/GDPGAM-134)[AC-134]()
-1. Implement - As a user, I want to SignUp to the App.[J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55)[AC-55]()
+1. Design - As a user, I want to reset the password so that I can regain access to the app. [J235](http://cs04.nwmissouri.edu/browse/GDPGAM-235) [AC-0235](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0235.md)
+1. Design - As a user, I want to provide Team name that is  unique and 3-25 characters long.[J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87) [AC-087]()
+1. Design - As a user, I want to serve as designer, so that I can provide a starting location for the quest.[J88](http://cs04.nwmissouri.edu/browse/GDPGAM-88)[AC-088]()
+1. Design - As a user, I want to serve as designer, so that I can provide a set of four unordered locations for the quest.[J134](http://cs04.nwmissouri.edu/browse/GDPGAM-134)[AC-0134]()
+1. Implement - As a user, I want to SignUp to the App.[J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55)[AC-055]()
 1. Implement - As a user, I want to Login to the App.[]() []()
-1. Implement - As a user, I want to reset the password so that I can regain access to the app.[J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61) [AC-61]()
+1. Implement - As a user, I want to reset the password so that I can regain access to the app.[J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61) [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 1. Design - As a Admin, I want to access to all information including app settings.
 1. Implement - As a Admin, I want to access to all information including app settings.
-1. Design-As a user, I want to create Teams.
+1. Design-As a user, I want to create Teams.[J67]() [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md)
 1. Implement-As a user, I want to create Teams.
 1. Design-As a user, I want to  create Quest.[J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71]()
 1. Implement-As a user, I want to create Quest.
