@@ -29,26 +29,49 @@
 ## Sprint 1
 
 1. Design - As a user, I can serve as captain, I can provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70)
+
 1. Implement - As a user, I can serve as captain, I can provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76)
+
 1. Design - As a user, When I get an invite, I want to accept the invite to join the team  [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
+
 1. Implement - As a user, When I get an invite, I want to accept the invite to join the team  [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132)
+
 1. Deployment - As a user, When I get an invite, I want to accept the invite to join the team  [J133](http://cs04.nwmissouri.edu/browse/GDPGAM-133)
+
 1. Implement - As a user, I want to provide Team name that is  unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) 
+
 1. Implement - As a user, I want to serve as designer, I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
+
 1. Implement - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+
 1. Design - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
+
 1. Design - As a user, I want to serve as designer, I can provide location coordinates (Lat, Long, default radius)for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
+
 1. Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J176 ](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+
 1. Design - As a user, I serve as designer, I can provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+
 1. Implement - As a user, I serve as designer, I can provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
+
 1. Design - As a User, I want to serve as a designer of the quest they create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+
 1. Implement - As a User, I want to serve as a designer of the quest they create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+
 1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+
 1. Implement - As a user, I want to accept the team invite and become a team player or reject it. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)
+
 1. Design - As a user, After three days, if I wont accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
+
 1. Deployment - As a user, If I gets invite, I can explicitly decline.  [J108](http://cs04.nwmissouri.edu/browse/GDPGAM-108)
+
 1. Implement - As a user, If I gets invite, I can explicitly decline. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)
-1. Design -Routing of login page after user registration by clicking on login button present in the register page. [J256](http://cs04.nwmissouri.edu/browse/GDPGAM-256) [AC-256](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0256.md)
+
+1. Design - Routing of login page after user registration by clicking on login button present in the register page. [J151](http://cs04.nwmissouri.edu/browse/GDPGAM-151) 
+
+1. Deployment - Routing of login page after user registration by clicking on login button present in the register page. [J256](http://cs04.nwmissouri.edu/browse/GDPGAM-256) [AC-256](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0256.md)
+
 1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
 1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
 1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
