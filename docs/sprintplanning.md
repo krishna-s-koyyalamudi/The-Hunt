@@ -45,8 +45,8 @@
 1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
 1. Implement - As a user, I want to accept the team invite and become a team player or reject it. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)
 1. Design - As a user, After three days, if I wont accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
-1. Design - As a user, If I gets invite, I can explicitly decline. 
-1. Implement - As a user, If I gets invite, I can explicitly decline.
+1. Deployment - As a user, If I gets invite, I can explicitly decline.  [J108](http://cs04.nwmissouri.edu/browse/GDPGAM-108)
+1. Implement - As a user, If I gets invite, I can explicitly decline. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)
 1. Design -Routing of login page after user registration by clicking on login button present in the register page. [J256](http://cs04.nwmissouri.edu/browse/GDPGAM-256) [AC-256](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0256.md)
 1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
 1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
