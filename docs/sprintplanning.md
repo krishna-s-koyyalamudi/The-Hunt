@@ -14,7 +14,7 @@
 1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 
-1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC- 67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
+1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
 1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
 1. Design-As a user, I want to  create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
@@ -24,35 +24,35 @@
 
 ## Sprint 1
 
-1. Design - As a user, I can serve as captain, I can provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70] (https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md) 
+1. Design - As a user, I want to serve as captain and provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70)
 
-1. Implement - As a user, I can serve as captain, I can provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76)
+1. Implement - As a user, I want to  serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76)
 
-1. Design - As a user, When I get an invite, I want to accept the invite to join the team  [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
+1. Design - As a user, I want to accept the invite to join the team,When I get an invite  [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
 
-1. Implement - As a user, When I get an invite, I want to accept the invite to join the team  [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132)
+1. Implement - As a user, I want to accept the invite to join the team,When I get an invite  [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132)
 
-1. Deployment - As a user, When I get an invite, I want to accept the invite to join the team  [J133](http://cs04.nwmissouri.edu/browse/GDPGAM-133)
+1. Deployment - As a user, I want to accept the invite to join the team,When I get an invite  [J133](http://cs04.nwmissouri.edu/browse/GDPGAM-133)
 
 1. Implement - As a user, I want to provide Team name that is  unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) 
 
-1. Implement - As a user, I want to serve as designer, I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
+1. Implement - As a user, I want to serve as designer and I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
 
-1. Implement - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+1. Implement - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
 
-1. Design - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
+1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
 
-1. Design - As a user, I want to serve as designer, I can provide location coordinates (Lat, Long, default radius)for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
+1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius)for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
 
-1. Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J176 ](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+1. Implement -As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius)for each location. [J176 ](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
 
-1. Design - As a user, I serve as designer, I can provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Implement - As a user, I serve as designer, I can provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
+1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
 
-1. Design - As a User, I want to serve as a designer of the quest they create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Implement - As a User, I want to serve as a designer of the quest they create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+1. Implement - As a User, I want to serve as a designer of the quest I create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
 
 1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
 
