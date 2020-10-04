@@ -26,32 +26,27 @@
 
 ## Sprint 1
 
-* Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long.
-* Implement- As a user, when I serve as designer, I want to provide a starting location for the quest.
-* Implement - As a user, when I serve designe, I provides a set of four unordered locations for the quest.
-* Design- As a user, when I serve  as designer, I provides location coordinates (Lat, Long, default radius)for each location.
-* Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location.
-* Design- As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location.
-* Implement- As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location
-
-
-* Design-As a User, I want to serve as a designer of the quest they create.
-* Implement- As a User, I want to serve as a designer of the quest they create.
-* Design As a user, I want to accept the team invite and become a team player or reject it.
-* Implement As a user, I want to accept the team invite and become a team player or reject it.
-* Design-As a user, After three days, if I wont accept invite, assume rejection.
-* Implement- As a user, After three days, if I wont accept invite, assume rejection.
-* Design-As a user, If I gets invite, I can explicitly decline.
-* Implement-As a user, If I gets invite,I can to explicitly decline.
-* Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
-* Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
-* Design - As a user, I want to Design the accept or reject the team invitation screen.
-* Implement- As a user, I want to implement the accept or reject the team invitation screen.
-
-
-
-* Design-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
-* Implement-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
+1. Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-71)
+1. Implement- As a user, when I serve as designer, I want to provide a starting location for the quest. [ J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
+1. Implement - As a user, when I serve designe, I provides a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+1. Design- As a user, when I serve  as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
+1. Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J176 ](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+1. Design- As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Implement- As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
+1. Design-As a User, I want to serve as a designer of the quest they create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Implement- As a User, I want to serve as a designer of the quest they create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+1. Design As a user, I want to accept the team invite and become a team player or reject it.
+1. Implement As a user, I want to accept the team invite and become a team player or reject it.
+1. Design-As a user, After three days, if I wont accept invite, assume rejection.
+1. Implement- As a user, After three days, if I wont accept invite, assume rejection.
+1. Design-As a user, If I gets invite, I can explicitly decline.
+1. Implement-As a user, If I gets invite,I can to explicitly decline.
+1. Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
+1. Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
+1. Design - As a user, I want to Design the accept or reject the team invitation screen.
+1. Implement- As a user, I want to implement the accept or reject the team invitation screen.
+1. Design-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
+1. Implement-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
 
 ## Sprint 2
 
