@@ -64,7 +64,7 @@ End to End tests
 
 ## Application Architecture Understanding
 
-![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.jpeg)
+![](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/ArchitectureDiagram.png)
 
 
 ## Reminders
@@ -81,12 +81,41 @@ End to End tests
 
 [NW Jira Link](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-266&issueLimit=100)
 
-[Course Syllabus](https://denisecase.github.io/44-691-gdp1-syllabus/)
-
 ## References
 
-[Rest API with Node.js and Express JS](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
+[Build a Rest API with Node.js SQLite and Express JS](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
 
-[HTML Layouts with Pugjs](https://dev.to/nkratzmeyer/shared-html-layouts-with-pugjs-2j04)
+[Shared HTML Layouts with Pugjs](https://dev.to/nkratzmeyer/shared-html-layouts-with-pugjs-2j04)
+
+[Custom Elements- Syllabus Examples](https://denisecase.github.io/44-691-gdp1-syllabus/)
+
+
+## Sketches
+
+![Sign up](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png) <br>
+![Login page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen%20.png) <br>
+![Login page wrong password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginWrongPasswordScreen.png) <br>
+![New password screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/New_password.png)
+
+![Create quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png) <br>
+
+![Create Competition](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Create_Competition.PNG)<br>
+![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)<br>
+![Password_reset_code](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Password_reset_Code.png)<br>
+![Password hint screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordHint.png)<br>
+![Create competition invalid inputs screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)<br>
+![Location Screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Location_Screen.jpeg)
+- AS soon as the user login with his credentials:<br>
+- Case 1: able to see notification of team invite.<br>
+![Team Invite](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/TeamInvite.png)<br>
+- case 2: If he is a first time user, then a screen will appear displaying either to create a team or create Quest
+![Create Team or Quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Hunt.png)
+- Case 3: User would like to create a team and send invitation to his friends then the screens would be:<br>
+![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
+- As soon as you click on submit button,invite players screen will be appeared.
+![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
+
+
+ 
 
 

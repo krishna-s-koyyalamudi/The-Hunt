@@ -17,11 +17,28 @@
 
 // customElements.define('main-button', RButton);
 
-window.customElements.define('main-button', class extends HTMLElement {
-    constructor() {
-      super();
-      console.log("hello")
-      var shadowRoot = this.attachShadow({mode: 'open'});
-      shadowRoot.innerHTML = `<input type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup">`;
-    }
-  });
+
+
+  function checkvalidation1(){
+
+    if(document.getElementById('uname').value==""){
+      alert('please fill the Username');
+      return false 
+    } 
+    if(document.getElementById('password').value==""){
+      alert('please fill the password');
+      return false 
+    }   
+
+  alert("successfully login");
+
+  }
+ 
+  function goToRegister() {
+    window.location.href = "views/Signup/Signup.html";
+  }
+
+
+  function goToForgotPassword(){
+       window.location.href = "//views/ForgetPassword/forgetpassword1.html";
+  }
