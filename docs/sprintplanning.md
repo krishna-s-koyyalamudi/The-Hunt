@@ -59,6 +59,7 @@
 1. Design - As a user , I want to serve as hunt master specifies the end date and time for the competition. [J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 1. Design - As a User , I want to serve as team captain and I want to accept or reject the invitation [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC-158](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0158.md)
 1. Deployment - As a User, I should be able to see the login screen when I open the Application/Website. [J203](http://cs04.nwmissouri.edu/browse/GDPGAM-203) [AC-203](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0203.md)
+1. Deployment- As a user, I want to successfully log into the application. [J210](http://cs04.nwmissouri.edu/browse/GDPGAM-210) [AC-210](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0210.md)
  
 ## Sprint 2
 
