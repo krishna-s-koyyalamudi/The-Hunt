@@ -13,7 +13,7 @@
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 1. Design - As a Admin, I want to access to all information including app settings.
 1. Implement - As a Admin, I want to access to all information including app settings.
-1. Design-As a user, I want to create Teams. [J67]()  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) ![Team page](http://cs04.nwmissouri.edu/secure/RapidBoard.jspa?rapidView=4&projectKey=GDPGAM&view=planning&selectedIssue=GDPGAM-67&issueLimit=100 )
+1. Design-As a user, I want to create Teams. [J67]()  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) ![Team page](Team page.png)
 1. Implement-As a user, I want to create Teams. 
 1. Design-As a user, I want to  create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 1. Implement-As a user, I want to create Quest.
