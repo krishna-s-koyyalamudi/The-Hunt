@@ -41,8 +41,8 @@
 1. Design - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
 1. Design - As a user, I want to serve as designer, I can provide location coordinates (Lat, Long, default radius)for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
 1. Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J176 ](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
-1. Design - As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
-1. Implement - As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
+1. Design - As a user, I serve as designer, I can provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Implement - As a user, I serve as designer, I can provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
 1. Design - As a User, I want to serve as a designer of the quest they create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 1. Implement - As a User, I want to serve as a designer of the quest they create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
 1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
@@ -58,6 +58,7 @@
 1. Design - As a user, I want to serve as the hunt master of the competion. [J90](http://cs04.nwmissouri.edu/browse/GDPGAM-90)
 1. Design - As a user , I want to serve as hunt master specifies the end date and time for the competition. [J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 1. Design - As a User , I want to serve as team captain and I want to accept or reject the invitation [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC-158](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0158.md)
+1. Deployment - As a User, I should be able to see the login screen when I open the Application/Website. [J203](http://cs04.nwmissouri.edu/browse/GDPGAM-203) [AC-203](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0203.md)
  
 ## Sprint 2
 
