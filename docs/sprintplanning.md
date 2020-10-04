@@ -31,7 +31,8 @@
 ## Sprint 1
 
 1. Design - As a user, I can serve as captain, I can provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70)
-1. Implement - As a user, I can serve as captain, I can provide a list of emails of invited members   [J76]( http://cs04.nwmissouri.edu/browse/GDPGAM-76)
+1. Implement - As a user, I can serve as captain, I can provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76)
+1. Design - As a user, When I get an invite, I want to accept the invite to join the team  [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
 1. Implement - As a user, I want to provide Team name that is  unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) 
 1. Implement - As a user, I want to serve as designer, I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
 1. Implement - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
