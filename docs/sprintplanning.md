@@ -19,7 +19,7 @@
 1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
 1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
 1. Design-As a user, I want to  create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
-1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57) 
+1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 1. Design-As a user, I want to create competition. [J146](http://cs04.nwmissouri.edu/browse/GDPGAM-71) 
 1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-71)  
 
