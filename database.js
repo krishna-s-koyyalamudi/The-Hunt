@@ -6,7 +6,7 @@ let db = new sqlite3.Database('C:/sqlite/hunt.db', sqlite3.OPEN_READWRITE,(err) 
     if (err) {
     return console.error(err.message);
     }
-    console.log('Connected to the hunt database.'); }); 
+    console.log('Connected to the hunt database.');  
     
         db.run(`CREATE TABLE IF NOT EXISTS user (
             email VARCHAR(30) ,
@@ -20,6 +20,7 @@ let db = new sqlite3.Database('C:/sqlite/hunt.db', sqlite3.OPEN_READWRITE,(err) 
              (err) => {
               if (err) {
                   // Table already created
+                  console.log('User table already exists.')
               }else{
                   // Table just created, creating some rows
                   var insert = 'INSERT INTO user (email, password,userName) VALUES (?,?,?)'
@@ -33,9 +34,10 @@ let db = new sqlite3.Database('C:/sqlite/hunt.db', sqlite3.OPEN_READWRITE,(err) 
                   db.run(insert, ["eswar@gmail.com",md5("eswar546"),"eswarfox"])
               }
           });  
-          // close the database connection
-    db.close((err) => {  
-        if (err) { 
-        return console.error(err.message); }
-        console.log('Close the database connection.');
         });
+          // close the database connection
+    // db.close((err) => {  
+    //     if (err) { 
+    //     return console.error(err.message); }
+    //     console.log('Close the database connection.');
+    //     });
