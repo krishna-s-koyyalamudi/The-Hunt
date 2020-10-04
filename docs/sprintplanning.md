@@ -3,6 +3,7 @@
 ## Sprint 0
 
 1. Design - As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/projects/GDPGAM/issues/GDPGAM-68?filter=allopenissues) [AC-68](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/068.md)
+1. Design - As a user, I want to create a page to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62)
 1. Design - As a user, I want to Signup to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/066.md)
 1. Design - As a user, I want to reset the password so that I can regain access to the app. [J235](http://cs04.nwmissouri.edu/browse/GDPGAM-235)  [AC-0235](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0235.md)
 1. Design - As a user I serve as captain and provides a team name [J244]( http://cs04.nwmissouri.edu/browse/GDPGAM-244)
