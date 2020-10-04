@@ -51,7 +51,7 @@
 1. Design -Routing of login page after user registration by clicking on login button present in the register page. [J256](http://cs04.nwmissouri.edu/browse/GDPGAM-256) [AC-256](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0256.md)
 1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
 1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
-1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
+1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
 1. Design - As a user, I want to Design the accept or reject the team invitation screen. [J285](http://cs04.nwmissouri.edu/browse/GDPGAM-78)  
 1. Design - As a user, I want to serve as the hunt master of the competion. [J90](http://cs04.nwmissouri.edu/browse/GDPGAM-90)
 1. Design - As a user , I want to serve as hunt master specifies the end date and time for the competition. [J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
