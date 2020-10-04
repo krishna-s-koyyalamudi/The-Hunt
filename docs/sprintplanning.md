@@ -13,7 +13,7 @@
 1. Implement - As a user, I want to SignUp to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md)
 1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
-1. Design - As a Admin, I want to access to all information including app settings.
+1. Design - As a Admin, I want to access to all information including app settings. [ ] ()
 1. Implement - As a Admin, I want to access to all information including app settings.
 
 1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
@@ -22,8 +22,6 @@
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57) 
 1. Design-As a user, I want to create competition. [J146](http://cs04.nwmissouri.edu/browse/GDPGAM-71) 
 1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-71)  
-1. Design-As a User, I want to accesss my profile account details page.  [J]()
-1. Implement-As a User, I want to accesss my profile account details page. [J]()
 
 
 ## Sprint 1
@@ -82,57 +80,55 @@
  
 ## Sprint 2
 
-* Design- As a user, I want to serve as the hunt master of the competion.
-* Implement- As a user, I want to serve as the hunt master of the competion.
-* Design - As an hunt master, I want to choose an existing quest for competition.
-* Implement- As an hunt master, I want to choose an existing quest for competition.
-* Design- As a hunt master, I want to invite a list of teams to participate about a week before the match.
-* Implement- As a hunt master, I want to invite a list of teams to participate about a week before the match.
-* Design-As a hunt master, I can specify the start date and time for the competition.
-* Implement-As a hunt master,I can specify the start date and time for the competition.
-* Design-As a hunt master, I can specify the end date and time for the competition.
-* Implement- As a hunt master, I can specify the end date and time for the competition.
+1. Design- As a user, I want to serve as the hunt master of the competion.
+1. Implement- As a user, I want to serve as the hunt master of the competion.
+1. Design - As an hunt master, I want to choose an existing quest for competition.
+1. Implement- As an hunt master, I want to choose an existing quest for competition.
+1. Design - As a hunt master, I want to invite a list of teams to participate about a week before the match.
+1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match.
+1. Design - As a hunt master, I can specify the start date and time for the competition.
+1. Implement - As a hunt master,I can specify the start date and time for the competition.
+1. Design - As a hunt master, I can specify the end date and time for the competition.
+1. Implement - As a hunt master, I can specify the end date and time for the competition.
 1. Implement - As a user, After three days, if I wont accept invite, assume rejection. []()
-
-* Design - As a hunt master, I can choose an existing quest for competition.
-* Implement - As a hunt master, I can choose an existing quest for competition.
-* Design - As a hunting master, I can invite a list of teams to participate about a week before the match.
-* Implement - As a hunting master, I can invite a list of teams to participate about a week before the match.
-* Design - As a team captain, I can accept or reject the invitation.
-* Implement - As a team captain, I can accept or reject the invitation.
+1. Design - As a hunt master, I can choose an existing quest for competition.
+1. Implement - As a hunt master, I can choose an existing quest for competition.
+1. Design - As a hunting master, I can invite a list of teams to participate about a week before the match.
+1. Implement - As a hunting master, I can invite a list of teams to participate about a week before the match.
+1. Design - As a team captain, I can accept or reject the invitation.
+1. Implement - As a team captain, I can accept or reject the invitation.
 
 ## Sprint 3
 
+1. Design - As a User, I want to look at my profile [J342](http://cs04.nwmissouri.edu/browse/GDPGAM-342) [AC-342](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0342.md)
+1. Design -As a user, the app will remind me a day before.
+1. Implement - As a user, the app will remind me a day before.
+1. Design - As a user, On the day of the competition, the app will show the start date time and the starting location.
+1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location.
+1. As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue
+1. Design - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue.
+1. Implement -As a User, I can request for third and final clue which makes it easy to be successful.
+1. Approval for - As a User, I can request for third and final clue which makes it easy to be successful.
+1. Design - As a User, I can request for third and final clue which makes it easy to be successful.
+1. Design - As a User, when I get closer to the location,the display should indicate warm color.
+1. Design - As a User, whenever I move faraway to the location,the display should indicate dark color.
+1. Implement - As a User, whenever I move faraway to the location,the display should indicate dark color
 
-* Design -As a user, the app will remind me a day before.
-* Implement - As a user, the app will remind me a day before.
-* Design - As a user, On the day of the competition, the app will show the start date time and the starting location.
-* Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location.
-* As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue
-* Design - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue.
-* Implement -As a User, I can request for third and final clue which makes it easy to be successful.
-* Approval for - As a User, I can request for third and final clue which makes it easy to be successful.
-* Design - As a User, I can request for third and final clue which makes it easy to be successful.
-* Design - As a User, when I get closer to the location,the display should indicate warm color.
-* Design - As a User, whenever I move faraway to the location,the display should indicate dark color.
-* Implement - As a User, whenever I move faraway to the location,the display should indicate dark color
+1. Deploy -  As a user, the app will remind me a day before.
+1. Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location.
+1. Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue.
+1. Deployment -As a User, I can request for third and final clue which makes it easy to be successful.
+1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color.
+1. Deployment - As a User, whenever I get closer to the location,the display should indicate warm color.
+1. Deployment - As a User, whenever I move faraway to the location,the display should indicate dark color.
+1. Design - As a User, whenever I am within the location circle, the display celebrates and says "Congratulations, you scored!"
+1. Implement - As a User, whenever I am within the location circle,the display celebrates and says "Congratulations, you scored!"
+1. Design - As a user, After reaching the destination,asked to return to the starting location to wait for the other players to return.
+1. Implement - As a user, After reaching the destination,is asked to return to the starting location to wait for the other players to return.
 
 
-* Deploy -  As a user, the app will remind me a day before.
-* Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location.
-* Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue.
-* Deployment -As a User, I can request for third and final clue which makes it easy to be successful.
-* Implementation - As a User, whenever I get closer to the location,the display should indicate warm color.
-* Deployment - As a User, whenever I get closer to the location,the display should indicate warm color.
-* Deployment - As a User, whenever I move faraway to the location,the display should indicate dark color.
-* Design - As a User, whenever I am within the location circle, the display celebrates and says "Congratulations, you scored!"
-* Implement - As a User, whenever I am within the location circle,the display celebrates and says "Congratulations, you scored!"
-* Design - As a user, After reaching the destination,asked to return to the starting location to wait for the other players to return.
-* Implement - As a user, After reaching the destination,is asked to return to the starting location to wait for the other players to return.
-
-
-* Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
-* Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return.
-* Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
+1. Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
+1. Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return.
+1. Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
 
 
