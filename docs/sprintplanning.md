@@ -11,7 +11,7 @@
 1. Design - As a user, I want to serve as designer, so that I can provide a starting location for the quest. [J88](http://cs04.nwmissouri.edu/browse/GDPGAM-88) [AC-088](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/088.md)
 1. Design - As a user, I want to serve as designer, so that I can provide a set of four unordered locations for the quest. [J134](http://cs04.nwmissouri.edu/browse/GDPGAM-134)  [AC-0134](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 1. Implement - As a user, I want to SignUp to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md)
-1. Implement - As a user, I want to Login to the App.[]() []()
+1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 1. Design - As a Admin, I want to access to all information including app settings.
 1. Implement - As a Admin, I want to access to all information including app settings.
