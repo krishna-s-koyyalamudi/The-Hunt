@@ -24,7 +24,7 @@
 
 ## Sprint 1
 
-1. Design - As a user, I want to serve as captain and provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70)
+1. Design - As a user, I want to serve as captain and provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) []AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
 1. Implement - As a user, I want to  serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76)
 
