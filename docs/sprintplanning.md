@@ -13,41 +13,40 @@
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 1. Design - As a Admin, I want to access to all information including app settings.
 1. Implement - As a Admin, I want to access to all information including app settings.
-1. Design-As a user, I want to create Teams. [J67]()  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
+1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
 1. Implement-As a user, I want to create Teams. 
 1. Design-As a user, I want to  create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
-1. Implement-As a user, I want to create Quest.
-1. Design-As a user, I want to create competition.
-1. Implement-As a user, I want to create competition.
-1. Design-As a user, I want to create competition.
-1. Design-As a User, I want to accesss my profile account details page.
-1. Implement-As a User, I want to accesss my profile account details page.
+1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57) 
+1. Design-As a user, I want to create competition. [J146](http://cs04.nwmissouri.edu/browse/GDPGAM-71) 
+1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-71)  
+1. Design-As a User, I want to accesss my profile account details page.  [J]()
+1. Implement-As a User, I want to accesss my profile account details page. [J]()
 
 
 ## Sprint 1
 
-1. Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-71)
-1. Implement- As a user, when I serve as designer, I want to provide a starting location for the quest. [ J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
-1. Implement - As a user, when I serve designe, I provides a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
-1. Design- As a user, when I serve  as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
+1. Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-71) 
+1. Implement- As a user, I want to serve as designer, I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
+1. Implement - As a user, I want to serve as designer, I Can provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+1. Design- As a user, I want to serve as designer, I can provide location coordinates (Lat, Long, default radius)for each location. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
 1. Implement -As a user, I serve as designer, I provides location coordinates (Lat, Long, default radius)for each location. [J176 ](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
-1. Design- As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
-1. Implement- As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
-1. Design-As a User, I want to serve as a designer of the quest they create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
-1. Implement- As a User, I want to serve as a designer of the quest they create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
-1. Design As a user, I want to accept the team invite and become a team player or reject it.
-1. Implement As a user, I want to accept the team invite and become a team player or reject it.
-1. Design-As a user, After three days, if I wont accept invite, assume rejection.
-1. Implement- As a user, After three days, if I wont accept invite, assume rejection.
-1. Design-As a user, If I gets invite, I can explicitly decline.
-1. Implement-As a user, If I gets invite,I can to explicitly decline.
-1. Design-As a user, while serving  as a designer, The designer provides a UNIQUE Quest name among all quests
-1. Implement-As a user, while serving  as a designer,The designer provides a UNIQUE Quest name among all quests
-1. Design - As a user, I want to Design the accept or reject the team invitation screen.
-1. Implement- As a user, I want to implement the accept or reject the team invitation screen.
-1. Design-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
-1. Implement-As a user, I want to belong to 0 or more teams by providing unique names(3-25 characeters)
-
+1. Design - As a user, I serve as designer, I provides 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Implement - As a user, I serve asdesigner, I provides 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
+1. Design - As a User, I want to serve as a designer of the quest they create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Implement - As a User, I want to serve as a designer of the quest they create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+1. Implement - As a user, I want to accept the team invite and become a team player or reject it. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)
+1. Design - As a user, After three days, if I wont accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
+1. Design - As a user, If I gets invite, I can explicitly decline. 
+1. Implement - As a user, If I gets invite, I can explicitly decline.
+1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
+1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
+1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
+1. Design - As a user, I want to Design the accept or reject the team invitation screen. [J285](http://cs04.nwmissouri.edu/browse/GDPGAM-78)  
+1. Design- As a user, I want to serve as the hunt master of the competion. [J90](http://cs04.nwmissouri.edu/browse/GDPGAM-90)
+1. Design - As a user , I want to serve as hunt master specifies the end date and time for the competition. [J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
+1. Design - As a User , I want to serve as team captain and I want to accept or reject the invitation [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC-158]()
+ 
 ## Sprint 2
 
 * Design- As a user, I want to serve as the hunt master of the competion.
@@ -60,7 +59,7 @@
 * Implement-As a hunt master,I can specify the start date and time for the competition.
 * Design-As a hunt master, I can specify the end date and time for the competition.
 * Implement- As a hunt master, I can specify the end date and time for the competition.
-
+1. Implement - As a user, After three days, if I wont accept invite, assume rejection. []()
 
 * Design - As a hunt master, I can choose an existing quest for competition.
 * Implement - As a hunt master, I can choose an existing quest for competition.
