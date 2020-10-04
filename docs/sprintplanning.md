@@ -13,8 +13,6 @@
 1. Implement - As a user, I want to SignUp to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md)
 1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
-1. Design - As a Admin, I want to access to all information including app settings. [ ] ()
-1. Implement - As a Admin, I want to access to all information including app settings.
 
 1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
 1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
@@ -101,6 +99,7 @@
 ## Sprint 3
 
 1. Design - As a User, I want to look at my profile [J342](http://cs04.nwmissouri.edu/browse/GDPGAM-342) [AC-342](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0342.md)
+1. Design - As a user, I want to look at all the settings available for the game. [J343](http://cs04.nwmissouri.edu/browse/GDPGAM-343) [AC-343](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0343.md)
 1. Design -As a user, the app will remind me a day before.
 1. Implement - As a user, the app will remind me a day before.
 1. Design - As a user, On the day of the competition, the app will show the start date time and the starting location.
