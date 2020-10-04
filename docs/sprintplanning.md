@@ -6,8 +6,6 @@
 1. Design - As a user, I want to create a page to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62)
 1. Design - As a user, I want to Signup to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/066.md)
 1. Design - As a user, I want to reset the password so that I can regain access to the app. [J235](http://cs04.nwmissouri.edu/browse/GDPGAM-235)  [AC-0235](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0235.md)
-1. Design - As a user I serve as captain and provides a team name [J244]( http://cs04.nwmissouri.edu/browse/GDPGAM-244)
-1. Design - As a user I serves as captain of any team I create [J243](http://cs04.nwmissouri.edu/browse/GDPGAM-243)
 1. Deployment - As a user, I should be able to see signup page when I click Register. [J218](http://cs04.nwmissouri.edu/browse/GDPGAM-218) [AC-218]()
 1. Design - As a user, I want to provide Team name that is  unique and 3-25 characters long. [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)  [AC-087](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/087.md)
 1. Design - As a user, I want to serve as designer, so that I can provide a starting location for the quest. [J88](http://cs04.nwmissouri.edu/browse/GDPGAM-88) [AC-088](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/088.md)
