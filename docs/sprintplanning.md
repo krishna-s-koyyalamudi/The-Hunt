@@ -4,7 +4,7 @@
 
 
 
-1. Design-As a user, I want to SignUp to the App. [J68](http://cs04.nwmissouri.edu/projects/GDPGAM/issues/GDPGAM-68?filter=allopenissues) [AC-68]()
+1. Design-As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/projects/GDPGAM/issues/GDPGAM-68?filter=allopenissues) [AC-68]()
 1. Design-As a user, I want to Login to the App.
 1. Design-As a user, I want to reset the password so that I can regain access to the app.
 1. Design-As a user, I want to provide Team name that is  unique and 3-25 characters long.
