@@ -13,7 +13,8 @@
 1. Implement - As a user, I want to Sign Up to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md) [Signup page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png)
 1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
 1. Design-As a user, I want to create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
-1. Design-As a user, I want to create competition. [J75](http://cs04.nwmissouri.edu/browse/GDPGAM-75) 
+1. Design-As a user, I want to create competition. [J75](http://cs04.nwmissouri.edu/browse/GDPGAM-75) [AC150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
+
 
 
 1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
