@@ -2,10 +2,8 @@
 
 ## Sprint 0
 
-
-
 1. Design-As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/projects/GDPGAM/issues/GDPGAM-68?filter=allopenissues) [AC-68]()
-1. Design-As a user, I want to Login to the App.
+1. Design-As a user, I want to Signup/Register to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66]()
 1. Design-As a user, I want to reset the password so that I can regain access to the app.
 1. Design-As a user, I want to provide Team name that is  unique and 3-25 characters long.
 1. Design - As a user, when I serve as designer, I want to provide a starting location for the quest.
@@ -24,18 +22,13 @@
 * Design-As a user, I want to create competition.
 * Implement-As a user, I want to create competition.
 * Design-As a user, I want to create competition.
-
-
 * Design-As a User, I want to accesss my profile account details page.
 * Implement-As a User, I want to accesss my profile account details page.
 
 
 ## Sprint 1
 
-
-.
 * Implement-As a user, I want to provide Team name that is  unique and 3-25 characters long.
-
 * Implement- As a user, when I serve as designer, I want to provide a starting location for the quest.
 * Implement - As a user, when I serve designe, I provides a set of four unordered locations for the quest.
 * Design- As a user, when I serve  as designer, I provides location coordinates (Lat, Long, default radius)for each location.
