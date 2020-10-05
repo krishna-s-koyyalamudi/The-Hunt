@@ -124,7 +124,7 @@
 
 1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
-1. Implement - As a user, After three days, if I wont accept invite, assume rejection.[J84] (http://cs04.nwmissouri.edu/browse/GDPGAM-84)
+1. Implement - As a user, After three days, if I wont accept invite, assume rejection.[J84](http://cs04.nwmissouri.edu/browse/GDPGAM-84)
 
 1. Design - As a hunt master, I can choose an existing quest for competition.
 
