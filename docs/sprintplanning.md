@@ -51,7 +51,7 @@
 
 1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
+1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177) [ Location_screen ](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen%20.png)
 
 1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
