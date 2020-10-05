@@ -116,15 +116,15 @@
 
 1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. 
 
-1. Design - As a hunt master, I can specify the start date and time for the competition.
+1. Design - As a hunt master, I want to specify the start date and time for the competition.[J98](http://cs04.nwmissouri.edu/browse/GDPGAM-98)
 
-1. Implement - As a hunt master,I can specify the start date and time for the competition.
+1. Implement - As a hunt master,I want to specify the start date and time for the competition.[J104](http://cs04.nwmissouri.edu/browse/GDPGAM-104)
 
-1. Design - As a hunt master, I can specify the end date and time for the competition.
+1. Design - As a hunt master, I want to specify the end date and time for the competition.[J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 
 1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
-1. Implement - As a user, After three days, if I wont accept invite, assume rejection. 
+1. Implement - As a user, After three days, if I wont accept invite, assume rejection.[J84] (http://cs04.nwmissouri.edu/browse/GDPGAM-84)
 
 1. Design - As a hunt master, I can choose an existing quest for competition.
 
