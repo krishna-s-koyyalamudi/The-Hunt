@@ -172,27 +172,23 @@
 
 1. Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 
-1. Deployment -As a User, I can request for third and final clue which makes it easy to be successful.
+1. Deployment -As a User, I can request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169)
 
-1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color.
+1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color. [J183](http://cs04.nwmissouri.edu/browse/GDPGAM-183)
 
-1. Deployment - As a User, whenever I get closer to the location,the display should indicate warm color.
+1. Deployment - As a User, whenever I get closer to the location,the display should indicate warm color. [J184](http://cs04.nwmissouri.edu/browse/GDPGAM-184)
 
-1. Deployment - As a User, whenever I move faraway to the location,the display should indicate dark color.
+1. Deployment - As a User, whenever I move faraway to the location,the display should indicate dark color. [J188](http://cs04.nwmissouri.edu/browse/GDPGAM-188)
 
 1. Design - As a User, whenever I am within the location circle, the display celebrates and says "Congratu
-lations, you scored!"
+lations, you scored!"  [J189](http://cs04.nwmissouri.edu/browse/GDPGAM-189)
 
-1. Implement - As a User, whenever I am within the location circle,the display celebrates and says "Congratulations, you scored!"
+1. Implement - As a User, whenever I am within the location circle,the display celebrates and says "Congratulations, you scored!" [J191](http://cs04.nwmissouri.edu/browse/GDPGAM-191)
 
-1. Design - As a user, After reaching the destination,asked to return to the starting location to wait for the other players to return.
+1. Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J193](http://cs04.nwmissouri.edu/browse/GDPGAM-193)
 
-1. Implement - As a user, After reaching the destination,is asked to return to the starting location to wait for the other players to return.
+1. Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return. [J195](http://cs04.nwmissouri.edu/browse/GDPGAM-193)
 
-1. Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
-
-1. Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return.
-
-1. Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return.
+1. Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J196](http://cs04.nwmissouri.edu/browse/GDPGAM-196)
 
 
