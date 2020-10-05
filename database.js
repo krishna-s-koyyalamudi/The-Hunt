@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3').verbose();
 var md5 = require('md5')
 
-// open database in memory
+// open database in local disk
 let db = new sqlite3.Database('C:/sqlite/hunt.db', sqlite3.OPEN_READWRITE,(err) => {
     if (err) {
     return console.error(err.message);
@@ -35,6 +35,7 @@ let db = new sqlite3.Database('C:/sqlite/hunt.db', sqlite3.OPEN_READWRITE,(err) 
               }
           });  
         });
+       
           // close the database connection
     // db.close((err) => {  
     //     if (err) { 
