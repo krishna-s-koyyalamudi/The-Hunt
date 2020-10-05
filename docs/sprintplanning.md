@@ -34,13 +34,13 @@
 
 ## Sprint 1
 
-1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
+1. Implement-As a user, I want to create Teams.  [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
 
-1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
+1. Implement-As a user, I want to create Quest.  [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 
-1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-150) [AC-150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
+1. Implement-As a user, I want to create competition.  [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-150) [AC-150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
 
-1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
+1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members  [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
 1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
 
@@ -59,6 +59,7 @@
 1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
 
 1. Design - Routing of login page after user registration by clicking on login button present in the register page. [J151](http://cs04.nwmissouri.edu/browse/GDPGAM-151) 
+
 [AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
 
 1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
@@ -69,11 +70,11 @@
 
 1. Design - As a user, I want to serve as hunt master specifies the end date and time for the competition. [J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 
-1. Design - As a user, I want to serve as team captain and I want to accept or reject the invitation [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC-158](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0158.md)
+1. Design - As a user, I want to serve as team captain and I want to accept or reject the invitation  [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC-158](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0158.md)
 
 1. Implement - As a user, I want to serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76).[AC76](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/076.md)
 
-1. Implement - As a user, I want to accept the invite to join the team, When I get an invite [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132)
+1. Implement - As a user, I want to accept the invite to join the team, When I get an invite  [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132)
 
 1. Implement - As a user, I want to provide Team name that is unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) 
 
@@ -81,24 +82,24 @@
 
 1. Implement - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
 
-1. Implement -As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176) [AC-176](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/176.md)
+1. Implement -As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)  [AC-176](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/176.md)
 
-1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177) [AC-177](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/177.md)
+1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location.  [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)  [AC-177](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/177.md)
 
-1. Implement - As a User, I want to serve as a designer of the quest I create. [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100) [AC-100](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/100.md)
+1. Implement - As a User, I want to serve as a designer of the quest I create.  [J100](http://cs04.nwmissouri.edu/browse/GDPGAM-100)  [AC-100](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/100.md)
 
-1. Implement - As a user, I want to accept the team invite and become a team player or reject it. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107) [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
+1. Implement - As a user, I want to accept the team invite and become a team player or reject it.  [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)  [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
 
-1. Implement - As a user, If I gets invite, I can explicitly decline. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107) [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
+1. Implement - As a user, If I gets invite, I can explicitly decline.  [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)  [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
 
-1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
-1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
-1. Deployment - As a user, I should be able to see the login screen when I open the Application/Website. [J203](http://cs04.nwmissouri.edu/browse/GDPGAM-203) [AC-203](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0203.md)
-1. Deployment- As a user, I want to successfully log into the application. [J210](http://cs04.nwmissouri.edu/browse/GDPGAM-210) [AC-210](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0210.md) 
+1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests  [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
+1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests  [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
+1. Deployment - As a user, I should be able to see the login screen when I open the Application/Website.  [J203](http://cs04.nwmissouri.edu/browse/GDPGAM-203)  [AC-203](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0203.md)
+1. Deployment- As a user, I want to successfully log into the application.  [J210](http://cs04.nwmissouri.edu/browse/GDPGAM-210)  [AC-210](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0210.md) 
 
-1. Deployment - As a user, I want to accept the invite to join the team, When I get an invite [J133](http://cs04.nwmissouri.edu/browse/GDPGAM-133) [AC-103](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/103.md)
+1. Deployment - As a user, I want to accept the invite to join the team, When I get an invite. [J133](http://cs04.nwmissouri.edu/browse/GDPGAM-133)  [AC-103](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/103.md)
 
-1. Deployment - As a user, if I gets invite, I can explicitly decline.  [J108](http://cs04.nwmissouri.edu/browse/GDPGAM-108) [AC-108](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/108.md)
+1. Deployment - As a user, if I gets invite, I can explicitly decline.  [J108](http://cs04.nwmissouri.edu/browse/GDPGAM-108)  [AC-108](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/108.md)
 
 
  
