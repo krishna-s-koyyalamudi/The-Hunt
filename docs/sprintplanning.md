@@ -17,7 +17,7 @@
 
 
 
-1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
+1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md) [login page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen%20.png)
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md) [Reset page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ResetPasswordScreen.png)
 1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
