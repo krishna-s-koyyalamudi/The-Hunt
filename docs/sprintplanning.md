@@ -42,24 +42,24 @@
 
 1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
-1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)[AC82](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/082.md)
+1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82) [AC82](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/082.md)
 
-1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)[AC89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/089.md)
+1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89) [AC89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/089.md)
 
-1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)[AC91](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/091.md)
+1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91) [AC91](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/091.md)
 
-1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)[AC94](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/094.md)
+1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94) [AC94](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/094.md)
 
-1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-86)[AC86](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/086.md)
+1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-86) [AC86](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/086.md)
 
-1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-79)[AC79](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/079.md)
+1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-79) [AC79](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/079.md)
 
-1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78)[AC78](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/078.md)
+1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) [AC78](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/078.md)
 
 1. Design - Routing of login page after user registration by clicking on login button present in the register page. [J151](http://cs04.nwmissouri.edu/browse/GDPGAM-151) 
-[AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
+ [AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
 
-1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)[AC87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)
+1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87) [AC87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)
 
 1. Design - As a user, I want to Design the accept or reject the team invitation screen. [J285](http://cs04.nwmissouri.edu/browse/GDPGAM-78)  
 
