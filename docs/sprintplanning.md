@@ -4,7 +4,7 @@
 
 1. Design - As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/browse/GDPGAM-68) [AC-68](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/068.md)
 
-1. Design - As a user, I want to create a page to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62). [AC-62](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/062.md) [invitation page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
+
 
 1. Design - As a user, I want to Sign up to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/066.md)
 
@@ -37,6 +37,8 @@
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 
 1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-150) [AC150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
+
+1. Design - As a user, I want to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62). [AC-62](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/062.md) [invitation page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
 
 1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
