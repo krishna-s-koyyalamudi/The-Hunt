@@ -42,24 +42,26 @@
 
 1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
-1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82) [AC82](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/082.md)
+1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
 
-1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89) [AC89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/089.md)
+1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
 
-1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91) [AC91](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/091.md)
+1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
 
-1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94) [AC94](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/094.md)
+1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
 
-1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-86) [AC86](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/086.md)
+1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-79) [AC79](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/079.md)
+1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) [AC78](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/078.md)
+1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
+
+1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
 
 1. Design - Routing of login page after user registration by clicking on login button present in the register page. [J151](http://cs04.nwmissouri.edu/browse/GDPGAM-151) 
- [AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
+[AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
 
-1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87) [AC87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)
+1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
 
 1. Design - As a user, I want to Design the accept or reject the team invitation screen. [J285](http://cs04.nwmissouri.edu/browse/GDPGAM-78)  
 
@@ -120,21 +122,21 @@
 
 1. Design - As a hunt master, I want to specify the end date and time for the competition.[J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 
-1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
+1. Implement - As a hunt master, I want to specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
 1. Implement - As a user, After three days, if I wont accept invite, assume rejection. [J84](http://cs04.nwmissouri.edu/browse/GDPGAM-84)
 
-1. Design - As a hunt master, I can choose an existing quest for competition. [J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
+1. Design - As a hunt master, I want to choose an existing quest for competition. [J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
 
-1. Implement - As a hunt master, I can choose an existing quest for competition. [J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
+1. Implement - As a hunt master, I want to choose an existing quest for competition. [J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
 
-1. Design - As a hunting master, I can invite a list of teams to participate about a week before the match. [J139](http://cs04.nwmissouri.edu/browse/GDPGAM-139)
+1. Design - As a hunting master, I want to invite a list of teams to participate about a week before the match. [J139](http://cs04.nwmissouri.edu/browse/GDPGAM-139)
 
-1. Implement - As a hunting master, I can invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-140)
+1. Implement - As a hunting master, I want to invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-140)
 
-1. Design - As a team captain, I can accept or reject the invitation. [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158)
+1. Design - As a team captain, I want to accept or reject the invitation. [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158)
 
-1. Implement - As a team captain, I can accept or reject the invitation. [J160](http://cs04.nwmissouri.edu/browse/GDPGAM-160)
+1. Implement - As a team captain, I want to accept or reject the invitation. [J160](http://cs04.nwmissouri.edu/browse/GDPGAM-160)
 
 ## Sprint 3
 
@@ -142,51 +144,56 @@
 
 1. Design - As a user, I want to look at all the settings available for the game. [J343](http://cs04.nwmissouri.edu/browse/GDPGAM-343) [AC-343](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0343.md)
 
-1. Design -As a user, the app will remind me a day before. [J117](http://cs04.nwmissouri.edu/browse/GDPGAM-117)
+1. Design -As a user, the app will remind me a day before. [J117](http://cs04.nwmissouri.edu/browse/GDPGAM-117) [AC-117](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0117.md)
 
-1. Implement - As a user, the app will remind me a day before. [J119](http://cs04.nwmissouri.edu/browse/GDPGAM-119)
+1. Implement - As a user, the app will remind me a day before. [J119](http://cs04.nwmissouri.edu/browse/GDPGAM-119) [AC-117](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0343.md)
 
 1. Design - As a user, On the day of the competition, the app will show the start date time and the starting location. [J123](http://cs04.nwmissouri.edu/browse/GDPGAM-123)
+[AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
-1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129)
+1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129) [AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
-1. As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
+1. As a User, I want to start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
+[AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
-1. Design - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
+1. Design - As a User, I want to  start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164) 
+[AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
-1. Implement -As a User, I can request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)
+1. Implement -As a User, I want to request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168) [AC-168](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0168.md)
 
-1. Design - As a User, I can request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166)
+1. Design - As a User, I want to request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166) [AC-168](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0168.md)
 
-1. Design - As a User, when I get closer to the location,the display should indicate warm color. [J181](http://cs04.nwmissouri.edu/browse/GDPGAM-181)
+1. Design - As a User, when I get closer to the location,the display should indicate warm color. [J181](http://cs04.nwmissouri.edu/browse/GDPGAM-181) [AC-181](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0181.md)
 
-1. Design - As a User, whenever I move faraway to the location,the display should indicate dark color. [J185](http://cs04.nwmissouri.edu/browse/GDPGAM-185)
+1. Design - As a User, whenever I move faraway to the location,the display should indicate dark color. [J185](http://cs04.nwmissouri.edu/browse/GDPGAM-185) [AC-185](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0185.md)
 
-1. Implement - As a User, whenever I move faraway to the location,the display should indicate dark color. [J187](http://cs04.nwmissouri.edu/browse/GDPGAM-187)
+1. Implement - As a User, whenever I move faraway to the location,the display should indicate dark color. [J187](http://cs04.nwmissouri.edu/browse/GDPGAM-187) [AC-185](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0185.md)
 
-1. Deploy -  As a user, the app will remind me a day before. [J120](http://cs04.nwmissouri.edu/browse/GDPGAM-120)
+1. Deploy -  As a user, the app will remind me a day before. [J120](http://cs04.nwmissouri.edu/browse/GDPGAM-120) [AC-120](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0120.md)
 
 1. Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location. [J130](http://cs04.nwmissouri.edu/browse/GDPGAM-130)
+[AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
-1. Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
+1. Implement - As a User, I want to start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
+[AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
-1. Deployment -As a User, I can request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169)
+1. Deployment -As a User, I want to request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169) [AC-166](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0166.md)
 
-1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color. [J183](http://cs04.nwmissouri.edu/browse/GDPGAM-183)
+1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color. [J183](http://cs04.nwmissouri.edu/browse/GDPGAM-183)  [AC-181](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0181.md)
 
-1. Deployment - As a User, whenever I get closer to the location,the display should indicate warm color. [J184](http://cs04.nwmissouri.edu/browse/GDPGAM-184)
+1. Deployment - As a User, whenever I get closer to the location,the display should indicate warm color. [J184](http://cs04.nwmissouri.edu/browse/GDPGAM-184) [AC-181](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0181.md)
 
-1. Deployment - As a User, whenever I move faraway to the location,the display should indicate dark color. [J188](http://cs04.nwmissouri.edu/browse/GDPGAM-188)
+1. Deployment - As a User, whenever I move faraway to the location,the display should indicate dark color. [J188](http://cs04.nwmissouri.edu/browse/GDPGAM-188) [AC-185](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0185.md)
 
 1. Design - As a User, whenever I am within the location circle, the display celebrates and says "Congratu
-lations, you scored!"  [J189](http://cs04.nwmissouri.edu/browse/GDPGAM-189)
+lations, you scored!"  [J189](http://cs04.nwmissouri.edu/browse/GDPGAM-189) [AC-189](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0189.md)
 
-1. Implement - As a User, whenever I am within the location circle,the display celebrates and says "Congratulations, you scored!" [J191](http://cs04.nwmissouri.edu/browse/GDPGAM-191)
+1. Implement - As a User, whenever I am within the location circle,the display celebrates and says "Congratulations, you scored!" [J191](http://cs04.nwmissouri.edu/browse/GDPGAM-191) [AC-189](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0189.md)
 
-1. Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J193](http://cs04.nwmissouri.edu/browse/GDPGAM-193)
+1. Design - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J193](http://cs04.nwmissouri.edu/browse/GDPGAM-193) [AC-193](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0193.md)
 
-1. Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return. [J195](http://cs04.nwmissouri.edu/browse/GDPGAM-193)
+1. Implement - As a user, After reaching the destination, am asked to return to the starting location to wait for the other players to return. [J195](http://cs04.nwmissouri.edu/browse/GDPGAM-193) [AC-193](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0193.md)
 
-1. Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J196](http://cs04.nwmissouri.edu/browse/GDPGAM-196)
+1. Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J196](http://cs04.nwmissouri.edu/browse/GDPGAM-196) [AC-193](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0193.md)
 
 
