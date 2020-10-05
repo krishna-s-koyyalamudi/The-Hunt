@@ -159,9 +159,9 @@
 1. Design - As a User, I want to  start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 [AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
-1. Implement -As a User, I want to request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)[AC-168](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0168.md)
+1. Implement -As a User, I want to request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168) [AC-168](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0168.md)
 
-1. Design - As a User, I want to request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166)
+1. Design - As a User, I want to request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166) [AC-166](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0166.md)
 
 1. Design - As a User, when I get closer to the location,the display should indicate warm color. [J181](http://cs04.nwmissouri.edu/browse/GDPGAM-181)
 
