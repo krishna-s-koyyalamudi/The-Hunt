@@ -51,10 +51,7 @@
 
 1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94) [AC 86](## Sprint Plan for GDP1:
-
-
-
+1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94) [AC 86](## Sprint Plan for GDP1)
 
 
  
