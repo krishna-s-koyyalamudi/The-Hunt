@@ -28,7 +28,7 @@
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-150) [AC150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
 
-1. Design - As a user, I want to serve as captain and provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
+1. Design - As a user, I want to serve as captain and provide a list of emails of invited members [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
 1. Implement - As a user, I want to  serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76).[AC76](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/076.md)
 
