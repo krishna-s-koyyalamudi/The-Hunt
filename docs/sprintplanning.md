@@ -148,9 +148,6 @@ lations, you scored!"  [J189](http://cs04.nwmissouri.edu/browse/GDPGAM-189) [AC-
 
 1. Deploy - As a user, After reaching the destination,am asked to return to the starting location to wait for the other players to return. [J196](http://cs04.nwmissouri.edu/browse/GDPGAM-196) [AC-193](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0193.md)
 
-
-
-
 1. Design - As a user, I want to accept the team invite and become a team player or reject it. [J79](http://cs04.nwmissouri.edu/browse/GDPGAM-100)
 
 1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
@@ -190,7 +187,9 @@ lations, you scored!"  [J189](http://cs04.nwmissouri.edu/browse/GDPGAM-189) [AC-
 1. Implement - As a user, If I gets invite, I can explicitly decline.  [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)  [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
 
 1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests  [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
+
 1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests  [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
+
 1. Deployment - As a user, I should be able to see the login screen when I open the Application/Website.  [J203](http://cs04.nwmissouri.edu/browse/GDPGAM-203)  [AC-203](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0203.md)
 1. Deployment- As a user, I want to successfully log into the application.  [J210](http://cs04.nwmissouri.edu/browse/GDPGAM-210)  [AC-210](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0210.md) 
 
