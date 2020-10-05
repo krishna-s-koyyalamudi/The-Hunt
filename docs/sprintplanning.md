@@ -112,11 +112,11 @@
 
 1. Design - As a hunt master, I want to invite a list of teams to participate about a week before the match. [J97](http://cs04.nwmissouri.edu/browse/GDPGAM-97)
 
-1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. 
+1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-97)
 
-1. Design - As a hunt master, I can specify the start date and time for the competition.
+1. Design - As a hunt master, I can specify the start date and time for the competition. [J101](http://cs04.nwmissouri.edu/browse/GDPGAM-101)
 
-1. Implement - As a hunt master,I can specify the start date and time for the competition.
+1. Implement - As a hunt master,I can specify the start date and time for the competition. [J104](http://cs04.nwmissouri.edu/browse/GDPGAM-104)
 
 1. Design - As a hunt master, I can specify the end date and time for the competition.
 
