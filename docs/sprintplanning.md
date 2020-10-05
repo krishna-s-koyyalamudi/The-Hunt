@@ -30,6 +30,8 @@
 
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 
+1.Implement- Login Authentication [J128](http://cs04.nwmissouri.edu/browse/GDPGAM-128).[AC128](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/128.md)
+
 ## Sprint 1
 
 1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
@@ -112,11 +114,11 @@
 
 1. Design - As a hunt master, I want to invite a list of teams to participate about a week before the match. [J97](http://cs04.nwmissouri.edu/browse/GDPGAM-97)
 
-1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-97)
+1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. 
 
-1. Design - As a hunt master, I can specify the start date and time for the competition. [J101](http://cs04.nwmissouri.edu/browse/GDPGAM-101)
+1. Design - As a hunt master, I can specify the start date and time for the competition.
 
-1. Implement - As a hunt master,I can specify the start date and time for the competition. [J104](http://cs04.nwmissouri.edu/browse/GDPGAM-104)
+1. Implement - As a hunt master,I can specify the start date and time for the competition.
 
 1. Design - As a hunt master, I can specify the end date and time for the competition.
 
