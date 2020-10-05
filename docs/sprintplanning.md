@@ -18,6 +18,8 @@
 
 1. Design - As a user, I want to serve as designer, so that I can provide a set of four unordered locations for the quest. [J134](http://cs04.nwmissouri.edu/browse/GDPGAM-134)  [AC-0134](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 
+1. Implement - As a user, I want to Sign Up to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md) [Signup page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png)
+
 1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
 
 1. Design-As a user, I want to create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md)  [questpage](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png)
@@ -29,8 +31,6 @@
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 
 1. Implement- Login Authentication  [J128](http://cs04.nwmissouri.edu/browse/GDPGAM-128). [AC128](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/128.md)
-
-1. Implement - As a user, I want to Sign Up to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md) [Signup page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png)
 
 ## Sprint 1
 
@@ -154,10 +154,12 @@
 1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129) [AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
 1. As a User, I want to start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
+[AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
 1. Design - As a User, I want to  start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
+[AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
-1. Implement -As a User, I want to request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)
+1. Implement -As a User, I want to request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)[AC-168](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0168.md)
 
 1. Design - As a User, I want to request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166)
 
