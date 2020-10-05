@@ -144,35 +144,33 @@
 
 1. Design - As a user, I want to look at all the settings available for the game. [J343](http://cs04.nwmissouri.edu/browse/GDPGAM-343) [AC-343](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0343.md)
 
-1. Design -As a user, the app will remind me a day before.
+1. Design -As a user, the app will remind me a day before. [J117](http://cs04.nwmissouri.edu/browse/GDPGAM-117)
 
-1. Implement - As a user, the app will remind me a day before.
+1. Implement - As a user, the app will remind me a day before. [J119](http://cs04.nwmissouri.edu/browse/GDPGAM-119)
 
-1. Design - As a user, On the day of the competition, the app will show the start date time and the starting location.
+1. Design - As a user, On the day of the competition, the app will show the start date time and the starting location. [J123](http://cs04.nwmissouri.edu/browse/GDPGAM-123)
 
-1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location.
+1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129)
 
-1. As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue
+1. As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
 
-1. Design - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue.
+1. Design - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 
-1. Implement -As a User, I can request for third and final clue which makes it easy to be successful.
+1. Implement -As a User, I can request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)
 
-1. Approval for - As a User, I can request for third and final clue which makes it easy to be successful.
+1. Design - As a User, I can request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166)
 
-1. Design - As a User, I can request for third and final clue which makes it easy to be successful.
+1. Design - As a User, when I get closer to the location,the display should indicate warm color. [J181](http://cs04.nwmissouri.edu/browse/GDPGAM-181)
 
-1. Design - As a User, when I get closer to the location,the display should indicate warm color.
+1. Design - As a User, whenever I move faraway to the location,the display should indicate dark color. [J185](http://cs04.nwmissouri.edu/browse/GDPGAM-185)
 
-1. Design - As a User, whenever I move faraway to the location,the display should indicate dark color.
+1. Implement - As a User, whenever I move faraway to the location,the display should indicate dark color. [J187](http://cs04.nwmissouri.edu/browse/GDPGAM-187)
 
-1. Implement - As a User, whenever I move faraway to the location,the display should indicate dark color
+1. Deploy -  As a user, the app will remind me a day before. [J120](http://cs04.nwmissouri.edu/browse/GDPGAM-120)
 
-1. Deploy -  As a user, the app will remind me a day before.
+1. Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location. [J130](http://cs04.nwmissouri.edu/browse/GDPGAM-130)
 
-1. Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location.
-
-1. Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue.
+1. Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 
 1. Deployment -As a User, I can request for third and final clue which makes it easy to be successful.
 
