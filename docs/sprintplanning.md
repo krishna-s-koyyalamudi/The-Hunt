@@ -30,7 +30,7 @@
 
 1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 
-1.Implement- Login Authentication [J128](http://cs04.nwmissouri.edu/browse/GDPGAM-128).[AC128](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/128.md)
+1. Implement- Login Authentication  [J128](http://cs04.nwmissouri.edu/browse/GDPGAM-128). [AC128](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/128.md)
 
 ## Sprint 1
 
