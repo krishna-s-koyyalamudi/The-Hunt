@@ -4,7 +4,7 @@
 
 1. Design - As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/browse/GDPGAM-68) [AC-68](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/068.md)
 
-
+1. Design - As a user, I want to create a page to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62). [AC-62](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/062.md) [invitation page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
 
 1. Design - As a user, I want to Sign up to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/066.md)
 
@@ -37,8 +37,6 @@
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 
 1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-150) [AC150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
-
-1. Design - As a user, I want to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62). [AC-62](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/062.md) [invitation page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
 
 1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
@@ -104,17 +102,17 @@
  
 ## Sprint 2
 
-1. Design- As a user, I want to serve as the hunt master of the competion.
+1. Design- As a user, I want to serve as the hunt master of the competion. [J90](http://cs04.nwmissouri.edu/browse/GDPGAM-90)
 
-1. Implement- As a user, I want to serve as the hunt master of the competion.
+1. Implement- As a user, I want to serve as the hunt master of the competion. [J95](http://cs04.nwmissouri.edu/browse/GDPGAM-95)
 
-1. Design - As an hunt master, I want to choose an existing quest for competition.
+1. Design - As an hunt master, I want to choose an existing quest for competition. [J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
 
-1. Implement- As an hunt master, I want to choose an existing quest for competition.
+1. Implement- As an hunt master, I want to choose an existing quest for competition. [J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
 
-1. Design - As a hunt master, I want to invite a list of teams to participate about a week before the match.
+1. Design - As a hunt master, I want to invite a list of teams to participate about a week before the match. [J97](http://cs04.nwmissouri.edu/browse/GDPGAM-97)
 
-1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match.
+1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. 
 
 1. Design - As a hunt master, I can specify the start date and time for the competition.
 
@@ -122,7 +120,7 @@
 
 1. Design - As a hunt master, I can specify the end date and time for the competition.
 
-1. Implement - As a hunt master, I can specify the end date and time for the competition.
+1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
 1. Implement - As a user, After three days, if I wont accept invite, assume rejection. 
 
