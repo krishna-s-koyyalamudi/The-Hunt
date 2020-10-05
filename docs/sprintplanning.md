@@ -60,15 +60,15 @@
 
 1. Design - As a user, I want to accept or reject the team invitation . [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC158](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0158.md)
 
-1. Design - As a user, I want to serve as the hunt master of the competition. [J90](http://cs04.nwmissouri.edu/browse/GDPGAM-90)[AC90](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/090.md)
+1. Design - As a user, I want to serve as the hunt master of the competition. [J90](http://cs04.nwmissouri.edu/browse/GDPGAM-90) [AC90](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/090.md)
 
 1. Design - As a user, I want to serve as hunt master specifies the end date and time for the competition. [J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109) [AC109](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/109.md)
 
 1. Design - As a user, I want to serve as team captain and I want to accept or reject the invitation  [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158) [AC-158](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0158.md)
 
-1. Implement - As a user, I want to serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76).[AC76](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/076.md)
+1. Implement - As a user, I want to serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76) [AC76](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/076.md)
 
-1. Implement - As a user, I want to accept the invite to join the team, When I get an invite  [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132) [AC82]([AP-82](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/082.md)  
+1. Implement - As a user, I want to accept the invite to join the team, When I get an invite  [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132) [AC82](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/082.md)  
 
 1. Implement - As a user, I want to provide Team name that is unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) [AC124](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/124.md)
 
