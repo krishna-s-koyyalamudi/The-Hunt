@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "consolidate": "^0.16.0",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "heroku": "^7.43.2",
     "md5": "^2.3.0",
