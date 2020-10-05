@@ -10,7 +10,7 @@
 
 1. Design - As a user, I want to reset the password so that I can regain access to the app. [J235](http://cs04.nwmissouri.edu/browse/GDPGAM-235)  [AC-0235](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0235.md)
 
-1. Deployment - As a user, I should be able to see signup page when I click Register. [J218](http://cs04.nwmissouri.edu/browse/GDPGAM-218) [AC-218]()
+1. Deployment - As a user, I should be able to see signup page when I click Register. [J218](http://cs04.nwmissouri.edu/browse/GDPGAM-218) [AC-0218](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0218.md)
 
 1. Design - As a user, I want to provide Team name that is unique and 3-25 characters long. [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)  [AC-087](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/087.md)
 
@@ -124,7 +124,7 @@
 
 1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
-1. Implement - As a user, After three days, if I wont accept invite, assume rejection.[J84](http://cs04.nwmissouri.edu/browse/GDPGAM-84)
+1. Implement - As a user, After three days, if I wont accept invite, assume rejection.[J84] (http://cs04.nwmissouri.edu/browse/GDPGAM-84)
 
 1. Design - As a hunt master, I can choose an existing quest for competition.
 
