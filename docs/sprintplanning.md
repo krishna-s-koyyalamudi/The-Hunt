@@ -42,9 +42,10 @@
 
 1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
 
-1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
+1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89) [AC-89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 
-1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89)
+1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89) [AC-89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
+
 
 1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
 
