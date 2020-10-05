@@ -152,9 +152,7 @@ lations, you scored!"  [J189](http://cs04.nwmissouri.edu/browse/GDPGAM-189) [AC-
 
 1. Design - As a user, after three days, if I won’t accept invite, assume rejection.  [J78](http://cs04.nwmissouri.edu/browse/GDPGAM-78) 
 
-1. Design - Routing of login page after user registration by clicking on login button present in the register page. [J151](http://cs04.nwmissouri.edu/browse/GDPGAM-151) 
-
-[AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
+1. Design - Routing of login page after user registration by clicking on login button present in the register page. [J151](http://cs04.nwmissouri.edu/browse/GDPGAM-151) [AC-151](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0151.md)
 
 1. Design - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-78)
 
