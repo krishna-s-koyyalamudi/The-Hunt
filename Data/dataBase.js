@@ -2,14 +2,15 @@ var sqlite3 = require('sqlite3').verbose()
 var md5 = require('md5')
 
 const DBSOURCE = "db.sqlite"
-
-let db = new sqlite3.Database(DBSOURCE, (err) => {
+// opening our database
+let db = new sqlite3.Database('C:/sqlite/hunt.db', sqlite3.OPEN_READWRITE,(err) => {
     if (err) {
-      // Cannot open database
+      // If database is not found then it can not open database
       console.error(err.message)
       throw err
     }else{
-        console.log('Connected to the SQLite database.')
+        console.log('Connected to the HUNT database of SQLite.')
+    // creating a team table   
         db.run(`CREATE TABLE team (
             teamId INTEGER PRIMARY KEY AUTOINCREMENT,
             creatorUserId INTEGER, 
