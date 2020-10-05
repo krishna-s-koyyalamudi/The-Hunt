@@ -40,19 +40,48 @@
 
 1.	Design - As a user, I want to serve as captain and provide a list of emails of invited members  [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
-1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82) [AP-82](https://github.com/Krishna-Koyyalamudi/The-Hunt/edit/master/docs/acceptance-criteria/082.md)  
+1. Design - As a user, I want to accept the invite to join the team, When I get an invite [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82) [AP-82](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/082.md)  
 
 1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89) [AC-89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 
 1. Design - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J89](http://cs04.nwmissouri.edu/browse/GDPGAM-89) [AC-89](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 
 
-1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91)
+1. Design - As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J91](http://cs04.nwmissouri.edu/browse/GDPGAM-91) [AC91](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/091.md)
 
-1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
+1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)[AC94](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/094.md)
 
-1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94) [AC 86](## Sprint Plan for GDP1:
+1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94) [AC 86](## Sprint Plan for GDP1:)
 
+## Sprint 0
+
+1. Design - As a user, I want to Login to the App. [J68](http://cs04.nwmissouri.edu/browse/GDPGAM-68) [AC-68](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/068.md)
+
+1. Design - As a user, I want to create a page to send invitations to the players. [J62](http://cs04.nwmissouri.edu/browse/GDPGAM-62). [AC-62](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/062.md) [invitation page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
+
+1. Design - As a user, I want to Sign up to the App. [J66](http://cs04.nwmissouri.edu/browse/GDPGAM-66) [AC-66](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/066.md)
+
+1. Design - As a user, I want to reset the password so that I can regain access to the app. [J235](http://cs04.nwmissouri.edu/browse/GDPGAM-235)  [AC-0235](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0235.md)
+
+1. Deployment - As a user, I should be able to see signup page when I click Register. [J218](http://cs04.nwmissouri.edu/browse/GDPGAM-218) [AC-0218](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0218.md)
+
+1. Design - As a user, I want to provide Team name that is unique and 3-25 characters long. [J87](http://cs04.nwmissouri.edu/browse/GDPGAM-87)  [AC-087](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/087.md)
+
+1. Design - As a user, I want to serve as designer, so that I can provide a starting location for the quest. [J88](http://cs04.nwmissouri.edu/browse/GDPGAM-88) [AC-088](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/088.md)
+
+1. Implement - As a user, I want to Sign Up to the App. [J55](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-055](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/055.md) [Signup page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png)
+
+1. Design-As a user, I want to create Teams. [J67](http://cs04.nwmissouri.edu/browse/GDPGAM-67)  [AC-67](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/067.md) [Image of Team page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/Teamcreation.png)
+
+1. Design-As a user, I want to create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71) [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md)  [questpage](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png)
+
+1. Design-As a user, I want to create competition. [J75](http://cs04.nwmissouri.edu/browse/GDPGAM-75) [AC-150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md) [competition page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)
+
+1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
+
+1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
+
+1. Implement- Login Authentication  [J128](http://cs04.nwmissouri.edu/browse/GDPGAM-128). [AC-128](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/128.md)
 
 ## Sprint 1
 
