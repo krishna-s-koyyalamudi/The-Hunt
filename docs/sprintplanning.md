@@ -122,21 +122,21 @@
 
 1. Design - As a hunt master, I want to specify the end date and time for the competition.[J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 
-1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
+1. Implement - As a hunt master, I want to specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
 1. Implement - As a user, After three days, if I wont accept invite, assume rejection. [J84](http://cs04.nwmissouri.edu/browse/GDPGAM-84)
 
-1. Design - As a hunt master, I can choose an existing quest for competition. [J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
+1. Design - As a hunt master, I want to choose an existing quest for competition. [J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
 
-1. Implement - As a hunt master, I can choose an existing quest for competition. [J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
+1. Implement - As a hunt master, I want to choose an existing quest for competition. [J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
 
-1. Design - As a hunting master, I can invite a list of teams to participate about a week before the match. [J139](http://cs04.nwmissouri.edu/browse/GDPGAM-139)
+1. Design - As a hunting master, I want to invite a list of teams to participate about a week before the match. [J139](http://cs04.nwmissouri.edu/browse/GDPGAM-139)
 
-1. Implement - As a hunting master, I can invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-140)
+1. Implement - As a hunting master, I want to invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-140)
 
-1. Design - As a team captain, I can accept or reject the invitation. [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158)
+1. Design - As a team captain, I want to accept or reject the invitation. [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158)
 
-1. Implement - As a team captain, I can accept or reject the invitation. [J160](http://cs04.nwmissouri.edu/browse/GDPGAM-160)
+1. Implement - As a team captain, I want to accept or reject the invitation. [J160](http://cs04.nwmissouri.edu/browse/GDPGAM-160)
 
 ## Sprint 3
 
@@ -153,13 +153,13 @@
 
 1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129) [AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
-1. As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
+1. As a User, I want to start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
 
-1. Design - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
+1. Design - As a User, I want to  start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 
-1. Implement -As a User, I can request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)
+1. Implement -As a User, I want to request for third and final clue which makes it easy to be successful. [J168](http://cs04.nwmissouri.edu/browse/GDPGAM-168)
 
-1. Design - As a User, I can request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166)
+1. Design - As a User, I want to request for third and final clue which makes it easy to be successful. [J166](http://cs04.nwmissouri.edu/browse/GDPGAM-166)
 
 1. Design - As a User, when I get closer to the location,the display should indicate warm color. [J181](http://cs04.nwmissouri.edu/browse/GDPGAM-181)
 
@@ -171,9 +171,9 @@
 
 1. Deploy - As a user, On the day of the competition, the app will show the start date time and the starting location. [J130](http://cs04.nwmissouri.edu/browse/GDPGAM-130)
 
-1. Implement - As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
+1. Implement - As a User, I want to start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 
-1. Deployment -As a User, I can request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169)
+1. Deployment -As a User, I want to request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169)
 
 1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color. [J183](http://cs04.nwmissouri.edu/browse/GDPGAM-183)
 
