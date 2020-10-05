@@ -17,8 +17,8 @@
 
 
 
-1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md) [login page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen%20.png)
-1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md) [Reset page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ResetPasswordScreen.png)
+1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55) [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
+1. Implement - As a user, I want to reset the password so that I can regain access to the app. [J61](http://cs04.nwmissouri.edu/browse/GDPGAM-61)  [AC-061](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/061.md)
 1. Implement-As a user, I want to create Teams. [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
 1. Implement-As a user, I want to create Quest. [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 1. Implement-As a user, I want to create competition. [J150](http://cs04.nwmissouri.edu/browse/GDPGAM-150) [AC150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md)
@@ -29,7 +29,7 @@
 
 1. Design - As a user, I want to serve as captain and provide a list of emails of invited members page [J70](http://cs04.nwmissouri.edu/browse/GDPGAM-70) [AC-70](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/070.md)
 
-1. Implement - As a user, I want to  serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76)
+1. Implement - As a user, I want to  serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76).[AC76](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/076.md)
 
 1. Design - As a user, I want to accept the invite to join the team,When I get an invite  [J82](http://cs04.nwmissouri.edu/browse/GDPGAM-82)
 
@@ -51,7 +51,7 @@
 
 1. Design - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location. [J94](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
-1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177) [ Location_screen ](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen%20.png)
+1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)
 
 1. Design - As a User, I want to serve as a designer of the quest I create. [J86](http://cs04.nwmissouri.edu/browse/GDPGAM-94)
 
