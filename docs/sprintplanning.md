@@ -122,21 +122,21 @@
 
 1. Design - As a hunt master, I want to specify the end date and time for the competition.[J109](http://cs04.nwmissouri.edu/browse/GDPGAM-109)
 
-1. Implement - As a hunt master, I want to specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
+1. Implement - As a hunt master, I can specify the end date and time for the competition. [J114](http://cs04.nwmissouri.edu/browse/GDPGAM-114)
 
-1. Implement - As a user, After three days, if I wont accept invite, assume rejection.[J84](http://cs04.nwmissouri.edu/browse/GDPGAM-84)
+1. Implement - As a user, After three days, if I wont accept invite, assume rejection. [J84](http://cs04.nwmissouri.edu/browse/GDPGAM-84)
 
-1. Design - As a hunt master, I want to choose an existing quest for competition.[J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
+1. Design - As a hunt master, I can choose an existing quest for competition. [J136](http://cs04.nwmissouri.edu/browse/GDPGAM-136)
 
-1. Implement - As a hunt master, I want to choose an existing quest for competition.[J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
+1. Implement - As a hunt master, I can choose an existing quest for competition. [J137](http://cs04.nwmissouri.edu/browse/GDPGAM-137)
 
-1. Design - As a hunting master, I want to invite a list of teams to participate about a week before the match.[J97](http://cs04.nwmissouri.edu/browse/GDPGAM-97)
+1. Design - As a hunting master, I can invite a list of teams to participate about a week before the match. [J139](http://cs04.nwmissouri.edu/browse/GDPGAM-139)
 
-1. Implement - As a hunting master, I want to invite a list of teams to participate about a week before the match.[J140](http://cs04.nwmissouri.edu/browse/GDPGAM-140)
+1. Implement - As a hunting master, I can invite a list of teams to participate about a week before the match. [J140](http://cs04.nwmissouri.edu/browse/GDPGAM-140)
 
-1. Design - As a team captain, I can accept or reject the invitation.
+1. Design - As a team captain, I can accept or reject the invitation. [J158](http://cs04.nwmissouri.edu/browse/GDPGAM-158)
 
-1. Implement - As a team captain, I can accept or reject the invitation.
+1. Implement - As a team captain, I can accept or reject the invitation. [J160](http://cs04.nwmissouri.edu/browse/GDPGAM-160)
 
 ## Sprint 3
 
