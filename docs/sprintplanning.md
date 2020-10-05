@@ -73,13 +73,13 @@
 
 1. Implement - As a user, I want to serve as captain and provide a list of emails of invited members   [J76](http://cs04.nwmissouri.edu/browse/GDPGAM-76).[AC76](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/076.md)
 
-1. Implement - As a user, I want to accept the invite to join the team, When I get an invite [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132)
+1. Implement - As a user, I want to accept the invite to join the team, When I get an invite [J132](http://cs04.nwmissouri.edu/browse/GDPGAM-132) [AC132](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/132.md)
 
-1. Implement - As a user, I want to provide Team name that is unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) 
+1. Implement - As a user, I want to provide Team name that is unique and 3-25 characters long. [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) [AC124](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/124.md)
 
-1. Implement - As a user, I want to serve as designer and I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127)
+1. Implement - As a user, I want to serve as designer and I can provide a starting location for the quest. [J127](http://cs04.nwmissouri.edu/browse/GDPGAM-127) [AC127](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/127.md)
 
-1. Implement - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)
+1. Implement - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)[AC176](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/176.md)
 
 1. Implement -As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176) [AC176](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/176.md)
 
@@ -91,8 +91,8 @@
 
 1. Implement - As a user, If I gets invite, I can explicitly decline. [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107) [AC107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
 
-1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122)
-1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124)
+1. Implement - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J122](http://cs04.nwmissouri.edu/browse/GDPGAM-122) [AC122](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/122.md)
+1. Deployment - As a user, I want to serve as designer, I can provide a UNIQUE Quest name among all quests [J124](http://cs04.nwmissouri.edu/browse/GDPGAM-124) [AC124](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/124.md)
 1. Deployment - As a user, I should be able to see the login screen when I open the Application/Website. [J203](http://cs04.nwmissouri.edu/browse/GDPGAM-203) [AC-203](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0203.md)
 1. Deployment- As a user, I want to successfully log into the application. [J210](http://cs04.nwmissouri.edu/browse/GDPGAM-210) [AC-210](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0210.md) 
 
@@ -177,7 +177,7 @@
 1. Implement - As a User, I want to start moving towards the clue, if unsuccessful he/she can request a second clue. [J164](http://cs04.nwmissouri.edu/browse/GDPGAM-164)
 [AC-162](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0162.md)
 
-1. Deployment -As a User, I want to request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169) [AC-168](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0168.md)
+1. Deployment -As a User, I want to request for third and final clue which makes it easy to be successful. [J169](http://cs04.nwmissouri.edu/browse/GDPGAM-169) [AC-166](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0166.md)
 
 1. Implementation - As a User, whenever I get closer to the location,the display should indicate warm color. [J183](http://cs04.nwmissouri.edu/browse/GDPGAM-183)  [AC-181](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0181.md)
 
