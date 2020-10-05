@@ -144,13 +144,14 @@
 
 1. Design - As a user, I want to look at all the settings available for the game. [J343](http://cs04.nwmissouri.edu/browse/GDPGAM-343) [AC-343](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0343.md)
 
-1. Design -As a user, the app will remind me a day before. [J117](http://cs04.nwmissouri.edu/browse/GDPGAM-117)
+1. Design -As a user, the app will remind me a day before. [J117](http://cs04.nwmissouri.edu/browse/GDPGAM-117) [AC-117](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0117.md)
 
-1. Implement - As a user, the app will remind me a day before. [J119](http://cs04.nwmissouri.edu/browse/GDPGAM-119)
+1. Implement - As a user, the app will remind me a day before. [J119](http://cs04.nwmissouri.edu/browse/GDPGAM-119) [AC-117](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0343.md)
 
 1. Design - As a user, On the day of the competition, the app will show the start date time and the starting location. [J123](http://cs04.nwmissouri.edu/browse/GDPGAM-123)
+[AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
-1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129)
+1. Implementation - As a user, On the day of the competition, the app will show the start date time and the starting location. [J129](http://cs04.nwmissouri.edu/browse/GDPGAM-129) [AC-123](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0123.md)
 
 1. As a User, I can start moving towards the clue, if unsuccessful he/she can request a second clue. [J162](http://cs04.nwmissouri.edu/browse/GDPGAM-162)
 
