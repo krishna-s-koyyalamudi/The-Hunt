@@ -33,7 +33,7 @@ let db = new sqlite3.Database('./hunt.db',(err) => {
             
         });
 
-        module.export = db
+        module.exports = db
         
 
           // close the database connection
