@@ -5,9 +5,11 @@ const ejsLint = require('ejs-lint');
 const bodyparser = require("body-parser");
 const app = express();
 var db = require("./database.js")
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 
-// set the root view folder
-// app.set('views', path.join(__dirname, 'views'))
+//set the root view folder
+app.set('views', path.join(__dirname, 'views'))
 
 // specify desired view engine (EJS)
 app.set('view engine', 'ejs')
@@ -16,7 +18,10 @@ app.engine('ejs', engines.ejs)
 
 app.use(express.static("public"));
 
-port = process.env.PORT || 3000
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static("public"));
+
+port = process.env.PORT || 80
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/Login.html')
@@ -27,10 +32,16 @@ app.get('/dashboard', (req, res)=> {
 })
 
 app.get('/home', (req, res)=> {
-  res.render(__dirname + '/views/home.ejs')
+  res.render(__dirname +  './views/home.ejs')
 })
 
-app.get('/leaderboard', (req, res)=> {
+app.get('/competition', (req, res) => {
+  res.render(__dirname + './views/competition.ejs')
+})
+
+
+app.get('/dashboard/leaderboard', (req, res)=> {
+  console.log("--------leaderboard-------")
   res.render(__dirname + '/views/leaderboard.ejs')
 })
 
