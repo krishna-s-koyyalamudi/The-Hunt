@@ -1,17 +1,32 @@
-var express = require("express")
-var app = express()
-const db = require('../database.js')
-app.get("/api/users", (req, res, next) => {
-    var sql = "select * from user"
-    var params = []
-    db.all(sql, params, (err, rows) => {
-        if (err) {
-          res.status(400).json({"error":err.message});
-          return;
-        }
-        res.json({
-            "message":"success",
-            "data":rows
-        })
-      });
-});
+/**
+*  user model
+*  Describes the characteristics of each attribute in a user resource.
+*
+* @author Vikas Baswapuram <s538336@nwmissouri.edu>
+* 
+*
+*/
+'use strict';
+module.exports = (sequelize, DataTypes) => {
+  var user = sequelize.define('user', {
+    userName: {
+      type: DataTypes.STRING,
+      notEmpty: true
+    },
+    email: {
+      type: DataTypes.STRING,
+      validate: {
+        isEmail: true
+      }
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    last_login: DataTypes.DATE
+  }, {});
+  User.associate = function(models) {
+    // associations can be defined here
+  };
+  return User;
+};
