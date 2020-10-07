@@ -11,8 +11,10 @@ module.exports = (sequelize, DataTypes) => {
   var user = sequelize.define('user', {
     userName: {
       type: DataTypes.STRING,
-      notEmpty: true
-    },
+      notEmpty: true,
+      primaryKey: true,
+    allowIncrement : true 
+   },
     email: {
       type: DataTypes.STRING,
       validate: {

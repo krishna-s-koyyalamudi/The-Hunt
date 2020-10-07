@@ -2,6 +2,7 @@ const express = require('express')
 const engines = require('consolidate')
 const path = require('path')
 const ejsLint = require('ejs-lint');
+const expressLayouts = require('express-ejs-layouts')
 const bodyparser = require("body-parser");
 const app = express();
 var db = require("./database.js")
@@ -31,10 +32,21 @@ app.get('/dashboard', (req, res) => {
     res.render(__dirname + '/views/layout.ejs')
 })
 
+
 app.get('/loginpage', (req, res) => {
     res.render(__dirname + '/views/loginpage.ejs')
 })
 
+app.get('/registerpage', (req, res) => {
+    res.render(__dirname + '/views/signuppage.ejs')
+})
+
+app.get('/forgotcod', (req, res) => {
+    res.render(__dirname + '/views/forgotcod.ejs')
+})
+app.get('/forgotemail', (req, res) => {
+    res.render(__dirname + '/views/forgotemail.ejs')
+})
 app.get('/home', (req, res) => {
     res.render(__dirname + '/views/home.ejs')
 })
@@ -61,6 +73,7 @@ app.get("/register", (req, res) => {
     res.sendFile(__dirname + "/views/Signup/Signup.html");
 });
 
+
 app.get("/forgetPassword", (req, res) => {
     res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
 });
@@ -72,8 +85,22 @@ app.get("/createPlayer", (req,res)=>{
 app.get("/createTeam",(req,res)=>{
     res.render("createTeam")
 })
+app.get("/layout", (req,res)=>{
+    res.render("layout")
+    
+  }) 
+  app.get("/profile", (req,res)=>{
+    res.render("profile")
+  }) 
+
+  app.get("/footer", (req,res)=>{
+    res.render("footer") 
+  })
 
 
+  app.get("/invitePlayers", (req,res)=>{
+    res.render("invitePlayers")
+  })
 app.use(bodyparser.json({ type: "application/*+json" }));
 
 
