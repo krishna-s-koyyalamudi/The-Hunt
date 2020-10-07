@@ -75,7 +75,22 @@ app.get("/forgetPassword", (req, res) => {
     res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
 });
 
+app.get("/layout", (req,res)=>{
+    res.render("layout")
+    
+  }) 
+  app.get("/profile", (req,res)=>{
+    res.render("profile")
+  }) 
 
+  app.get("/footer", (req,res)=>{
+    res.render("footer") 
+  })
+
+
+  app.get("/invitePlayers", (req,res)=>{
+    res.render("invitePlayers")
+  })
 app.use(bodyparser.json({ type: "application/*+json" }));
 
 
