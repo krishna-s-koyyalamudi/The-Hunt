@@ -1,51 +1,61 @@
-<main class="container">
-    <h2 text-align="center">Create Competition</h2>
-    <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4 bg-light shadow-lg rounded">
-        <label class="text-center headText">Create Competition</label><br></br>
-        <form target="_blank" action="./LeaderBoard.html">
-            <input type="text" placeholder="Enter Competition Name" id="uname" name="uname" class="pl-2"><br><br>
+
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .test{
+         
+         
+         color: #000000;
+         font-size:x-large;
+         text-align:right;
+         margin:20px 0;
+         padding:10px;
+         white-space:nowrap;
+        }
+        .test span{
+           float:left;
+           width:5em;
+           text-align:left;
+        }
+        </style>
+</head>
+<body>
+    <h1 style="text-align:center">Create Competition<h1>
 
 
-            <div style="width: 100%;">
+  
+    <div align="center">  
+        <input type="text"  class="text-line" placeholder="Enter Competition Name">
+  </div> 
+  <!--  <div align="left"> 
+        <input type="date" id="start" name="trip-start" value="2020-10-01" min="2020-01-01" max="2055-12-31"> 
+  </div> 
+    <div align="right"> 
+      div align="right"  
+  </div> 
+    <div align="justify"> 
+      div align="justify"  
+  </div> -->
 
-                <div style="width: 50%; height: 100px; float: left;">
-                    <label for="starttime">Start date</label>
-                    <input type="date" id="start" name="trip-start" value="2020-10-01" min="2020-01-01"
-                        max="2055-12-31">
-                </div>
+  <p class="test">
+      <span>
+         
+          <input placeholder = "Start Date" class = "textbox-n" type = "text" onfocus = "(this.type = 'date')"  id = "date">
+        </span>
+        
+        <input placeholder = "Start Time" class = "textbox-n" type = "text" onfocus = "(this.type = 'time')"  id = "time"> </p>
+<p class="test">
+    <span> 
+       
+        <input placeholder = "End Date" class = "textbox-n" type = "text" onfocus = "(this.type = 'date')"  id = "date">
+    </span>
+    
+    <input placeholder = "Start Time" class = "textbox-n" type = "text" onfocus = "(this.type = 'time')"  id = "time"> </p>
+  
+<div class="btn">Choose Quest</div>
 
-                <div style="margin-left: 50%; height: 100px">
-                    <label for="starttime">Start time:</label>
-                    <input type="time" id="appt" name="appt" required>
-                </div>
-            </div>
 
-            <div style="width: 100%;">
-                <div style="width: 50%; height: 100px; float: left;">
-                    <label for="starttime">End date</label>
-                    <input type="date" id="start" name="trip-start" value="2020-10-01" min="2020-01-01"
-                        max="2055-12-31">
-                </div>
 
-                <div style="margin-left: 50%; height: 100px">
-                    <label for="starttime">End time:</label>
-                    <input type="time" id="appt" name="appt" required>
-                </div>
-            </div>
 
-            <fieldset>
-                <p>
-                    <label>Choose Quest</label>
-                    <select id="myQuest">
-                        <option value=" "> </option>
-                        <option value=" "> </option>
-                        <option value=" "> </option>
-                        <option value=" "> </option>
-                    </select>
-                </p>
-            </fieldset>
-            <i class="fas fa-grip-lines"></i>
-        </form>
-        <!-- <main-button>Register</main-button> -->
-    </section>
-</main>
+</body>
