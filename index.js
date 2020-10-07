@@ -19,7 +19,8 @@ app.engine('ejs', engines.ejs)
 
 app.use(express.static("public"));
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(expressLayouts)
 app.use(express.static("public"));
 
 port = process.env.PORT || 80
@@ -28,8 +29,8 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/Login.html')
 });
 
-app.get('/dashboard', (req, res) => {
-    res.render(__dirname + '/views/layout.ejs')
+app.get('/dashboard', (req, res)=> {
+  res.render('index');
 })
 
 
@@ -39,6 +40,10 @@ app.get('/loginpage', (req, res) => {
 
 app.get('/registerpage', (req, res) => {
     res.render(__dirname + '/views/signuppage.ejs')
+})
+
+app.get('/dashboard/createCompetition', (req, res)=> {
+  res.render('createCompetition')
 })
 
 app.get('/forgotcod', (req, res) => {
