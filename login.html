@@ -25,13 +25,13 @@
             <!-- <button class="btnText" onclick="goToRegister()">Register</button> -->
             <i class="fas fa-grip-lines"></i>
         </form>
-        <form action="./forgetPassword.html">
+        <form action="/registerpage">
             <span class="d-flex flex-row">
                 <button class="btnText"><a>Forgot your password?</a></button>
             </span>
         </form>
 
-        <form action="./register.html">
+        <form action="/forgotemail">
             <button type="submit" class="rounded-100 col-sm-3 mt-3 text-center" value="Register" id="signup">Register
                 </button<br><br>
         </form>
@@ -43,10 +43,10 @@
         function checkvalidation1() {
             var re = /\S+@\S+\.\S+/;
             var x = document.getElementById('uname').value;
-            var reg  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+            var reg = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
             var y = document.getElementById('password').value;
 
-             
+
 
 
             if (document.getElementById('uname').value == "") {
@@ -54,7 +54,7 @@
                 return false
             } else {
                 if (re.test(x)) {
-                
+
                 }
                 else {
                     alert("Please enter valid email address");
@@ -64,19 +64,25 @@
             if (document.getElementById('password').value == "") {
                 alert('please fill the password');
                 return false
-            } 
-            else
-            {
-                if (reg.test(y)) {
-                
             }
             else {
-                alert("password should contain atleast one number and one special character");
-                return false
-            }  
+                if (reg.test(y)) {
+
+                }
+                else {
+                    alert("password should contain atleast one number and one special character");
+                    return false
+                }
             }
 
             alert("login successful");
+
+            // const express = require('express')
+            // app.set('views', path.join(__dirname, 'views'))
+            
+            // app.get('/dashboard', (req, res) => {
+            //     res.render('index');
+            // })
 
         }
 
