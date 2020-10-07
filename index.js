@@ -65,6 +65,14 @@ app.get("/forgetPassword", (req, res) => {
     res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
 });
 
+app.get("/createPlayer", (req,res)=>{
+    res.render("createCompetition")
+})
+
+app.get("/createTeam",(req,res)=>{
+    res.render("createTeam")
+})
+
 
 app.use(bodyparser.json({ type: "application/*+json" }));
 
