@@ -58,7 +58,7 @@ body {
 
 
 input[type="date"]::before{
-    color: #ffffff;
+    color: #080808;
     content: attr(placeholder) ": ";
  }
  input[type="date"]:focus::before {
@@ -66,7 +66,7 @@ input[type="date"]::before{
  }
 
  input[type="time"]::before{
-    color: #ffffff;
+    color: #080808;
     content: attr(placeholder) ": ";
  }
  input[type="time"]:focus::before {
