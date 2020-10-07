@@ -17,7 +17,6 @@ app.set('view engine', 'ejs')
     // app.set('view engine', 'pug');
 app.engine('ejs', engines.ejs)
 
-app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(expressLayouts)
@@ -25,33 +24,34 @@ app.use(express.static("public"));
 
 port = process.env.PORT || 80
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/Login.html')
-});
+app.get('/Login', (req, res) => {
+    // res.sendFile(__dirname + '/Login.html')
+    res.render('loginpage.ejs');
+;});
 
 app.get('/dashboard', (req, res)=> {
   res.render('index');
 })
 
 
-app.get('/loginpage', (req, res) => {
-    res.render(__dirname + '/views/loginpage.ejs')
-})
+// app.get('/loginpage', (req, res) => {
+//     res.render(__dirname + '/views/loginpage.ejs')
+// })
 
-app.get('/registerpage', (req, res) => {
-    res.render(__dirname + '/views/signuppage.ejs')
-})
+// app.get('/registerpage', (req, res) => {
+//     res.render(__dirname + '/views/signuppage.ejs')
+// })
 
 app.get('/dashboard/createCompetition', (req, res)=> {
   res.render('createCompetition')
 })
 
-app.get('/forgotcod', (req, res) => {
-    res.render(__dirname + '/views/forgotcod.ejs')
-})
-app.get('/forgotemail', (req, res) => {
-    res.render(__dirname + '/views/forgotemail.ejs')
-})
+// app.get('/forgotcod', (req, res) => {
+//     res.render(__dirname + '/views/forgotcod.ejs')
+// })
+// app.get('/forgotemail', (req, res) => {
+//     res.render(__dirname + '/views/forgotemail.ejs')
+// })
 app.get('/home', (req, res) => {
     res.render(__dirname + '/views/home.ejs')
 })
