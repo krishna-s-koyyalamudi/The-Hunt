@@ -31,12 +31,17 @@ module.exports = (sequelize, DataTypes) => {
             startDateTime: {
                 type: DataTypes.DATE,
                 get(){
-                    return moment(this.getDataValue('startDateTime')).format('MM/DD/YYYY');
+                    return moment(this.getDataValue('startDateTime')).format('MM/DD/YYYY hh:mm:ss');
                 }
                 },
                 endDateTime: {
                 type: DataTypes.DATE,
                 get(){
-                    return moment(this.getDataValue('endDateTime')).format('MM/DD/YYYY');
+                    return moment(this.getDataValue('endDateTime')).format('MM/DD/YYYY hh:mm:ss');
                 }
                 }, 
+               competition.associate = function(models) {
+              // associations can be defined here
+                     };
+               return competition;
+               };
