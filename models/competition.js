@@ -22,4 +22,21 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-         
+        dateTimeCreated: {
+                type: DataTypes.DATE,
+                get() {
+                    return moment(this.getDataValue('dateTimeCreated')).format('MM/DD/YYYY');
+                }
+            },
+            startDateTime: {
+                type: DataTypes.DATE,
+                get(){
+                    return moment(this.getDataValue('startDateTime')).format('MM/DD/YYYY');
+                }
+                },
+                endDateTime: {
+                type: DataTypes.DATE,
+                get(){
+                    return moment(this.getDataValue('endDateTime')).format('MM/DD/YYYY');
+                }
+                }, 
