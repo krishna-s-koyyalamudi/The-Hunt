@@ -2,6 +2,7 @@ const express = require('express')
 const engines = require('consolidate')
 const path = require('path')
 const ejsLint = require('ejs-lint');
+const expressLayouts = require('express-ejs-layouts')
 const bodyparser = require("body-parser");
 const app = express();
 var db = require("./database.js")
@@ -19,6 +20,7 @@ app.engine('ejs', engines.ejs)
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(expressLayouts)
 app.use(express.static("public"));
 
 port = process.env.PORT || 80
@@ -28,25 +30,24 @@ app.get('/', (req, res) => {
 });
 
 app.get('/dashboard', (req, res)=> {
-  res.render(__dirname + '/views/layout.ejs')
+  res.render('index');
 })
 
-app.get('/home', (req, res)=> {
-  res.render(__dirname +  './views/home.ejs')
+app.get('/dashboard/home', (req, res)=> {
+  res.render('home');
 })
 
 app.get('/competition', (req, res) => {
-  res.render(__dirname + './views/competition.ejs')
+  res.render(__dirname + '/views/createCompetition.ejs')
 })
 
 
 app.get('/dashboard/leaderboard', (req, res)=> {
-  console.log("--------leaderboard-------")
-  res.render(__dirname + '/views/leaderboard.ejs')
+  res.render('leaderboard')
 })
 
-app.get('/createquest', (req, res)=> {
-  res.render(__dirname + '/views/createQuest.ejs')
+app.get('/dashboard/createCompetition', (req, res)=> {
+  res.render('createCompetition')
 })
 
 app.get('/profile', (req, res)=> {
