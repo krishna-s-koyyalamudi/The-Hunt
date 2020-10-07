@@ -1,0 +1,74 @@
+body {
+    background: #f8f6f6;
+}
+.text-line {
+    margin: 0;
+    background-color: transparent;
+    color: #0e0d0d;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #070707 1px;
+    padding: 3px 10px;
+    
+}
+
+.textbox-n {
+    text-align: center;
+    margin: 0;
+    background-color: transparent;
+    color: #0e0d0d;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #070707 1px;
+    padding: 3px 10px;
+}
+
+.date-time {
+    margin: 0;
+    background-color: transparent;
+    color: #0e0d0d;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #070707 1px;
+    padding: 3px 10px;
+
+}
+
+.btn {
+    background: #11422a;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    color: rgb(250, 252, 253);
+    cursor: pointer;
+
+}
+
+
+input[type="date"]::before{
+    color: #ffffff;
+    content: attr(placeholder) ": ";
+ }
+ input[type="date"]:focus::before {
+    content: "" !important;
+ }
+
+ input[type="time"]::before{
+    color: #ffffff;
+    content: attr(placeholder) ": ";
+ }
+ input[type="time"]:focus::before {
+    content: "" !important;
+ }
