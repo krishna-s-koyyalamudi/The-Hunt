@@ -39,7 +39,7 @@ module.exports = (sequelize, DataTypes) => {
                 get(){
                     return moment(this.getDataValue('endDateTime')).format('MM/DD/YYYY hh:mm:ss');
                 }
-                }, 
+                },{}); 
                competition.associate = function(models) {
               // associations can be defined here
                      };
