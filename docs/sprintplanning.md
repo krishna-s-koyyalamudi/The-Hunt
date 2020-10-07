@@ -77,7 +77,7 @@
 
 1. Implement - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176) [AC-134](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 
-1. Implement -As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)  [AC-176](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/176.md)
+1. Implement -As a user, I want to serve as designer and provide location coordinates (Lat, Long, default radius) for each location. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176)  [AC-91](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/091.md)
 
 1. Implement - As a user, I want to serve as designer and provide 3 ordered string clues. (Later a clue may include a photo) for each location.  [J177](http://cs04.nwmissouri.edu/browse/GDPGAM-177)  [AC-177](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/177.md)
 
