@@ -20,7 +20,8 @@ module.exports = (sequelize, DataTypes) => {
            unique: {
             args: 'questName',
             msg: 'The questName is already taken!'
-           }
+           },
+           return: true
        },
        creatorUserId: {
         type: DataTypes.INTEGER,
