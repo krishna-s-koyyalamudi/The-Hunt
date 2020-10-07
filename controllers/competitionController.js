@@ -1,3 +1,8 @@
+const express=require('express')
+const api=express.Router()
+const Model=require('../models/competition.js')
+
+
 app.get("/api/competition", (req, res, next) => {
     var sql = "select * from competition"
     var params = []
@@ -12,6 +17,15 @@ app.get("/api/competition", (req, res, next) => {
       })
     });
   });
+app.post("/api/competition/", (req, res, next) => {
+    var errors = []
+    if (!req.body.competitionname) {
+      errors.push("Competititon name not specified");
+    }   
+    if (errors.length) {
+      res.status(400).json({ "error": errors.join(",") });
+      return;
+    }
   
   
   
