@@ -41,6 +41,9 @@ app.get('/registerpage', (req, res) => {
     res.render(__dirname + '/views/signuppage.ejs')
 })
 
+app.get('/forgotcod', (req, res) => {
+    res.render(__dirname + '/views/forgotcod.ejs')
+})
 app.get('/forgotemail', (req, res) => {
     res.render(__dirname + '/views/forgotemail.ejs')
 })
