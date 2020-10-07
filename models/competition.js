@@ -12,7 +12,8 @@ module.exports = (sequelize, DataTypes) => {
     competition= sequelize.define('competition', {
         competitionName: {
             type: DataTypes.STRING,
-            primaryKey: true,  
+            primaryKey: true,
+             notEmpty: true
         },
         creatorUserId: {
             type: DataTypes.INTEGER,
