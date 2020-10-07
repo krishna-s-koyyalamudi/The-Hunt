@@ -44,6 +44,8 @@ app.get('/registerpage', (req, res) => {
 
 app.get('/dashboard/createCompetition', (req, res)=> {
   res.render('createCompetition')
+})
+
 app.get('/forgotcod', (req, res) => {
     res.render(__dirname + '/views/forgotcod.ejs')
 })
