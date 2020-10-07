@@ -22,7 +22,7 @@
 
 1. Design-As a user, I want to create Quest. [J71](http://cs04.nwmissouri.edu/browse/GDPGAM-71)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md)   [questpage](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png)
 
-1. Design-As a user, I want to create competition. [J75](http://cs04.nwmissouri.edu/browse/GDPGAM-75)  [AC-150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md) [competition page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)
+1. Design-As a user, I want to create competition. [J75](http://cs04.nwmissouri.edu/browse/GDPGAM-75)  [AC-150](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/150.md) [Design: competition page](https://raw.githubusercontent.com/Krishna-Koyyalamudi/The-Hunt/master/UI/UI_Screens/Create_Competition.PNG)
 
 1. Implement - As a user, I want to Login to the App. [J58](http://cs04.nwmissouri.edu/browse/GDPGAM-55)  [AC-058](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/058.md)
 
