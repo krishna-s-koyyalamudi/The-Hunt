@@ -1,4 +1,3 @@
-
 app.post("/api/quest/:questname", (req, res, next) => {
     var model = require('../models/quest');
     var errors = []
@@ -12,7 +11,7 @@ app.post("/api/quest/:questname", (req, res, next) => {
     }
 
     var data = {
-        questname: req.body.questname, 
+        questname: req.body.questname,
     }
 
     var sql = 'INSERT INTO quest (questname) VALUES (?)'
@@ -23,7 +22,7 @@ app.post("/api/quest/:questname", (req, res, next) => {
     }
 
 
-    db.run(sql, params, function (err, result) {
+    db.run(sql, params, function(err, result) {
         if (err) {
             res.status(400).json({ "error": err.message })
             return;
@@ -35,5 +34,31 @@ app.post("/api/quest/:questname", (req, res, next) => {
             "id": this.lastID
         })
 
+    });
+})
+
+app.post("/api/quest/location", (req, res, next) => {
+    var errors = []
+    if (!req.body.latitude) {
+        errors.push("No latitude specified");
+    }
+    if (!req.body.longitude) {
+        errors.push("No longitude specified");
+    }
+    var location = {
+        latitude: req.body.latitude,
+        longitude: req.body.longitude,
+    }
+    var sql = 'INSERT INTO quest (Quest starting location Latitude, Quest starting location Longitude) VALUES (?,?)'
+    var params = [data.latitude, data.longitude]
+    db.run(sql, params, function(err, result) {
+        if (err) {
+            res.status(400).json({ "error": err.message })
+            return;
+        }
+        res.json({
+            "message": "success",
+            "data": data
+        })
     });
 })
