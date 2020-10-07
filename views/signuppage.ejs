@@ -1,0 +1,42 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Hunt</title>
+    <!-- get styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+
+</head>
+
+<title>Register Page</title>
+</head>
+
+<main>
+    <%- include ('./header') %>
+
+        <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4  shadow-lg rounded" style="background-color:white">
+            <label class="text-center headText" style="font-size: 24px;font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif">Sign Up</label>
+            <form style="align-items: center;">
+                <input type="text" placeholder="Email" id="uname" name="uname" class="pl-2" style="border: none;border-bottom: 1px black solid;
+                outline:none;
+                background-color: white;
+                width:20rem;"><br><br>
+                <input type="password" placeholder=" New Password" id="password" name="password" class="pl-2" style="border: none;border-bottom: 1px black solid;
+                outline:none;
+                background-color: white;
+                width:20rem;"><br><br>
+                <input type="password" placeholder="Confirm Password" id="newpassword" name="password" class="pl-2" style="border: none;border-bottom: 1px black solid;
+                outline:none;
+                background-color: white;
+                width:20rem;"><br><br>
+                <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Register" id="signup" style="margin-left:auto;margin-right:auto;display:block;background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;"><br>
+                <br>
+                <section style="text-align: center;">
+                    Already a User?<input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="login" style="margin-left:4% ;block;background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;">
+                </section>
+            </form>
+        </section>
+</main>

@@ -31,8 +31,13 @@ app.get('/dashboard', (req, res) => {
     res.render(__dirname + '/views/layout.ejs')
 })
 
+
 app.get('/loginpage', (req, res) => {
     res.render(__dirname + '/views/loginpage.ejs')
+})
+
+app.get('/registerpage', (req, res) => {
+    res.render(__dirname + '/views/signuppage.ejs')
 })
 
 app.get('/home', (req, res) => {
@@ -60,6 +65,7 @@ app.get('/profile', (req, res) => {
 app.get("/register", (req, res) => {
     res.sendFile(__dirname + "/views/Signup/Signup.html");
 });
+
 
 app.get("/forgetPassword", (req, res) => {
     res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
