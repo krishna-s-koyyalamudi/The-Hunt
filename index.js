@@ -56,10 +56,14 @@ app.get('/home', (req, res) => {
     res.render(__dirname + '/views/home.ejs')
 })
 
-app.get('/competition', (req, res) => {
-    res.render(__dirname + '/views/createCompetition.ejs')
-})
+// app.get('/competition', (req, res) => {
+//     res.render(__dirname + '/views/createCompetition.ejs')
+// })
 
+
+app.get("/dashboard/createScreen",(req,res)=>{
+    res.render("createScreen")
+})
 
 app.get('/dashboard/leaderboard', (req, res) => {
     console.log("--------leaderboard-------")
@@ -83,13 +87,10 @@ app.get("/forgetPassword", (req, res) => {
     res.sendFile(__dirname + "/views/ForgetPassword/forgetpassword1.html")
 });
 
-app.get("/createPlayer", (req,res)=>{
-    res.render("createCompetition")
-})
-
-app.get("/createTeam",(req,res)=>{
+app.get("/dashboard/createTeam",(req,res)=>{
     res.render("createTeam")
 })
+
 app.get("/layout", (req,res)=>{
     res.render("layout")
     
