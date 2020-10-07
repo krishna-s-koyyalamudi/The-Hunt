@@ -12,7 +12,7 @@ app.post("/api/quest/:questname", (req, res, next) => {
     }
 
     var data = {
-        questname: req.body.questname,
+        questname: req.body.questname, 
     }
 
     var sql = 'INSERT INTO quest (questname) VALUES (?)'
