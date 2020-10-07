@@ -65,6 +65,10 @@ app.get("/dashboard/createScreen",(req,res)=>{
     res.render("createScreen")
 })
 
+app.get("/dashboard/quest",(req,res)=>{
+    res.render("questCreate.ejs")
+})
+
 app.get('/dashboard/leaderboard', (req, res) => {
     console.log("--------leaderboard-------")
     res.render(__dirname + '/views/leaderboard.ejs')
