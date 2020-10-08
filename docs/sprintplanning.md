@@ -33,7 +33,7 @@
 
 ## Sprint 1
 
-1. Implement-As a user, I want to create Teams.  [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md)
+1. Implement-As a user, I want to create Teams.  [J149](http://cs04.nwmissouri.edu/browse/GDPGAM-149) [AC-149](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0149.md) [Herouku Link for competition](https://hunt2020.herokuapp.com/dashboard/createCompetition)
 
 1. Implement-As a user, I want to create Quest.  [J57](http://cs04.nwmissouri.edu/browse/GDPGAM-57)  [AC-71](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/071.md) 
 
