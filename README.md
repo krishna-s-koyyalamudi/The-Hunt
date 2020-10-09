@@ -114,6 +114,7 @@ End to End tests
 ![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
 - As soon as you click on submit button,invite players screen will be appeared.
 ![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
+![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)
 
 
 
