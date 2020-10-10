@@ -76,3 +76,4 @@ app.post("/api/quest/quest_location", (req, res, next) => {
                 latitude: req.body.latitude,
                 longitude: req.body.longitude,
             }
+            var sql = 'INSERT INTO quest (Quest location Latitude, Quest location Longitude) VALUES (?,?)'
