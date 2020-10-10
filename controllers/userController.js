@@ -1,4 +1,6 @@
-
+const express=require('express')
+const api=express.Router()
+const Model=require('../models/user.js')
 app.get("/api/user", (req, res, next) => {
     var sql = "select * from user"
     var params = []
