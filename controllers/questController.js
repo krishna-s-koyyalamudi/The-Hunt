@@ -62,3 +62,17 @@ app.post("/api/quest/location", (req, res, next) => {
         })
     });
 })
+
+
+app.post("/api/quest/quest_location", (req, res, next) => {
+            var errors = []
+            if (!req.body.latitude) {
+                errors.push("No latitude specified");
+            }
+            if (!req.body.longitude) {
+                errors.push("No longitude specified");
+            }
+            var location = {
+                latitude: req.body.latitude,
+                longitude: req.body.longitude,
+            }
