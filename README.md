@@ -1,3 +1,17 @@
+## Instructions for cloning repository:
+  * Steps for cloning repository using command line
+    * On GitHub, navigate to the main page of the repository
+    * Click "Code" on main page repository which is above the list of files.
+    * Here we can clone using HTTPS and SSH.Click the respective tabs and copy the URL provided.
+    * Now open Git Bash.(necessary tools should be installed)
+    * Change the current working directory to the location where we want the cloned directory.
+    * Type "git clone", and then paste the URL copied earlier.
+    * Press "Enter" to create your local clone.
+###  Note:
+We can also clone the repository using github desktop.
+
+Link: https://desktop.github.com/
+
 ## Heroku Link:
    Here is hosted link of our application on heroku.
    
