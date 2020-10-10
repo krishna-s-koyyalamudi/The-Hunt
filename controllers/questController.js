@@ -48,9 +48,10 @@ app.post("/api/quest/location", (req, res, next) => {
     var location = {
         latitude: req.body.latitude,
         longitude: req.body.longitude,
+        clue: req.body.clue,
     }
-    var sql = 'INSERT INTO quest (Quest starting location Latitude, Quest starting location Longitude) VALUES (?,?)'
-    var params = [data.latitude, data.longitude]
+    var sql = 'INSERT INTO quest (Quest starting location Latitude, Quest starting location Longitude, clue1) VALUES (?,?)'
+    var params = [data.latitude, data.longitude, data.clue]
     db.run(sql, params, function(err, result) {
         if (err) {
             res.status(400).json({ "error": err.message })
