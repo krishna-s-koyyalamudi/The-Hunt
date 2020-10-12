@@ -1,4 +1,5 @@
 const express=require('express')
+const app = express();
 const api=express.Router()
 const Model=require('../models/user.js')
 app.get("/api/user", (req, res, next) => {
