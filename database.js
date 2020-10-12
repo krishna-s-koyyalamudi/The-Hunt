@@ -23,15 +23,15 @@
 //             db.run(sql, ["aswin@gmail.com", md5("aswin456"), "aswinrebeca"]);
 //             db.run(sql, ["raghu@gmail.com", md5("raghu2345"), "raghunikki"]);
 //             db.run(sql, ["eswar@gmail.com", md5("eswar546"), "eswarfox"]);
-
+                // Table just created creating some rows
 //             let sql1 = 'INSERT INTO team(teamName) VLAUES (?)';
 //             db.run(sql1,["sunRisers"]);
 //             db.run(sqli1,["mumbaiIndians"]);
-
+                // Table just created some rows
 //             let sql2 = 'INSERT INTO quest(questName, questStartLoacationLatitude, questStartLOcationLongitude) VALUES (?,?,?)';
 //             db.run(sql2,["maskOn","44.968096","-94.420307"]);
 //             db.run(sql2,["findMe","55.968096","-64.420307"]);
-
+                // Table just created some rows
 //             let sql3 = 'INSERT INTO competiton (competitionName,startDate, endDate) VALUES (?,?,?)';
 //             db.run(sql3,["avengers","10/11/2020","10/18/2020"]);
 //             db.run(sql3,["bahubali","10/11/2020","10/18/2020"]);
