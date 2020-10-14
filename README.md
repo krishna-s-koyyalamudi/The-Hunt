@@ -137,8 +137,8 @@ End to End tests
 - Case 3: User would like to create a team and send invitation to his friends then the screens would be:<br>
 ![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
 - As soon as you click on submit button,invite players screen will be appeared.
-![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
-![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)
+![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)<br>
+![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)<br>
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)
 
 
