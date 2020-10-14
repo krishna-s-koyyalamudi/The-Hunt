@@ -139,7 +139,6 @@ End to End tests
 - As soon as you click on submit button,invite players screen will be appeared.
 ![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)
 ![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)
-![FindLocationLastClue](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationLastClue.png)
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)
 
 
