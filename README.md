@@ -125,7 +125,7 @@ End to End tests
 
 ![Create Competition](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Create_Competition.PNG)<br>
 ![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)<br>
-![Password_reset_code](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Password_reset_Code.png)<br>
+![Password_reset_code](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordResetCode.png)<br>
 ![Password hint screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordHint.png)<br>
 ![Create competition invalid inputs screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Two.PNG)<br>
 ![Location Screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Location_Screen.jpeg)
