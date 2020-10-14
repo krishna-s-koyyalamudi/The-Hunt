@@ -132,14 +132,14 @@ End to End tests
 - AS soon as the user login with his credentials:<br>
 - Case 1: able to see notification of team invite.<br>
 ![Team Invite](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/TeamInvite.png)<br>
-- case 2: If he is a first time user, then a screen will appear displaying either to create a team or create Quest
+- case 2: If he is a first time user, then a screen will appear displaying either to create a team or create Quest.<br>
 ![Create Team or Quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Hunt.png)
 - Case 3: User would like to create a team and send invitation to his friends then the screens would be:<br>
 ![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
-- As soon as you click on submit button,invite players screen will be appeared.
+- As soon as you click on submit button,invite players screen will be appeared.<br>
 ![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)<br>
 ![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)<br>
-- when the user clicks the "Click for Clue" button first clue will be shown.
+- when the user clicks the "Click for Clue" button first clue will be shown.<br>
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)<br>
 
 
