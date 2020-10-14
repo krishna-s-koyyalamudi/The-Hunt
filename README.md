@@ -119,10 +119,8 @@ End to End tests
 ![Sign up](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/SignUp_Screen.png) <br>
 ![Login page](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginScreen%20.png) <br>
 ![Login page wrong password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/LoginWrongPasswordScreen.png) <br>
-![New password screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/New_password.png)
-
+![New password screen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ResetPasswordScreen.png)
 ![Create quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/create_q.png) <br>
-
 ![Create Competition](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Create_Competition.PNG)<br>
 ![Forgot password](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ForgotPassword.png)<br>
 ![Password_reset_code](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/PasswordResetCode.png)<br>
