@@ -6,11 +6,12 @@
  * 
  */
 
-var team = {};
+'use strict';
 module.exports = (sequelize, DataTypes) => {
-    team= sequelize.define('team', {
+    var team= sequelize.define('team', {
         teamId: {
             type: DataTypes.INTEGER,
+            notEmpty: true,
             primaryKey: true,
             allowIncrement: true
             
@@ -26,24 +27,15 @@ module.exports = (sequelize, DataTypes) => {
                 foreignKey: "userid",}
 
             },
-            dateTimeCreated: {
-                type: DataTypes.DATE,
-                get() {
-                    return moment(this.getDataValue('dateTimeCreated')).format('MM/DD/YYYY');
-                }
-            },
-            dateTimeLastEdited: {
-                type: DataTypes.DATE,
-                get(){
-                    return moment(this.getDataValue('dateTimeLastEdited')).format('MM/DD/YYYY');
-
-                }
-
-            },
+           
+            
            
     });
-    module.exports = team;
+ 
 
-}
+};
+return team;
+
+
 
 
