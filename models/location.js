@@ -30,7 +30,8 @@ module.exports = (sequelize, DataTypes) => {
         locationValue:{
             type: DataTypes.INTEGER,
              allowNull: false
-        },{}); 
+        },
+    }); 
                location.associate = function(models) {
               // associations can be defined here
                      };
