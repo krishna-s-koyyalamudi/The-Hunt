@@ -18,6 +18,18 @@ module.exports = (sequelize, DataTypes) => {
      questId: {
             type: DataTypes.INTEGER,
             allowNull: false
+        },
+        locationLatitude: {
+            type: DataTypes.DECIMAL(10,8),
+            allowNull: false   
+        },
+        locationLongitude: {
+            type: DataTypes.DECIMAL(11,8),
+            allowNull: false
+           },
+        locationValue:{
+            type: DataTypes.INTEGER,
+             allowNull: false
         },{}); 
                location.associate = function(models) {
               // associations can be defined here
