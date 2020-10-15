@@ -26,6 +26,7 @@
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {
+    "cypress": "^5.4.0",
     "nodemon": "^2.0.4"
   }
 }
