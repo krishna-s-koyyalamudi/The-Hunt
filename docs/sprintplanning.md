@@ -90,7 +90,7 @@
 
 1. Implement - As a hunt master, I want to invite a list of teams to participate about a week before the match. [AC-97](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/097.md)
 
-1. Implement - As a user, I want to accept the team invite and become a team player or reject it.  [J107](http://cs04.nwmissouri.edu/browse/GDPGAM-107)  [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
+1. Implement - As a user, I want to accept the team invite and become a team player or reject it.  [J160](http://cs04.nwmissouri.edu/browse/GDPGAM-160)  [AC-107](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/107.md)
 
 1. Implement - As a user, I want to serve as designer and provide a set of four unordered locations for the quest. [J176](http://cs04.nwmissouri.edu/browse/GDPGAM-176) [AC-134](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/docs/acceptance-criteria/0134.md)
 
