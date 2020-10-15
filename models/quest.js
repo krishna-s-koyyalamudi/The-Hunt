@@ -27,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.INTEGER,
         references: {
             model: "user",
-            primaryKey: "userid",}
+            primaryKey: "userid"},
 
         },
         dateTimeCreated: {

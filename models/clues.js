@@ -17,7 +17,7 @@ locationId: {
     type: this.DataTypes.INTEGERS,
    references: {
        Model: "location",
-       primaryKey: "locationId"
+       primaryKey: "locationId"}
    },
 
    clueString : {
@@ -28,8 +28,16 @@ locationId: {
    clueSortOrder: {
        type: this.DataTypes.INTEGERS,
        allowNull: false,
-       order: ['clueSortOrder', 'ASC'] // Sorts by COLUMN_NAME in ascending order
-   }
-}
+       order: ['clueSortOrder', 'ASC'] // Sorts by COLUMN_NAME in ascending order;
+    }
+});
+   clues.associate = function(models) {
+   };
+   return clues;
+    
+};
 
-}
+
+
+
+
