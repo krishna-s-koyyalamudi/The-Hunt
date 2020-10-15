@@ -32,12 +32,12 @@ app.get("/api/user", (req, res, next) => {
       return;
     }
     var data = {
-      name: req.body.name,
+      userName: req.body.userName,
       email: req.body.email,
       password: md5(req.body.password)
     }
-    var sql = 'INSERT INTO user (name, email, password) VALUES (?,?,?)'
-    var params = [data.name, data.email, data.password]
+    var sql = 'INSERT INTO user (userName, email, password) VALUES (?,?,?)'
+    var params = [data.userName, data.email, data.password]
     db.run(sql, params, function (err, result) {
       if (err) {
         res.status(400).json({ "error": err.message })
@@ -46,7 +46,7 @@ app.get("/api/user", (req, res, next) => {
       res.json({
         "message": "success",
         "data": data,
-        "id": this.lastID
+        "userName": this.lastuserName
       })
     });
   })
@@ -55,17 +55,17 @@ app.get("/api/user", (req, res, next) => {
   
   app.patch("/api/user/:id", (req, res, next) => {
     var data = {
-      name: req.body.name,
+      UserName: req.body.userName,
       email: req.body.email,
       password: req.body.password ? md5(req.body.password) : undefined
     }
     db.run(
       `UPDATE user set 
-           name = coalesce(?,name), 
+           userName = coalesce(?,userName), 
            email = COALESCE(?,email), 
            password = coalesce(?,password) 
-           WHERE id = ?`,
-      [data.name, data.email, data.password, req.params.id],
+           WHERE userId = ?`,
+      [data.userName, data.email, data.password, req.params.userId],
       (err, result) => {
         if (err) {
           res.status(400).json({ "error": res.message })
@@ -79,16 +79,16 @@ app.get("/api/user", (req, res, next) => {
   })
   
   
-  app.delete("/api/user/:id", (req, res, next) => {
-    db.run(
-      'DELETE FROM user WHERE id = ?',
-      req.params.id,
-      function (err, result) {
-        if (err) {
-          res.status(400).json({ "error": res.message })
-          return;
-        }
-        res.json({ "message": "deleted", rows: this.changes })
-      });
-  })
+//   app.delete("/api/user/:id", (req, res, next) => {
+//     db.run(
+//       'DELETE FROM user WHERE id = ?',
+//       req.params.id,
+//       function (err, result) {
+//         if (err) {
+//           res.status(400).json({ "error": res.message })
+//           return;
+//         }
+//         res.json({ "message": "deleted", rows: this.changes })
+//       });
+//   })
   
