@@ -9,7 +9,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     // failing the test
     return false
   })
-    
+  describe('Register page',function(){
     it('Register!',function() {
       cy.visit('https://hunt2020.herokuapp.com/Register') // Opens URL
     
@@ -35,5 +35,5 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     
     })
  
- 
+  })
  
