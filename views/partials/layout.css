@@ -1,0 +1,80 @@
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .headText {
+      font-size: 24px;
+      font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header {
+      background-color: #00674c;
+      color: white;
+      text-align: center;
+  }
+
+  body {
+      height: 100vh;
+  }
+  
+  #one {
+      text-align: center;
+      margin: 20px;
+  }
+  
+  form input {
+      border: none;
+      border-bottom: 1px black solid;
+      outline: none;
+      width: 20rem;
+      background: #fafafa;
+  }
+  
+  #verify {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      height: 30px;
+      width: 120px;
+      align-self: center;
+      border-radius: 6px;
+      background-color: #00674c;
+      color: white;
+      padding: 0px;
+  }
+  
+  #two,
+  #three {
+      margin: 10px;
+      margin-left: auto;
+      display: inline
+  }
+  
+  table,
+  th,
+  tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+  }
+  
+  i {
+      font-size: 48px;
+      color: white;
+  }
+  
+  footer {
+      background-color: #00674c;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  .icon {
+      width: 11%;
+      margin-left: 6%;
+      margin-right: 6.25%;
+  }
