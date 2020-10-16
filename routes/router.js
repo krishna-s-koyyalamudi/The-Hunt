@@ -28,6 +28,10 @@ router.get('/Register', (req, res, next) => {
   res.render('signuppage', { title: 'Register', layout: false})
 })
 
+router.get('/404' , (req, res, next) => {
+  res.render('error', { title: 'Error', layout: false})
+})
+
 router.get('/create_competition', (req, res, next) => {
   res.render('createCompetition', { title: 'Register'})
 })
