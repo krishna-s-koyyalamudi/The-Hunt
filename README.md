@@ -136,10 +136,10 @@ End to End tests
 ![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
 - As soon as you click on submit button,invite players screen will be appeared.<br>
 ![send invitation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/inviteplayers.png)<br>
-![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)<br>
 - when the user clicks the "Click for Clue" button first clue will be shown.<br>
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)<br>
 ![FindLocation_Clue2](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindlocationClue_2.png)<br>
+![FindLocationClue3](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_3.png)<br
 
 
 
