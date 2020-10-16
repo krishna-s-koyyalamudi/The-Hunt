@@ -10,6 +10,7 @@
 const express = require('express')
 const router = express.Router()
 
+
 const app = express();
 
 
@@ -19,12 +20,12 @@ router.get('/', (req, res, next) => {
 })
 
 router.get('/Login', (req, res, next) => {
-  res.render('loginpage', { title: 'Login'})
+  res.render('loginpage', { title: 'Login', layout: false})
 })
 
 
 router.get('/Register', (req, res, next) => {
-  res.render('signuppage', { title: 'Register'})
+  res.render('signuppage', { title: 'Register', layout: false})
 })
 
 router.get('/create_competition', (req, res, next) => {
@@ -38,6 +39,10 @@ router.get('/forgotcod', (req, res, next) => {
 
 router.get('/forgotemail', (req, res, next) => {
   res.render('forgotemail', { title: 'Fotgot email'})
+})
+
+router.get('/newPassword', (req, res, next) => {
+  res.render('newpassword', { title: 'New Password', layout: false})
 })
 
 router.get('/createScreen', (req, res, next) => {

@@ -19,6 +19,7 @@ app.engine('ejs', engines.ejs)
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(expressLayouts)
+
 app.use(express.static("public"));
 
 port = process.env.PORT || 3000
@@ -31,7 +32,7 @@ app.use(bodyparser.json({ type: "application/*+json" }));
 
 
 app.listen(port, () => {
-    console.log('Example app listening on port 80!')
+    console.log('Example app listening on port ' + port)
 });
 
 
