@@ -3,7 +3,7 @@
 *  Describes the characteristics of each attribute in a user resource.
 *
 * @author Vikas Baswapuram <s538336@nwmissouri.edu>
-* 
+* @author Puneeth Annam
 *
 */
 'use strict';
