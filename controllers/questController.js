@@ -1,11 +1,28 @@
-/**
- * @author swaroop and Rohith Reddy
- */
+/** 
+*  Quest controller
+*  Handles requests related to QuestCreation (see routes)
+*
+* @author Swaroop Reddy Gottigundala and Rohith Reddy <s538342@nwmissouri.edu>
+*
+*/
+const express = require('express');
+const app = express.Router();
+// const LOG = require('../utils/logger.js');
+// const Model = require('../models/quest.js');
+// const notfoundstring = 'quest not found'
 
-const express=require('express')
-const app = express();
-const api=express.Router()
-const Model=require('../models/quest.js')
+
+// GET create
+app.get('/', (req, res) => {
+    console.log("==============================");
+    // LOG.info(`Handling GET /create ${req}`)
+    Model.find({}, (err, data) => {
+      if (err) { return res.end('error on create') }
+      res.locals.quest = data
+      res.locals.quest = new Model()
+      res.render('questCreate/create')
+    })
+  });
 
 app.post("/api/quest/:questname", (req, res, next) => {
     var model = require('../models/quest');
@@ -101,3 +118,5 @@ app.post("/api/quest/quest_location", (req, res, next) => {
         })
     });
 })
+
+module.exports = app;

@@ -1,6 +1,6 @@
 /**
  *  @author Vikas Baswapuram
- * @author Rohith Chittimalla and VenkataYashwant danera
+ * @author Rohith Chittimalla and VenkataYashwanth damera
  */
 
 
@@ -85,16 +85,16 @@ app.get("/api/user", (req, res, next) => {
   })
   
   
-//   app.delete("/api/user/:id", (req, res, next) => {
-//     db.run(
-//       'DELETE FROM user WHERE id = ?',
-//       req.params.id,
-//       function (err, result) {
-//         if (err) {
-//           res.status(400).json({ "error": res.message })
-//           return;
-//         }
-//         res.json({ "message": "deleted", rows: this.changes })
-//       });
-//   })
-  
+
+    app.delete("/api/user/:id", (req, res, next) => {
+    db.run(
+      'DELETE FROM user WHERE id = ?',
+      req.params.id,
+      function (err, result) {
+        if (err) {
+          res.status(400).json({ "error": res.message })
+          return;
+        }
+        res.json({ "message": "deleted", rows: this.changes })
+      });
+  })
