@@ -2,7 +2,9 @@
  * Team Model
  * It states the details fucntionality of team
  * 
- * @author Rohith Chittimalla
+ * @author Puneeth Annam and Rohith Chittimalla
+ * Initially it was created by Rohith Chittimalla but later I upadated it after re-grouping of tasks
+ * 
  * 
  */
 
