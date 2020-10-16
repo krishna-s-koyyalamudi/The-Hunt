@@ -1,21 +1,19 @@
-<head>
-<style>
-.btn-dark {
-    background-color: #b1a7a7!important;
-    text-align: center;
-    color: rgb(14, 13, 13);
-}
-.btn-dark1 {
-    background-color: #b1a7a7!important;
-    text-align: center;
-    color: rgb(14, 13, 13);
-}
-</style>
-</head>
-<section>
-  <div class="container" style="display: flex; flex-direction: column; align-content: center; align-self: center; justify-content: center;  align-items: center;">  
-    <button type="button" id="button1" onclick="alert('You will be creating a Team!')" class="btn btn-dark">Create Team</button>
+
+  <div class="container" style="height: 100%; display: flex; flex-direction: column; align-content: center; align-self: center; justify-content: center;  align-items: center;">  
+    <button type="button" id="button1" style="background-color: #00674c; color: white; border-radius: 6px;align-self: center; justify-content: center;" onclick="goToCreateTeam()" class="btn">Create Team</button>
     <br><br>        
-    <button type="button" id="button2" onclick="alert('You will be creating a Quest!')" class="btn btn-dark1">Create Quest</button>
+    <button type="button" id="button2" style="background-color: #00674c; color: white; border-radius: 6px;align-self: center; justify-content: center;" onclick="goToQuest()" class="btn">Create Quest</button>
 </div>
-</section> 
+
+<script>
+
+function goToCreateTeam(){
+  alert('You will be creating a Quest!')
+  window.location="createTeam"
+}
+
+ function goToQuest(){
+    alert('You will be creating a Quest!')
+    window.location="/quest"
+  }
+</script>

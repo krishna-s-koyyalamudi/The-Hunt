@@ -1,3 +1,14 @@
-<header style="background-color: #00674c; height: 15vh;justify-content: center; flex-shrink: 0; top: 0px;">
+<header style="display: flex; background-color: #00674c; height: 15vh;justify-content: center; flex-direction: row; flex-shrink: 0; top: 0px;">
     <h4 style="height: 100%; display: flex;text-align: center; align-items:center;  justify-content: center;color: #ffffff;">The Hunt</h4>
+    <div style="position: absolute;right: 0px; padding: 32px;" onclick="goToLogin()">       
+            <label style="color: white;  cursor: pointer;">Logout</label>
+            <i class="fas fa-sign-out-alt" style="color: white;  cursor: pointer;"></i>
+    </input>
+       
+    </div>
 </header>
+<script>
+  function goToLogin(){
+        window.location="/Login";
+    }
+</script>

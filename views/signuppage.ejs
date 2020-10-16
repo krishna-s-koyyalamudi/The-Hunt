@@ -33,10 +33,17 @@
             <input type="submit" class="rounded-100 col-sm-3 margin-0" value="Register" id="signup" style="margin-left:auto;margin-right:auto;display:block;background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;"><br>
             <br>
         </form>
-        <form action="/Login">
+        <!-- <form action="/Login">
         <section style="text-align: center;">
             Already a User?<input type="submit" class="rounded-100 col-sm-3 margin-0" value="Login" id="login" style="margin-left:4% ;block;background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;">
         </section>
-    </form>
+    </form> -->
+    <div style="display: flex; flex-direction: row; justify-content: space-between; align-content: space-between;">
+            
+        <label class="mr-5" style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer; display: flex; margin: 0 auto;">Forgot your password?</label>
+   
+      <button id="Login"  style="background:none; border: none; border: none; margin: 0; padding: 0;color:blue; cursor: pointer;display: flex; margin: 0 auto;" onclick="window.location='/Login'"><a>Login</a></button>
+
+</div>
     </section>
 </main>

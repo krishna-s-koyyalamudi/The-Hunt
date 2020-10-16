@@ -16,7 +16,7 @@
     <main>
     <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4  shadow-lg rounded" style="background-color:white">
             <label class="text-center headText" style="font-size: 24px;font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif">Login</label>
-            <form>
+            
                 <input type="text" placeholder="Email" id="email" name="email" class="pl-2" style="border: none;border-bottom: 1px black solid;
                 outline:none;
                 background-color: white;
@@ -27,74 +27,53 @@
                 outline:none;
                 width:20rem;
                 background: white;"><br><br>
-                <input  class="rounded-100  text-center" style="display: flex; margin:auto; background-color: #00674c; color: white; padding: 0px;border-radius: 6px; height: 30px;width: 120px;;" value="Login"
-                    id="login" onclick="checkvalidation1()"><br>
-
-               
-            </form>
-            <form action="/forgotemail">
-                <span class="d-flex flex-row">
-                <button class="btnText"   style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer;display: flex; margin: 0 auto;" ><a>Forgot your password?</a></button>
-            </span>
-            </form>
-            <form action="/Register" class="mt-3">
-                <button class="rounded-100  text-center"  style="background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;" value="register"  value="Register" id="register">Register
-                </button<br><br>
-        </form>
+                <button class="rounded-100  text-center"  style="display: flex; margin: 0 auto; background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;"  id="login" onclick="checkvalidation1()">Login
+                </button>
+        <div style="display: flex; flex-direction: row; justify-content: space-between; align-content: space-between; margin-top: 2em;">
+            
+                <button class="mr-5" style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer; display: flex; margin: 0 auto;" onclick="window.location='/forgotemail'">Forgot your password?</button>
+           
+              <button id="register"  style="background:none; border: none; border: none; margin: 0; padding: 0;color:blue; cursor: pointer;display: flex; margin: 0 auto;" onclick="window.location='/Register'"><a>Register</a></button>
+       
+        </div>
     </section>
+
+    <style>
+
+    </style>
 
     <script>
         function checkvalidation1() {
+            console.log("---login hits---")
             var re = /\S+@\S+\.\S+/;
-            var x = document.getElementById('uname').value;
+            var x = document.getElementById('email').value;
             var reg  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
             var y = document.getElementById('password').value;
-
-             
-
-
-            if (document.getElementById('uname').value == "") {
-                alert('please fill the Username');
-                return false
-            } else {
-                if (re.test(x)) {
-                
-                }
-                else {
-                    alert("Please enter valid email address");
-                    return false
-                }
-            }
-            if (document.getElementById('password').value == "") {
-                alert('please fill the password');
-                return false
-            } 
-            else
-            {
-                if (reg.test(y)) {
-                
-            }
-            else {
-                alert("password should contain atleast one number and one special character");
-                return false
-            }  
-            }
-
-            alert("login successful");
-
+console.log(x, y, "-------creds")
+    if(x != "" && y != ""){
+        if(re.test(x) && reg.test(y)){
+               if(x == "dcase@nwmissouri.edu" && y == "password"){
+               console.log("Hello")
+                   window.location="/";
+               }else{
+                alert("Incorrect Email or Password")
+               }
+        }else{
+            alert("Incorrect Email or Password")
         }
+    }else{
+        alert("Email or Password missing")
+    }
+          
+    }
 
-        function validateEmail(email) {
 
 
+        function goToRegister() {
+            window.location.href = "/Register";
         }
-
-
-
-        // function goToRegister() {
-        //     window.location.href = "./views/Signup/Signup.html";
-        // }
     </script>
 </main>
 </body>
 </html>
+

@@ -38,11 +38,11 @@ router.get('/create_competition', (req, res, next) => {
 
 
 router.get('/forgotcod', (req, res, next) => {
-  res.render('forgotcod', { title: 'Forgot password'})
+  res.render('forgotcod', { title: 'Forgot password', layout: false})
 })
 
 router.get('/forgotemail', (req, res, next) => {
-  res.render('forgotemail', { title: 'Fotgot email'})
+  res.render('forgotemail', { title: 'Fotgot email', layout: false})
 })
 
 router.get('/newPassword', (req, res, next) => {
