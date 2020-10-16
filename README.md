@@ -131,7 +131,7 @@ End to End tests
 - Case 1: able to see notification of team invite.<br>
 ![Team Invite](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/TeamInvite.png)<br>
 - case 2: If he is a first time user, then a screen will appear displaying either to create a team or create Quest.<br>
-![Create Team or Quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Hunt.png)
+![Create Team or Quest](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Hunt.png)<br>
 - Case 3: User would like to create a team and send invitation to his friends then the screens would be:<br>
 ![Team Creation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Teamcreation.png)<br>
 - As soon as you click on submit button,invite players screen will be appeared.<br>
@@ -140,6 +140,7 @@ End to End tests
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)<br>
 ![FindLocation_Clue2](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindlocationClue_2.png)<br>
 ![FindLocationClue3](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_3.png)<br
+![FindLocationLastClue](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationLastClue.png)<br>
 
 
 
