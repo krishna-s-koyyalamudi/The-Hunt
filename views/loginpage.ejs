@@ -1,7 +1,23 @@
-        <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4  shadow-lg rounded" style="background-color:white">
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Hunt</title>
+    <!-- get styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4  shadow-lg rounded" style="background-color:white">
             <label class="text-center headText" style="font-size: 24px;font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif">Login</label>
             <form>
-                <input type="text" placeholder="Email" id="uname" name="uname" class="pl-2" style="border: none;border-bottom: 1px black solid;
+                <input type="text" placeholder="Email" id="email" name="email" class="pl-2" style="border: none;border-bottom: 1px black solid;
                 outline:none;
                 background-color: white;
                 width:20rem;
@@ -11,19 +27,18 @@
                 outline:none;
                 width:20rem;
                 background: white;"><br><br>
-                <input  class="rounded-100  text-center " style=" margin-left: auto;margin-right: auto; background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;" value="Login"
+                <input  class="rounded-100  text-center" style="display: flex; margin:auto; background-color: #00674c; color: white; padding: 0px;border-radius: 6px; height: 30px;width: 120px;;" value="Login"
                     id="login" onclick="checkvalidation1()"><br>
 
-                <i class="fas fa-grip-lines" style="font-size: 48px;color: white;"></i>
+               
             </form>
-            <form action="/forgotcod">
+            <form action="/forgotemail">
                 <span class="d-flex flex-row">
-                <button class="btnText" onmouseover="this.style.color='#00674c'" style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer;display: flex; margin: 0 auto;" ><a>Forgot your password?</a></button>
+                <button class="btnText"   style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer;display: flex; margin: 0 auto;" ><a>Forgot your password?</a></button>
             </span>
             </form>
-
-            <form action="/Register">
-                <button  class="rounded-100  text-center" style="background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;" value="Login" id="login" value="Register" id="signup">Register
+            <form action="/Register" class="mt-3">
+                <button class="rounded-100  text-center"  style="background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;" value="Login" id="login" value="Register" id="signup">Register
                 </button<br><br>
         </form>
     </section>
@@ -81,3 +96,5 @@
         // }
     </script>
 </main>
+</body>
+</html>
