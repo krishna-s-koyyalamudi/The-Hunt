@@ -21,21 +21,16 @@ module.exports = (sequelize, DataTypes) => {
               model: "quest",
               primaryKey: "questId"},
         },
-        locationLatitude: {
-            type: DataTypes.DECIMAL(10,8),
-            allowNull: false   
-        },
-        locationLongitude: {
-            type: DataTypes.DECIMAL(11,8),
-            allowNull: false
-           },
-        locationValue:{
-            type: DataTypes.INTEGER,
-             allowNull: false
-        },
-    }); 
-               location.associate = function(models) {
-              // associations can be defined here
-                     };
-               return location;
+        latitude: {
+            type: Sequelize.INTEGER,
+            allowNull: true,
+            defaultValue: null,
+            validate: { min: -90, max: 90 }
+          },
+          
+    });
+      location.associate = function(models) {
+           // associations can be defined here
+        };
+             return location;
                };
