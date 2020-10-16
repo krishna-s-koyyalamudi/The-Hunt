@@ -1,3 +1,12 @@
+/**
+ * @author swaroop and Rohith Reddy
+ */
+
+const express=require('express')
+const app = express();
+const api=express.Router()
+const Model=require('../models/quest.js')
+
 app.post("/api/quest/:questname", (req, res, next) => {
     var model = require('../models/quest');
     var errors = []
