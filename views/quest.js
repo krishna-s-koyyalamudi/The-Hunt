@@ -4,6 +4,7 @@ function addNewQuest() {
 
 let clueId = 0;
 function addNewClue() {
+    alert('hi');
     if (clueId < 3) {
         var addList = document.getElementById('clue-list');
         var docstyle = addList.style.display;

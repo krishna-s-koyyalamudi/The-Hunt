@@ -36,7 +36,9 @@ app.post("/api/quest/:questname", (req, res, next) => {
 
     });
 })
-
+exports.create = function(req, res) {
+    res.send('NOT IMPLEMENTED: Author update POST');
+};
 app.post("/api/quest/location", (req, res, next) => {
     var errors = []
     if (!req.body.latitude) {
