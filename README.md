@@ -139,6 +139,7 @@ End to End tests
 ![FindLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/Find_Location.png)<br>
 - when the user clicks the "Click for Clue" button first clue will be shown.<br>
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)<br>
+![FindLocation_Clue2](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindlocationClue_2.png)<br>
 
 
 
