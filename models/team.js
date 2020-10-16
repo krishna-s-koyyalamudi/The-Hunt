@@ -3,7 +3,7 @@
  * It states the details fucntionality of team
  * 
  * @author Puneeth Annam and Rohith Chittimalla
- * Initially it was created by Rohith Chittimalla but later I upadated it after re-grouping of tasks
+ * Initially it was created by Rohith Chittimalla but later it is upadated by Puneeth Annam after re-grouping of tasks
  * 
  * 
  */
