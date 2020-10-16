@@ -17,7 +17,9 @@ module.exports = (sequelize, DataTypes) => {
         },
      questId: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            references:{
+              model: "quest",
+              primaryKey: "questId"},
         },
         locationLatitude: {
             type: DataTypes.DECIMAL(10,8),
