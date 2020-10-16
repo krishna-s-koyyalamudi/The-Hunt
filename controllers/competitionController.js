@@ -1,3 +1,8 @@
+/**
+ * @author Sumanth Reddy and Rajashekar
+ * 
+ */
+
 const express=require('express')
 const api=express.Router()
 const Model=require('../models/competition.js')
