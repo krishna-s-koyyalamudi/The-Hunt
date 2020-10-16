@@ -17,11 +17,15 @@ module.exports = (sequelize, DataTypes) => {
         },
         creatorUserId: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            references:{
+              model: "user",
+              primaryKey: "userId"},
         },
          questId: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            references:{
+              model: "quest",
+              primaryKey: "questId"},
         },
         dateTimeCreated: {
                 type: DataTypes.DATE,
