@@ -16,22 +16,31 @@
 
         <section class="d-flex align-items-center mx-auto mt-5 p-5 flex-column col-lg-4  shadow-lg rounded" style="background-color:white">
             <label class="text-center headText" style="font-size: 24px;font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif">Forget Password?</label>
-            <br>
-            <br><br>
-
-            <form>
-                <input type="text" placeholder="Email" id="uname" name="uname" class="pl-2" style="border: none;border-bottom: 1px black solid;
+        
+                <input type="text" placeholder="Email" id="email" name="uname" class="pl-2" style="margin-top: 16px; border: none;border-bottom: 1px black solid;
                 outline:none;
                 background-color: white;
                 width:20rem;
                 "><br><br>
-            </form>
-            <form action="/forgotcod">
-                <button type="submit" class="rounded-100  text-center" style="background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;" value="Verify" id="verify" value="Register"
-                    id="Verify">Verify
-                </button<br><br>
-        </form>
+        
+                <button type="submit" class="rounded-100  text-center" style="background-color: #00674c; color: white; padding: 0px;border-radius: 6px;align-self: center; height: 30px;width: 120px;justify-content: center;" onclick="goToResetPassword()">Verify</button>
     </section>
+
+    <script>
+       function goToResetPassword(){
+            var re = /\S+@\S+\.\S+/;
+            var x = document.getElementById('email').value;
+            if(document.getElementById("email").value == ""){
+                alert("Please provide Email address")
+            }else{
+                if(re.test(x) != true){
+                    alert("Please enter valid email address")
+                }else{
+                    window.location="/forgotcod"
+                }     
+            }
+        }
+    </script>
         
 </body>
 </html>
