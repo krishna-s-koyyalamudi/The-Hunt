@@ -3,9 +3,9 @@
  * @author RaviChander
  */
 const express=require('express')
+const Model=require('../models/team.js')
 const app = express();
 const api=express.Router()
-const Model=require('../models/team.js')
 
 
 app.get("/api/team", (req, res, next) => {
