@@ -15,7 +15,7 @@ const app = express();
 
 
 // Manage top-level request first
-router.get('/', (req, res, next) => {
+router.get('/user', (req, res, next) => {
   res.render('index', { title: 'The Hunt' })
 })
 
@@ -94,7 +94,7 @@ router.use((req, res, next) => {
 router.use((err, req, res, next) => {
   // render the error page
   res.status(err.status || 500)
-  res.render('error', { status: err.status, message: err.message })
+  res.render('/partials/error', { status: err.status, message: err.message })
 })
 
 module.exports = router;
