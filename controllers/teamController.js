@@ -51,7 +51,7 @@ app.post("/api/team/", (req, res, next) => {
       teamid: req.body.teamid
     }
     db.run(
-      `UPDATE user set 
+      `UPDATE team set 
            teamName = coalesce(?,teamName), 
            teamId = COALESCE(?,teamid), 
            WHERE teamId = ?`,
@@ -68,6 +68,18 @@ app.post("/api/team/", (req, res, next) => {
       });
   })
   
-  
+  app.delete("/api/team/:id", (req, res, next) => {
+    db.run(
+      'DELETE FROM team WHERE id = ?',
+      req.params.id,
+      function (err, result) {
+        if (err) {
+          res.status(400).json({ "error": res.message })
+          return;
+        }
+        res.json({ "message": "deleted", rows: this.changes })
+      });
+  })
+
   
   
