@@ -2,7 +2,7 @@
 *  Quest controller
 *  Handles requests related to QuestCreation (see routes)
 *
-* @author Swaroop Reddy Gottigundala and Rohith Reddy <s538342@nwmissouri.edu>
+* @author Swaroop Reddy Gottigundala<s538342@nwmissouri.edu> and Rohith Reddy Avisakula<s538295@nwmissouri.edu>
 *
 */
 const express = require('express');
@@ -24,11 +24,11 @@ app.get('/', (req, res) => {
     })
   });
 
-app.post("/api/quest/:questname", (req, res, next) => {
+app.post("/api/quest/:questName", (req, res, next) => {
     var model = require('../models/quest');
     var errors = []
-    if (!req.body.questname) {
-        errors.push("No questname specified");
+    if (!req.body.questName) {
+        errors.push("No questName specified");
     }
 
     if (errors.length) {
@@ -37,13 +37,13 @@ app.post("/api/quest/:questname", (req, res, next) => {
     }
 
     var data = {
-        questname: req.body.questname,
+        questName: req.body.questName,
     }
 
-    var sql = 'INSERT INTO quest (questname) VALUES (?)'
-    var params = [data.questname]
-    if (!model.questname) {
-        errors.push("Please enter unique questname");
+    var sql = 'INSERT INTO quest (questName) VALUES (?)'
+    var params = [data.questName]
+    if (!model.questName) {
+        errors.push("Please enter unique questName");
         return;
     }
 
