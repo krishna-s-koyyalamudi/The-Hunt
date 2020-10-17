@@ -14,9 +14,38 @@ describe('Test Login Process', () => {
             .type('s538295@nwmissouri.edu').clear().type('{leftarrow}{rightarrow}{uparrow}{downarrow}')
             .type('{del}{selectall}{backspace}')
         cy.get('[type="password"]').clear().type('passwod')
-        cy.get('#login')
-        cy.get('[class="btnText"]').click()
+        cy.get('#login').click()
+
+
+    });
+});
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+})
+describe('Forget Password', () => {
+    it('should be able to log in the Test Site and show correct information', () => {
+        cy.visit('https://hunt2020.herokuapp.com/Login');
+
+        cy.get('[class="mr-5"]').click()
+
+
+    });
+
+});
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+})
+describe('Sign Up', () => {
+    it('should be able to log in the Test Site and show correct information', () => {
+        cy.visit('https://hunt2020.herokuapp.com/Login');
+
         cy.get('#register').click()
 
     });
+
 });
