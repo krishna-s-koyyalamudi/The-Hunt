@@ -39,7 +39,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 });
 
 // close the database connection
-db.close();
+sqldb.close();
 console.log('Close the database');
 
 
