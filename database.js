@@ -36,6 +36,10 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run(sql1, ["sunRisers"]);
     sqldb.run(sql1, ["royalChallengers"]);
     console.log("data 2 inserted")
+    sqldb.run('CREATE TABLE IF NOT EXISTS quest(questId INTEGER PRIMARY KEY AUTOINCREMENT, questName text, questCreatorUserId INTEGER,longitude text, latitude text, FOREIGN KEY (questCreatorUserId) REFERENCES user(userId))');
+    console.log("table 3 inserted")
+    sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
+    console.log("table 4 inserted")
 });
 
 // close the database connection
