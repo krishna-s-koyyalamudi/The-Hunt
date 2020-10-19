@@ -7,9 +7,8 @@
 *
 */
 'use strict';
-var competition = {};
 module.exports = (sequelize, DataTypes) => {
-    competition= sequelize.define('competition', {
+ const competition= sequelize.define('competition', {
         competitionName: {
             type: DataTypes.STRING,
             primaryKey: true,
@@ -19,13 +18,13 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             references:{
               model: "user",
-              primaryKey: "userId"},
+              foreignKey: "userId"}
         },
          questId: {
             type: DataTypes.INTEGER,
             references:{
               model: "quest",
-              primaryKey: "questId"},
+              foreignKey: "questId"}
         },
         dateTimeCreated: {
                 type: DataTypes.DATE,
