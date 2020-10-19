@@ -10,13 +10,13 @@
 
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-    var team= sequelize.define('team', {
+    const team = sequelize.define('team', {
         teamId: {
             type: DataTypes.INTEGER,
             notEmpty: true,
             primaryKey: true,
             allowIncrement: true
-            
+
         },
         teamName: {
             type: DataTypes.STRING,
@@ -26,17 +26,20 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             references: {
                 model: "user",
-                foreignKey: "userid"}
+                foreignKey: "userid"
+            }
 
-            },
-           
-            
-           
+        }
+
+
+
     });
- 
+
+    return team;
+
 
 };
-return team;
+
 
 
 
