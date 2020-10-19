@@ -10,7 +10,7 @@ const bodyParser = require("body-parser");
 
 
 //set the root view folder
-app.set('views', path.join(__dirname, 'views'))
+app.set('views', path.join(__dirname, './views'))
 
 // specify desired view engine (EJS)
 app.set('view engine', 'ejs')

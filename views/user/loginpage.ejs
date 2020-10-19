@@ -31,9 +31,9 @@
                 </button>
         <div style="display: flex; flex-direction: row; justify-content: space-between; align-content: space-between; margin-top: 2em;">
             
-                <button class="mr-5" style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer; display: flex; margin: 0 auto;" onclick="window.location='/forgotemail'">Forgot your password?</button>
+                <button class="mr-5" style="background:none;border: none; margin: 0; padding: 0;color: #00674c; cursor: pointer; display: flex; margin: 0 auto;" onclick="window.location='/user/forgotemail'">Forgot your password?</button>
            
-              <button id="register"  style="background:none; border: none; border: none; margin: 0; padding: 0;color:blue; cursor: pointer;display: flex; margin: 0 auto;" onclick="window.location='/Register'"><a>Register</a></button>
+              <button id="register"  style="background:none; border: none; border: none; margin: 0; padding: 0;color:blue; cursor: pointer;display: flex; margin: 0 auto;" onclick="window.location='/user/Register'"><a>Register</a></button>
        
         </div>
     </section>
@@ -54,7 +54,7 @@ console.log(x, y, "-------creds")
         if(re.test(x) && reg.test(y)){
                if(x == "dcase@nwmissouri.edu" && y == "password"){
                console.log("Hello")
-                   window.location="/";
+                   window.location="/Home";
                }else{
                 alert("Incorrect Email or Password")
                }
@@ -67,10 +67,8 @@ console.log(x, y, "-------creds")
           
     }
 
-
-
         function goToRegister() {
-            window.location.href = "/Register";
+            window.location.href = "/user/Register";
         }
     </script>
 </main>
