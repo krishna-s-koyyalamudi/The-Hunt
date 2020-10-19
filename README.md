@@ -11,14 +11,12 @@
 ###  Note:
 We can also clone the repository using github desktop.
 
-## Instructions to start the The-Hunt folder
-  * Steps for starting the cloned repository using the Powershell
-    * Open PS as admin using the Powershell in the Hunt-Folder
-    * Use npm init to initialize a project
-    * Use npm install to install with modules
-    * Now install modules and save them to your package.json as a dependency
-    * Install modules an save them to your package.json as a developer dependency
-    * Install modules globally on your system.
+## Instructions to start the The-Hunt project
+  * Steps for starting the cloned repository using the Powershell.
+    * Open PS as admin using the Powershell in the-Hunt Folder.
+    * Use "npm install" to install modules.
+    * Use "npm run dev" to start a local version.
+    * Open a browser to the URL provided in the powershell
 
 Link: https://desktop.github.com/
 

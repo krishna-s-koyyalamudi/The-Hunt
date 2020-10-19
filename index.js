@@ -5,7 +5,7 @@ const ejsLint = require('ejs-lint');
 const expressLayouts = require('express-ejs-layouts')
 const bodyparser = require("body-parser");
 const app = express();
-var db = require("./database.js")
+var sqldb = require("./database.js")
 const bodyParser = require("body-parser");
 
 
