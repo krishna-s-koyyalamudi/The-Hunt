@@ -15,7 +15,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
         console.log('Connected to the hunt database.');
     }
     // seed relational data
-    sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text,userId INTEGER PRIMARY KEY AUTOINCREMENT)');
+    sqldb.run('CREATE TABLE IF NOT EXISTS user (email TEXT PRIMARY KEY,password text)');
     console.log("Table created.")
     // Table just created, creating some rows
     let sql = 'INSERT INTO user (email, password) VALUES (?,?)';
@@ -37,9 +37,9 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run(sql1, ["royalChallengers"]);
     console.log("data 2 inserted")
     sqldb.run('CREATE TABLE IF NOT EXISTS quest(questId INTEGER PRIMARY KEY AUTOINCREMENT, questName text, questCreatorUserId INTEGER,longitude text, latitude text, FOREIGN KEY (questCreatorUserId) REFERENCES user(userId))');
-    console.log("table 3 inserted")
+    console.log("table 3 created")
     sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
-    console.log("table 4 inserted")
+    console.log("table 4 created")
 });
 
 // close the database connection
