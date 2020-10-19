@@ -42,9 +42,9 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("table 4 created")
 });
 
-// close the database connection
-sqldb.close();
-console.log('Close the database');
+// // close the database connection
+// sqldb.close();
+// console.log('Close the database');
 
 
 module.exports = sqldb

@@ -5,8 +5,7 @@
 
 
 const express=require('express')
-const app = express();
-const api=express.Router()
+const app = express.Router();
 const Model=require('../models/user.js')
 app.get("/api/user", (req, res, next) => {
     var sql = "select * from user"
@@ -38,12 +37,12 @@ app.get("/api/user", (req, res, next) => {
       return;
     }
     var data = {
-      userName: req.body.userName,
+    //  userName : req.body.userName,
       email: req.body.email,
       password: md5(req.body.password)
     }
-    var sql = 'INSERT INTO user (userName, email, password) VALUES (?,?,?)'
-    var params = [data.userName, data.email, data.password]
+    var sql = 'INSERT INTO user (email, password) VALUES (?,?)'
+    var params = [data.email, data.password]
     db.run(sql, params, function (err, result) {
       if (err) {
         res.status(400).json({ "error": err.message })
@@ -52,7 +51,7 @@ app.get("/api/user", (req, res, next) => {
       res.json({
         "message": "success",
         "data": data,
-        "userName": this.lastuserName
+        // "userName": this.lastuserName
       })
     });
   })

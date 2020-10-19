@@ -11,6 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
 </head>
 <body>
     <main>
@@ -52,12 +53,23 @@
 console.log(x, y, "-------creds")
     if(x != "" && y != ""){
         if(re.test(x) && reg.test(y)){
-               if(x == "dcase@nwmissouri.edu" && y == "password"){
-               console.log("Hello")
-                   window.location="/Home";
-               }else{
-                alert("Incorrect Email or Password")
+               var body = {
+                   email: x,
+                   password: y
                }
+            axios.post('/api/user/Login', body).then(res => {
+                    console.log(res, 
+                 " ------response is here")
+                    alert("User Authenticated successfully")
+                    window.location = "/Home"
+                 })
+                 .catch(e => console.log(e.response, " -------error is here"))
+            //    if(x == "dcase@nwmissouri.edu" && y == "password"){
+            //    console.log("Hello")
+            //        window.location="/Home";
+            //    }else{
+            //     alert("Incorrect Email or Password")
+            //    }
         }else{
             alert("Incorrect Email or Password")
         }
