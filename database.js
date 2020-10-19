@@ -38,9 +38,9 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("data 2 inserted")
 });
 
-// close the database connection
-sqldb.close();
-console.log('Close the database');
+// // close the database connection
+// sqldb.close();
+// console.log('Close the database');
 
 
 module.exports = sqldb
