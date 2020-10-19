@@ -79,7 +79,7 @@ router.get('/team/invitePlayers', (req, res, next) => {
   res.render('./team/invitePlayers', { title: "Invite Players"})
 })
 
-router.use('/api/user/Login' , jsonParser, (req, res, next) => {
+router.use('/api/user/Regitser' , jsonParser, (req, res, next) => {
   console.log(req.body,"---request is here")
   var errors = []
   if (!req.body.password) {
@@ -112,23 +112,22 @@ router.use('/api/user/Login' , jsonParser, (req, res, next) => {
 })
 })
 
-exports.login = (req, res) => {
+router.use('/api/user/Login' , jsonParser, (req, res, next) => {
   let { email, password } = req.body;
   let error = null;
-  db.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
+  sqldb.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
       if (err) {
           console.error('Error trying to login', err);
           error = 'Error trying to login to application';
           res.render('login', { error: error });
       } else if (!err && !response) {
-          error = `Username and password combinations doesn't exists`;
-          res.render('login', { error: error });
+          console.log("Username or password invalid")
       } else {
-          res.render('dashboard');
+          res.render('./partials/home');
       }
       console.log(err, res);
   })
-}
+})
 
 //  router.post('/user/login', function(req, res) {
 //    res.req("/controllers/userController")

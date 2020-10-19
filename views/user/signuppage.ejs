@@ -73,13 +73,15 @@
                      email: x,
                      password: y
                  }
-                 axios.post('/api/user', body).then(res => {
+                 axios.post('/api/user/Regitser', body).then(res => {
                     console.log(res, 
                  " ------response is here")
                     alert("User Created successfully")
                     window.location = "/Home"
                  })
-                 .catch(e => console.log(e.response, " -------error is here"))
+                 .catch(e => 
+                 alert("Invalid Email/Password")
+             )
                    
                  }
 
