@@ -7,9 +7,8 @@
 *
 */
 'use strict';
-var location = {};
 module.exports = (sequelize, DataTypes) => {
-    location= sequelize.define('location', {
+const location= sequelize.define('location', {
         locationId: {
             type: DataTypes.INTEGER,
             primaryKey: true,
@@ -19,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             references:{
               model: "quest",
-              primaryKey: "questId"},
+              foreignKey: "questId"},
         },
         latitude: {
             type: Sequelize.INTEGER,
