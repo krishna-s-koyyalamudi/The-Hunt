@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
   });
 
 app.post("/api/quest/:questName", (req, res, next) => {
-    var model = require('../models/quest');
+    var model = require('../../models/quest');
     var errors = []
     if (!req.body.questName) {
         errors.push("No questName specified");
