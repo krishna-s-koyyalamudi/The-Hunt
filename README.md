@@ -140,6 +140,7 @@ End to End tests
 ![FindLocationClue3](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_3.png)<br>
 ![FindLocationLastClue](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationLastClue.png)<br>
 ![ListOfQuests](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ListOfQuests.png)<br>
+![ListOfCompetitions](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ListOfCompetitions.png)<br>
 
 
 
