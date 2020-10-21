@@ -27,6 +27,15 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("table quest created")
     sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
     console.log("table competition created")
+<<<<<<< HEAD
+    sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY ASC AUTOINCREMENT NOT NULL, teamId INTEGER REFERENCES team(teamId) NOT NULL, userId INTEGER REFERENCES user(userId), playerName VARCHAR NOT NULL, datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT');
+    console.log("table player created")
+    sqldb.run('CREATE TABLE IF NOT EXISTS competitionTeamMapping (competitionId INTEGER PRIMARY KEY, teamId INTEGER REFERENCES team (teamId), datetimeInvited TEXT NOT NULL, datetimeAccepted TEXT, datetimeRejected TEXT NOT NULL, datetimeDeleted TEXT');
+    console.log("table competitionTeamMapping created")
+=======
+    sqldb.run('CREATE TABLE IF NOT EXISTS location(locationId INTEGER PRIMARY KEY,locationQuestId INTEGER, locationLatitude text, locationLongitude text,locationValue INTEGER, FOREIGN KEY(locationQuestId) REFERENCES quest(questId))');
+    console.log("table location created")
+>>>>>>> 1eced68e95d472ab0175aac97b4fb32be5fb3a95
 });
 
 // // close the database connection
