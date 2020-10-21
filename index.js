@@ -32,7 +32,8 @@ app.use(bodyparser.json({ type: "application/*+json" }));
 
 
 app.listen(port, () => {
-    console.log('Example app listening on port ' + port)
+    // console.log('Example app listening on port ' + port)
+    console.log(`\nApp running at http://127.0.0.1:3000/user/Login mode`)
 });
 
 
