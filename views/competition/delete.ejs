@@ -6,3 +6,38 @@
  */
 
  <p> This is the delete team partial page.</p>
+
+ 
+
+
+<br>
+<br>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+
+      <h2>Confirm deletion of competition</h2>
+      <br>
+      <br> Name: <%=  competition.text %>
+      <br> startDate: <%=competition.date%>
+      <br> EndDate: <%=competition.date%>
+      <br> startTime: <%=competition.time%>
+      <br> endTime: <%=competition.time%>
+      <br> questType: <%=competition.button%>
+
+      <hr>
+      
+      <form method="get" action="/competition">
+        <input type="submit" value="Return to list" class="btn btn-caution" />
+      </form>
+      
+      <form method="POST" action="/cpmpetition/delete/<%= competition.type%>">
+        <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+
