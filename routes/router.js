@@ -15,7 +15,9 @@ router.use(bodyParser.urlencoded({ extended: true }));
 const sqldb = require('.././database')
 const axios = require('axios')
 var jsonParser = bodyParser.json()
-const app = express();
+
+const userLoginController =  require('../controllers/user/userLoginController')
+
 
 // app.use(bodyParser.json());
 
@@ -79,55 +81,55 @@ router.get('/team/invitePlayers', (req, res, next) => {
   res.render('./team/invitePlayers', { title: "Invite Players"})
 })
 
-router.use('/api/user/Regitser' , jsonParser, (req, res, next) => {
-  console.log(req.body,"---request is here")
-  var errors = []
-  if (!req.body.password) {
-    errors.push("No password specified");
-  }
-  if (!req.body.email) {
-    errors.push("No email specified");
-  }
-  if (errors.length) {
-    res.status(400).json({ "error": errors.join(",") });
-    return;
-  }
-  var data = {
-  //  userName : req.body.userName,
-    email: req.body.email,
-    password: md5(req.body.password)
-  }
-  var sql = 'INSERT INTO user (email, password) VALUES (?,?)'
-  var params = [data.email, data.password]
-  sqldb.run(sql, params, function (err, result) {
-    if (err) {
-      res.status(400).json({ "error": err.message })
-      return;
-    }
-    res.json({
-      "message": "success",
-      "data": data,
-      // "userName": this.lastuserName
-    })
-})
-})
+// router.use('/api/user/Regitser' , jsonParser, (req, res, next) => {
+//   console.log(req.body,"---request is here")
+//   var errors = []
+//   if (!req.body.password) {
+//     errors.push("No password specified");
+//   }
+//   if (!req.body.email) {
+//     errors.push("No email specified");
+//   }
+//   if (errors.length) {
+//     res.status(400).json({ "error": errors.join(",") });
+//     return;
+//   }
+//   var data = {
+//   //  userName : req.body.userName,
+//     email: req.body.email,
+//     password: md5(req.body.password)
+//   }
+//   var sql = 'INSERT INTO user (email, password) VALUES (?,?)'
+//   var params = [data.email, data.password]
+//   sqldb.run(sql, params, function (err, result) {
+//     if (err) {
+//       res.status(400).json({ "error": err.message })
+//       return;
+//     }
+//     res.json({
+//       "message": "success",
+//       "data": data,
+//       // "userName": this.lastuserName
+//     })
+// })
+// })
 
-router.use('/api/user/Login' , jsonParser, (req, res, next) => {
-  let { email, password } = req.body;
-  let error = null;
-  sqldb.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
-      if (err) {
-          console.error('Error trying to login', err);
-          error = 'Error trying to login to application';
-          res.render('login', { error: error });
-      } else if (!err && !response) {
-          console.log("Username or password invalid")
-      } else {
-          res.render('./partials/home');
-      }
-      console.log(err, res);
-  })
-})
+// router.use('/ap/user/Login' , jsonParser, (req, res, next) => {
+//   let { email, password } = req.body;
+//   let error = null;
+//   sqldb.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
+//       if (err) {
+//           console.error('Error trying to login', err);
+//           error = 'Error trying to login to application';
+//           res.render('login', { error: error });
+//       } else if (!err && !response) {
+//           console.log("Username or password invalid")
+//       } else {
+//           res.render('./partials/home');
+//       }
+//       console.log(err, res);
+//   })
+// })
 
 //  router.post('/user/login', function(req, res) {
 //    res.req("/controllers/userController")
@@ -136,14 +138,15 @@ router.use('/api/user/Login' , jsonParser, (req, res, next) => {
 
 
 // Route requests that start with an expression to a controller
-// router.use('/user', require('../controllers/userController.js'))
-// router.use('/team', require('../controllers/teamController.js'))
-// router.use('/quest', require('../controllers/questController.js'))
-// router.use('/player', require('../controllers/playerController.js'))
-// router.use('/playerScore', require('../controllers/playerScoreController.js'))
-// router.use('/location', require('../controllers/locationController.js'))
-// router.use('/competition', require('../controllers/competitionController.js'))
-// router.use('/clues', require('../controllers/cluesController.js'))
+router.use('/user', require('../controllers/user/userController'))
+router.use('/user/userLoginController', userLoginController)
+router.use('/team', require('../controllers/team/teamController'))
+router.use('/quest', require('../controllers/quest/questController'))
+router.use('/player', require('../controllers/player/playerController'))
+router.use('/playerScore', require('../controllers/playerscore/playerscoreController'))
+router.use('/location', require('../controllers/location/locationController'))
+router.use('/competition', require('../controllers/competition/competitionController'))
+router.use('/clues', require('../controllers/clue/clueController'))
 
 
 

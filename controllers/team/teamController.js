@@ -3,12 +3,11 @@
  * @author RaviChander
  */
 const express=require('express')
-const Model=require('../models/team.js')
+const Model=require('../../models/team')
 const app = express();
-const api=express.Router()
 
 
-app.get("/api/team", (req, res, next) => {
+app.get("/team", (req, res, next) => {
     var sql = "select * from team"
     var params = []
     db.all(sql, params, (err, rows) => {
@@ -83,3 +82,4 @@ app.post("/api/team/", (req, res, next) => {
 
   
   
+module.exports = app;

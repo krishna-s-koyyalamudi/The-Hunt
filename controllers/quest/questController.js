@@ -120,3 +120,5 @@ app.post("/api/quest/quest_location", (req, res, next) => {
 })
 
 module.exports = app;
+
+module.exports = app;

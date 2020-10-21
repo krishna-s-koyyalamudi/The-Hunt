@@ -44,20 +44,20 @@
     </style>
 
     <script>
-        function checkvalidation1() {
+      function checkvalidation1() {
             console.log("---login hits---")
             var re = /\S+@\S+\.\S+/;
             var x = document.getElementById('email').value;
             var reg  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
             var y = document.getElementById('password').value;
-console.log(x, y, "-------creds")
     if(x != "" && y != ""){
         if(re.test(x) && reg.test(y)){
                var body = {
                    email: x,
                    password: y
                }
-            axios.post('/api/user/Login', body).then(res => {
+               console.log(y," ---------y is here")
+          axios.post('/user/userLoginController/Login', body).then(res => {
                     console.log(res, 
                  " ------response is here")
                     alert("User Authenticated successfully")
