@@ -27,6 +27,8 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("table quest created")
     sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
     console.log("table competition created")
+    sqldb.run('CREATE TABLE IF NOT EXISTS location(locationId INTEGER PRIMARY KEY,locationQuestId INTEGER, locationLatitude text, locationLongitude text,locationValue INTEGER, FOREIGN KEY(locationQuestId) REFERENCES quest(questId))');
+    console.log("table location created")
 });
 
 // // close the database connection
