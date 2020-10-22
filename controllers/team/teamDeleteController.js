@@ -14,7 +14,7 @@ var jsonParser = bodyParser.json()
 
     app.delete("/team/delete", jsonParser, (req, res, next) => {
         console.log(req, " ----request is here")
-      let  questId  = req.body;
+      let  teamId  = req.body;
     
       let error = null;
        sqldb.get('DELETE FROM team WHERE id = ? ',[teamId], (err, response) => {
