@@ -35,6 +35,8 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("table location created")
     sqldb.run('CREATE TABLE IF NOT EXISTS clue(clueId INTEGER NOT NULL UNIQUE, clueLocationId INTEGER NOT NULL REFERENCES location(locationId), clueSortOrder INTEGER, clueString TEXT)');
     console.log("table clue created")
+    sqldb.run('CREATE TABLE IF NOT EXISTS playerScore(playerScoreId INTEGER NOT NULL, playerOfPlayerId INTEGER REFERENCES player(playerId), playerOfLocationId INTEGER REFERENCES location(locationId))');
+    console.log("table playerScore created")
 });
 
 // // close the database connection
