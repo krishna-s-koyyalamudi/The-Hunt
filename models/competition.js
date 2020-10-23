@@ -3,7 +3,8 @@
 *  explains each attribute in a competition.
 *
 * @author Rajeshwari Rudravaram
-* 
+*
+* @author Sai Krishna
 *
 */
 'use strict';
@@ -29,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
         dateTimeCreated: {
                 type: DataTypes.DATE,
                 get() {
-                    return moment(this.getDataValue('dateTimeCreated')).format('MM/DD/YYYY');
+                    return moment(this.getDataValue('dateTimeCreated')).format('MM/DD/YYYY hh:mm:ss');
                 }
             },
             startDateTime: {

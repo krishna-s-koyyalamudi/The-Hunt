@@ -16,7 +16,8 @@ const sqldb = require('.././database')
 const axios = require('axios')
 var jsonParser = bodyParser.json()
 
-const userLoginController =  require('../controllers/user/userLoginController')
+const userLoginController =  require('../controllers/user/Login')
+const userRegisterController = require('../controllers/user/userSignupController')
 
 
 // app.use(bodyParser.json());
@@ -57,7 +58,6 @@ router.get('/404' , (req, res, next) => {
 router.get('/create_competition', (req, res, next) => {
   res.render('./competition/create', { title: 'Register'})
 })
-
 
 router.get('/createScreen', (req, res, next) => {
   res.render('createScreen', { title: 'Create Screen'})
@@ -139,7 +139,8 @@ router.get('/team/invitePlayers', (req, res, next) => {
 
 // Route requests that start with an expression to a controller
 router.use('/user', require('../controllers/user/userController'))
-router.use('/user/userLoginController', userLoginController)
+router.use('/user/Login', userLoginController)
+router.use('/userSignupController', userRegisterController)
 router.use('/team', require('../controllers/team/teamController'))
 router.use('/quest', require('../controllers/quest/questController'))
 router.use('/quest/delete', require('../controllers/quest/questDeleteController'))

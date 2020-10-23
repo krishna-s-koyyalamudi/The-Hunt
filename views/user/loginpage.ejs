@@ -57,11 +57,12 @@
                    password: y
                }
                console.log(y," ---------y is here")
-          axios.post('/user/userLoginController/Login', body).then(res => {
+               console.log(body.email, body.password,"----body is here")
+          axios.post('/user/Login/try', body).then(res => {
                     console.log(res, 
                  " ------response is here")
                     alert("User Authenticated successfully")
-                    window.location = "/Home"
+                    // window.location = "/Home"
                  })
                  .catch(e => console.log(e.response, " -------error is here"))
             //    if(x == "dcase@nwmissouri.edu" && y == "password"){
