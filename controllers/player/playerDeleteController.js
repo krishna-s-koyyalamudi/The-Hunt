@@ -19,7 +19,7 @@ app.delete("/player/delete", jsonParser, (req, res, next) => {
             console.error('Unable to delete player', err);
             error = 'Unable to delete player';
         } else if (!err && !response) {
-            console.log("Player not fount")
+            console.log("Player not found")
         } else {
             //   res.render('./partials/home');
             console.log("Player Deleted successfully")
