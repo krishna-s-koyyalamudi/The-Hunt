@@ -10,9 +10,17 @@
   
   
   
-## Open Project in Cypress.
+## 2.Open Project in Cypress.
 * Method 1:
   * Press Windows > type Cypress > Select Cypress.exe
 * Method 2:(Using npm)
   * Open powershell as administrator in the .
   * run this command: ./node_modules/.bin/cypress open
+  
+  
+  
+  Author: Prasad Golla Durga <s538358@NWMISSOURI.edu>
+  
+  
+  
+  
