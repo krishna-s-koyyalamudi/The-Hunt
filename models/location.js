@@ -3,7 +3,8 @@
 *  explains each attribute in location entity.
 *
 * @author Rajeshwari Rudravaram
-* 
+*
+* @author Sai krishna
 *
 */
 'use strict';
@@ -12,7 +13,7 @@ const location= sequelize.define('location', {
         locationId: {
             type: DataTypes.INTEGER,
             primaryKey: true,
-             notEmpty: true
+             allowNull: false
         },
      questId: {
             type: DataTypes.INTEGER,
@@ -20,26 +21,13 @@ const location= sequelize.define('location', {
               model: "quest",
               foreignKey: "questId"},
         },
-        latitude: {
-            type: Sequelize.INTEGER,
-            allowNull: true,
-            defaultValue: null,
-            validate: { min: -90, max: 90 }
-          },
-        longitude: {
-            type: Sequelize.INTEGER,
-            allowNull: true,
-            defaultValue: null,
-            validate: { min: -180, max: 180 }
-          },
-         {
-          validate: {
-            bothCoordsOrNone() {
-              if ((this.latitude === null) !== (this.longitude === null)) {
-                throw new Error('Require either both latitude and longitude or neither')
-              }
-            }
-          }
+        locationLatitude: {
+          type: DataTypes.DECIMAL(10,8),
+          allowNull: false   
+      },
+      
+         
+         
 });
       location.associate = function(models) {
            // associations can be defined here
