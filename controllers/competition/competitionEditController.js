@@ -5,6 +5,5 @@
  * 
  * post - it creates the team in the data store 
  * 
- * @author gundupooja<s538295@nwmissouri.edu>
  * 
  */ 
