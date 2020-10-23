@@ -25,7 +25,11 @@ const location= sequelize.define('location', {
           type: DataTypes.DECIMAL(10,8),
           allowNull: false   
       },
-      
+      locationLongitude: {
+        type: DataTypes.DECIMAL(11,8),
+        allowNull: false
+       },
+    
          
          
 });
