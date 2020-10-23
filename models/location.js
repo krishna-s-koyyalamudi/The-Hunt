@@ -29,7 +29,10 @@ const location= sequelize.define('location', {
         type: DataTypes.DECIMAL(11,8),
         allowNull: false
        },
-    
+       locationValue:{
+        type: DataTypes.INTEGER,
+        allowNull:false
+        }
          
          
 });
