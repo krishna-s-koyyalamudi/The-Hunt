@@ -18,7 +18,15 @@ var jsonParser = bodyParser.json()
     
       let error = null;
        sqldb.get('DELETE FROM location WHERE id = ? ',[locationId], (err, response) => {
-         
+        if (err) {
+            console.error('Unable to delete location', err);
+            error = 'Unable to delete location';
+        } else if (!err && !response) {
+            console.log("location not found")
+        } else {
+          //   res.render('./partials/home');
+          console.log("location Deleted successfully")
+        }
           console.log(err, res);
       })
     })
