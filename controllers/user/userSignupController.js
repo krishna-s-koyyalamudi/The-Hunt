@@ -1,50 +1,46 @@
-/**
- * @author Venkatayashwanth Damera
- */
-
-const express=require('express')
+const express = require('express')
 const app = express.Router();
 
 const md5 = require('md5');
-const Model=require('../../models/user')
+const Model = require('../../models/user')
 const sqldb = require('../../database.js')
 
 app.post("/Register", (req, res, next) => {
     var errors = []
     if (!req.body.password) {
-      errors.push("No password specified");
+        errors.push("No password specified");
     }
     if (!req.body.email) {
-      errors.push("No email specified");
+        errors.push("No email specified");
     }
     if (errors.length) {
-      res.status(400).json({ "error": errors.join(",") });
-      return;
+        res.status(400).json({ "error": errors.join(",") });
+        return;
     }
     var data = {
-    //  userName : req.body.userName,
-      email: req.body.email,
-      password: md5(req.body.password)
+        //  userName : req.body.userName,
+        email: req.body.email,
+        password: md5(req.body.password)
     }
     var sql = 'INSERT INTO user (email, password) VALUES (?,?)'
     var params = [data.email, data.password]
-    sqldb.run(sql, params, function (err, result) {
-      if (err) {
-        res.status(400).json({ "error": err.message })
-        return;
-      }
-      res.json({
-        "message": "success",
-        "data": data,
-        // "userName": this.lastuserName
-      })
+    sqldb.run(sql, params, function(err, result) {
+        if (err) {
+            res.status(400).json({ "error": err.message })
+            return;
+        }
+        res.json({
+            "message": "success",
+            "data": data,
+            // "userName": this.lastuserName
+        })
     });
-  })
+})
 
-  module.exports=app;
-  
-  
-  
+module.exports = app;
+
+
+
 //   app.patch("/api/user/:id", (req, res, next) => {
 //     var data = {
 //       UserName: req.body.userName,
@@ -69,8 +65,8 @@ app.post("/Register", (req, res, next) => {
 //         })
 //       });
 //   })
-  
-  
+
+
 
 //     app.delete("/api/user/:id", (req, res, next) => {
 //     db.run(
@@ -95,7 +91,7 @@ app.post("/Register", (req, res, next) => {
 //     }
 //     else{
 //     sqldb.get('select email from user where email = ?',[email],(err,response)=>{
-        
+
 //             console.log(response);
 //             if(response.length>0){
 //                 console.log('Inside email response');
@@ -104,7 +100,6 @@ app.post("/Register", (req, res, next) => {
 //             }else {
 //                 sqldb.post('Insert into user (email,password) VALUES (?,?)')
 //             }
-        
+
 //     });
 // }
-
