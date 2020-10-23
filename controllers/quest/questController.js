@@ -2,7 +2,7 @@
 *  Quest controller
 *  Handles requests related to QuestCreation (see routes)
 *
-* @author Swaroop Reddy Gottigundala<s538342@nwmissouri.edu> and Rohith Reddy Avisakula<s538295@nwmissouri.edu>
+* @author Pruthvi Naskanti<s538094@nwmissouri.edu> and Rohith Reddy Avisakula<s538295@nwmissouri.edu>
 *
 */
 const express = require('express');
