@@ -17,6 +17,7 @@ const axios = require('axios')
 var jsonParser = bodyParser.json()
 
 const userLoginController =  require('../controllers/user/userLoginController')
+const userSignupController = require('../controllers/user/userSignupController')
 
 
 // app.use(bodyParser.json());
@@ -140,6 +141,7 @@ router.get('/team/invitePlayers', (req, res, next) => {
 // Route requests that start with an expression to a controller
 router.use('/user', require('../controllers/user/userController'))
 router.use('/user/userLoginController', userLoginController)
+router.use('/user/userSignupController',userSignupController)
 router.use('/team', require('../controllers/team/teamController'))
 router.use('/quest', require('../controllers/quest/questController'))
 router.use('/quest/delete', require('../controllers/quest/questDeleteController'))
