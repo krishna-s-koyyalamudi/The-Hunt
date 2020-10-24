@@ -65,13 +65,16 @@ app.post("/api/quest/:questName", (req, res, next) => {
 exports.create = function(req, res) {
     res.send('NOT IMPLEMENTED: Author update POST');
 };
+
+// Function defined which checks latitiude and longitude co-ordinates of starting point provided as input and saves them in the appropriate table in database
+
 app.post("/api/quest/location", (req, res, next) => {
     var errors = []
     if (!req.body.latitude) {
-        errors.push("No latitude specified");
+        errors.push("No Latitude specified");
     }
     if (!req.body.longitude) {
-        errors.push("No longitude specified");
+        errors.push("No Longitude specified");
     }
     var location = {
         latitude: req.body.latitude,
@@ -82,24 +85,25 @@ app.post("/api/quest/location", (req, res, next) => {
     var params = [data.latitude, data.longitude, data.clue]
     db.run(sql, params, function(err, result) {
         if (err) {
-            res.status(400).json({ "error": err.message })
+            res.status(400).json({ "Error": err.message })
             return;
         }
         res.json({
-            "message": "success",
+            "message": "Success",
             "data": data
         })
     });
 })
 
+// Function defined which checks latitiude and longitude co-ordinates of quest provided as input and saves them in the appropriate table in database
 
 app.post("/api/quest/quest_location", (req, res, next) => {
     var errors = []
     if (!req.body.latitude) {
-        errors.push("No latitude specified");
+        errors.push("No Latitude specified");
     }
     if (!req.body.longitude) {
-        errors.push("No longitude specified");
+        errors.push("No Longitude specified");
     }
     var location = {
         latitude: req.body.latitude,
@@ -109,7 +113,7 @@ app.post("/api/quest/quest_location", (req, res, next) => {
     var params = [data.latitude, data.longitude]
     db.run(sql, params, function(err, result) {
         if (err) {
-            res.status(400).json({ "error": err.message })
+            res.status(400).json({ "Error": err.message })
             return;
         }
         res.json({
