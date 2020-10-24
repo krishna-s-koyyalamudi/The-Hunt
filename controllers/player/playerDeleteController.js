@@ -41,6 +41,9 @@ async function del(req, res, next) {
       res.status(404).end();
     }
   } 
+    catch (err) {
+    next(err);
+  }
 }
 
 module.exports = app;
