@@ -1,33 +1,35 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "GDP-1 Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "latest",
-    "body-parser": "latest",
-    "consolidate": "latest",
-    "dotenv": "^8.2.0",
-    "ejs": "latest",
-    "ejs-lint": "latest",
-    "express": "latest",
-    "express-ejs-layouts": "latest",
-    "heroku": "latest",
-    "md5": "latest",
-    "mongoose": "latest",
-    "sequelize": "latest",
-    "sqlite": "latest",
-    "sqlite3": "latest"
-  },
-  "devDependencies": {
-    "cypress": "latest",
-    "nodemon": "latest"
-  }
+    "name": "node",
+    "version": "1.0.0",
+    "description": "GDP-1 Project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "cy:op": " cypress open "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "latest",
+        "body-parser": "latest",
+        "consolidate": "latest",
+        "dotenv": "^8.2.0",
+        "ejs": "latest",
+        "ejs-lint": "latest",
+
+        "express": "latest",
+        "express-ejs-layouts": "latest",
+        "heroku": "latest",
+        "md5": "latest",
+        "mongoose": "latest",
+        "sequelize": "latest",
+        "sqlite": "latest",
+        "sqlite3": "latest"
+    },
+    "devDependencies": {
+        "cypress": "latest",
+        "nodemon": "latest"
+    }
 }
