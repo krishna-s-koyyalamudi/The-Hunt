@@ -5,7 +5,7 @@
  * 
  * post - it creates the team in the data store 
  * 
- * 
+ * @author sumanth reddy and rajashekar
  */ 
 const express=require('express')
 const app=express.Router()
@@ -33,3 +33,4 @@ app.put()
          })
        });
   })
+
