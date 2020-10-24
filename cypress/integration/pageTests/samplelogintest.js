@@ -6,6 +6,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 describe('Test Login Process', () => {
     it('should be able to log in the Test Site and show correct information', () => {
         cy.visit('https://hunt2020.herokuapp.com/Login');
+        // cy.visit('localhost:8080/Login');
 
         const Email = Cypress.env('Email');
         const password = Cypress.env('password');
@@ -28,7 +29,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 describe('Forget Password', () => {
     it('should be able to log in the Test Site and show correct information', () => {
         cy.visit('https://hunt2020.herokuapp.com/Login');
-
+        // cy.visit('localhost:8080/Login');
         cy.get('[class="mr-5"]').click()
 
 
@@ -43,7 +44,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 describe('Sign Up', () => {
     it('should be able to log in the Test Site and show correct information', () => {
         cy.visit('https://hunt2020.herokuapp.com/Login');
-
+        // cy.visit('localhost:8080/Login');
         cy.get('#register').click()
 
     });
