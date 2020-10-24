@@ -3,7 +3,7 @@
 * Method 1:
   * To install cypress on local system: Click on this Link: https://download.cypress.io/desktop 
   * Extract the files and open Cypress.
-  * Drag and drop the files which is to be opened.
+  * Drag and drop the files which needs to be opened.
 * Method 2:(Using npm)
   * Open powershell as administrator.
   * run this command: npm install cypress --save-dev
@@ -15,12 +15,12 @@
   * Press Windows > type Cypress > Select Cypress.exe
 * Method 2:(Using npm)
   * Open powershell as administrator in the .
-  * run this command: ./node_modules/.bin/cypress open
+  * run this command: npm run cy:op
   
 ## Instructions to run node and Cypress parallelly to test webpages from local host.
 * First run node commands to start node module: npm start / npm run / npm run dev
 * Add an another terminal by pressing plus icon in the VScode near termial.
-* Second terminal will be added, now run Cypress command: ./node_modules/.bin/cypress open
+* Second terminal will be added, now run Cypress command: npm run cy:op
 * Now provide the local host web pages link in the testing file.
   
 Author: Prasad Golla Durga <s538358@NWMISSOURI.edu>
