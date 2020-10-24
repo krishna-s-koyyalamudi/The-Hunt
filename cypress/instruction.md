@@ -21,7 +21,6 @@
 * First run node commands to start node module: npm start / npm run / npm run dev
 * Add an another terminal by pressing plus icon in the VScode near termial.
 * Second terminal will be added, now run Cypress command: npm run cy:op
-* Now provide the local host web pages link in the testing file.
   
 Author: Prasad Golla Durga <s538358@NWMISSOURI.edu>
   
