@@ -54,7 +54,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     // console.log("Table user has dropped")
 
     // seed relational data
-    sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId PRIMARY KEY AUTOINCREMENT)');
+    sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId  INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table user created.")
     sqldb.run('CREATE TABLE IF NOT EXISTS team (teamId INTEGER PRIMARY KEY AUTOINCREMENT, teamName text, creatorUserId INTEGER, FOREIGN KEY (creatorUserId) REFERENCES user(userId))');
     console.log("Table team created.")
@@ -76,6 +76,9 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("table clue created")
     sqldb.run('CREATE TABLE IF NOT EXISTS playerScore(playerScoreId INTEGER NOT NULL, playerOfPlayerId INTEGER REFERENCES player(playerId), playerOfLocationId INTEGER REFERENCES location(locationId))');
     console.log("table playerScore created")
+
+    let sql = 'INSERT INTO user(email, password) VALUES (?,?)'
+    sqldb.run(sql,['puneethannam@gmail.com', md5('puneeth')]) 
 });
 
 // // close the database connection
