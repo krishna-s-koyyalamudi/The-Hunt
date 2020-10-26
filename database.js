@@ -53,30 +53,53 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run('DROP Table IF EXISTS user');
     console.log("Table user has dropped")
 
-    // seed relational data
+    // create tables in order of dependencies .......
+
+    // create user 
+
+    
+
+   
+
+    
+
+    
     sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table user created.")
+
+    // create team / players
     sqldb.run('CREATE TABLE IF NOT EXISTS team (teamName text, teamId INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table team created.")
     // let sql1 = 'INSERT INTO team (teamName) VALUES (?)';
     // sqldb.run(sql1, ["sunRisers"]);
     // sqldb.run(sql1, ["royalChallengers"]);
     // console.log("data into team inserted")
+     
+    // create quest
     sqldb.run('CREATE TABLE IF NOT EXISTS quest(questId INTEGER PRIMARY KEY AUTOINCREMENT, questName text, questCreatorUserId INTEGER,longitude text, latitude text, FOREIGN KEY (questCreatorUserId) REFERENCES user(userId))');
     console.log("table quest created")
-    sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
-    console.log("table competition created")
-    sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY AUTOINCREMENT, playerTeamId INTEGER REFERENCES team(teamId) NOT NULL, playerUserId INTEGER REFERENCES user(userId), playerName text , datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT)');
-    console.log("table player created")
-    sqldb.run('CREATE TABLE IF NOT EXISTS competitionTeamMapping (competitionId INTEGER PRIMARY KEY, competitionTeamId INTEGER REFERENCES team (teamId), datetimeInvited TEXT , datetimeAccepted TEXT, datetimeRejected TEXT , datetimeDeleted TEXT)');
-    console.log("table competitionTeamMapping created")
+// create location
     sqldb.run('CREATE TABLE IF NOT EXISTS location(locationId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,locationQuestId INTEGER REFERENCES quest(questId) NOT NULL, locationLatitude TEXT NOT NULL, locationLongitude TEXT NOT NULL, locationValue INTEGER NOT NULL)');
     console.log("table location created")
+// create clue
     sqldb.run('CREATE TABLE IF NOT EXISTS clue(clueId INTEGER NOT NULL UNIQUE, clueLocationId INTEGER NOT NULL REFERENCES location(locationId), clueSortOrder INTEGER, clueString TEXT)');
     console.log("table clue created")
+    // create competition 
+    sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
+    console.log("table competition created")
+       // create competitionTeamMapping 
+    sqldb.run('CREATE TABLE IF NOT EXISTS competitionTeamMapping (competitionId INTEGER PRIMARY KEY, competitionTeamId INTEGER REFERENCES team (teamId), datetimeInvited TEXT , datetimeAccepted TEXT, datetimeRejected TEXT , datetimeDeleted TEXT)');
+    console.log("table competitionTeamMapping created")
+     // create player
+     sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY AUTOINCREMENT, playerTeamId INTEGER REFERENCES team(teamId) NOT NULL, playerUserId INTEGER REFERENCES user(userId), playerName text , datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT)');
+     console.log("table player created") 
+    // create playerScore
     sqldb.run('CREATE TABLE IF NOT EXISTS playerScore(playerScoreId INTEGER NOT NULL, playerOfPlayerId INTEGER REFERENCES player(playerId), playerOfLocationId INTEGER REFERENCES location(locationId))');
     console.log("table playerScore created")
+    
+    
 
+// seed relational data
     let sql = 'INSERT INTO user(email, password) VALUES (?,?)'
     sqldb.run(sql,['puneethannam@gmail.com', md5('puneeth')]) 
 });
