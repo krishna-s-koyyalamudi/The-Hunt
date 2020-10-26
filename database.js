@@ -14,6 +14,45 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     else {
         console.log('Connected to the hunt database.');
     }
+
+    // delete all existing tables in reverse order of creation...
+
+    // // delete competitionTeamMapping
+    // sqldb.run('DROP Table IF EXISTS competitionTeamMapping');
+    // console.log("Table competitionTeamMapping has dropped")
+
+    // // delete playerScore
+    // sqldb.run('DROP Table IF EXISTS playerScore');
+    // console.log("Table playerScore has dropped")
+
+    // // delete player
+    // sqldb.run('DROP Table IF EXISTS player');
+    // console.log("Table player has dropped")
+
+    //  // delete team
+    //  sqldb.run('DROP Table IF EXISTS team');
+    //  console.log("Table team has dropped")
+
+    //  // delete clue
+    // sqldb.run('DROP Table IF EXISTS clue');
+    // console.log("Table clue has dropped")
+
+    // // delete location
+    // sqldb.run('DROP Table IF EXISTS location');
+    // console.log("Table location has dropped")
+
+    // // delete competition
+    // sqldb.run('DROP Table IF EXISTS competition');
+    // console.log("Table competition has dropped")
+
+    // // delete quest
+    // sqldb.run('DROP Table IF EXISTS quest');
+    // console.log("Table quest has dropped")
+
+    // // delete user
+    // sqldb.run('DROP Table IF EXISTS user');
+    // console.log("Table user has dropped")
+
     // seed relational data
     sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId PRIMARY KEY AUTOINCREMENT)');
     console.log("Table user created.")
