@@ -19,7 +19,7 @@ app.delete("/player/delete", jsonParser, (req, res, next) => {
             console.error('Unable to delete player', err);
             error = 'Unable to delete player';
         } else if (!err && !response) {
-            console.log("Player not fount")
+            console.log("Player not found")
         } else {
             //   res.render('./partials/home');
             console.log("Player Deleted successfully")
@@ -28,3 +28,22 @@ app.delete("/player/delete", jsonParser, (req, res, next) => {
 
     })
 })
+
+async function del(req, res, next) {
+  try {
+    const id = parseInt(req.params.id, 10);
+
+    const success = await employees.delete(id);
+
+    if (success) {
+      res.status(204).end();
+    } else {
+      res.status(404).end();
+    }
+  } 
+    catch (err) {
+    next(err);
+  }
+}
+
+module.exports = app;

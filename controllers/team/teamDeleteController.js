@@ -1,5 +1,5 @@
 /*
-* @author Ravichander Reddy Goli
+* @author Sai Rohith Gorla
 */
 const express = require('express');
 const app = express.Router();
@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var jsonParser = bodyParser.json()
 
 // var sql = 'DELETE FROM team WHERE id = ?'
-//     var params = [team.Id]
+// var params = [team.Id]
     
 
     app.delete("/team/delete", jsonParser, (req, res, next) => {
@@ -18,12 +18,17 @@ var jsonParser = bodyParser.json()
     
       let error = null;
        sqldb.get('DELETE FROM team WHERE id = ? ',[teamId], (err, response) => {
-          if (err) {
+          if (err)
+          {
               console.error('Unable to delete team', err);
               error = 'Unable to delete team';
-          } else if (!err && !response) {
+          }
+           else if (!err && !response) 
+           {
               console.log("team not found")
-          } else {
+          }
+           else 
+           {
             //   res.render('./partials/home');
             console.log("Team Deleted successfully")
           }
@@ -31,18 +36,24 @@ var jsonParser = bodyParser.json()
       })
     })
 
-    async function del(req, res, next) {
-      try {
+    async function del(req, res, next)
+{
+      try 
+      {
         const id = parseInt(req.params.id, 10);
      
         const success = await employees.delete(id);
      
-        if (success) {
+        if (success)
+        {
           res.status(204).end();
-        } else {
+        } 
+          else
+          {
           res.status(404).end();
         }
-      } catch (err) {
+      } 
+    catch (err) {
         next(err);
       }
     }

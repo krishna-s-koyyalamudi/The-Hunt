@@ -21,7 +21,8 @@ var jsonParser = bodyParser.json()
            WHERE teamId = ?`,
       [data.teamName, data.teamId, req.params.teamId],
       (err, result) => {
-        if (err) {
+        if (err) 
+        {
           res.status(400).json({ "error": res.message })
           return;
         }
