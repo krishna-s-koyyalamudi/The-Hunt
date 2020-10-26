@@ -17,51 +17,51 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 
     // delete all existing tables in reverse order of creation...
 
-    // // delete competitionTeamMapping
-    // sqldb.run('DROP Table IF EXISTS competitionTeamMapping');
-    // console.log("Table competitionTeamMapping has dropped")
+    // delete competitionTeamMapping
+    sqldb.run('DROP Table IF EXISTS competitionTeamMapping');
+    console.log("Table competitionTeamMapping has dropped")
 
-    // // delete playerScore
-    // sqldb.run('DROP Table IF EXISTS playerScore');
-    // console.log("Table playerScore has dropped")
+    // delete playerScore
+    sqldb.run('DROP Table IF EXISTS playerScore');
+    console.log("Table playerScore has dropped")
 
-    // // delete player
-    // sqldb.run('DROP Table IF EXISTS player');
-    // console.log("Table player has dropped")
+    // delete player
+    sqldb.run('DROP Table IF EXISTS player');
+    console.log("Table player has dropped")
 
-    //  // delete team
-    //  sqldb.run('DROP Table IF EXISTS team');
-    //  console.log("Table team has dropped")
+     // delete team
+     sqldb.run('DROP Table IF EXISTS team');
+     console.log("Table team has dropped")
 
-    //  // delete clue
-    // sqldb.run('DROP Table IF EXISTS clue');
-    // console.log("Table clue has dropped")
+     // delete clue
+    sqldb.run('DROP Table IF EXISTS clue');
+    console.log("Table clue has dropped")
 
-    // // delete location
-    // sqldb.run('DROP Table IF EXISTS location');
-    // console.log("Table location has dropped")
+    // delete location
+    sqldb.run('DROP Table IF EXISTS location');
+    console.log("Table location has dropped")
 
-    // // delete competition
-    // sqldb.run('DROP Table IF EXISTS competition');
-    // console.log("Table competition has dropped")
+    // delete competition
+    sqldb.run('DROP Table IF EXISTS competition');
+    console.log("Table competition has dropped")
 
-    // // delete quest
-    // sqldb.run('DROP Table IF EXISTS quest');
-    // console.log("Table quest has dropped")
+    // delete quest
+    sqldb.run('DROP Table IF EXISTS quest');
+    console.log("Table quest has dropped")
 
-    // // delete user
-    // sqldb.run('DROP Table IF EXISTS user');
-    // console.log("Table user has dropped")
+    // delete user
+    sqldb.run('DROP Table IF EXISTS user');
+    console.log("Table user has dropped")
 
     // seed relational data
-    sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId  INTEGER PRIMARY KEY AUTOINCREMENT)');
+    sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table user created.")
-    sqldb.run('CREATE TABLE IF NOT EXISTS team (teamId INTEGER PRIMARY KEY AUTOINCREMENT, teamName text, creatorUserId INTEGER, FOREIGN KEY (creatorUserId) REFERENCES user(userId))');
+    sqldb.run('CREATE TABLE IF NOT EXISTS team (teamName text, teamId INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table team created.")
-    let sql1 = 'INSERT INTO team (teamName) VALUES (?)';
-    sqldb.run(sql1, ["sunRisers"]);
-    sqldb.run(sql1, ["royalChallengers"]);
-    console.log("data into team inserted")
+    // let sql1 = 'INSERT INTO team (teamName) VALUES (?)';
+    // sqldb.run(sql1, ["sunRisers"]);
+    // sqldb.run(sql1, ["royalChallengers"]);
+    // console.log("data into team inserted")
     sqldb.run('CREATE TABLE IF NOT EXISTS quest(questId INTEGER PRIMARY KEY AUTOINCREMENT, questName text, questCreatorUserId INTEGER,longitude text, latitude text, FOREIGN KEY (questCreatorUserId) REFERENCES user(userId))');
     console.log("table quest created")
     sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
