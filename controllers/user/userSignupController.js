@@ -28,7 +28,7 @@ const sqldb = require('../../database')
     }
     var sql = 'INSERT INTO user (email, password) VALUES (?,?)'
     var params = [data.email, data.password]
-    db.run(sql, params, function (err, result) {
+    sqldb.run(sql, params, function (err, result) {
       if (err) {
         res.status(400).json({ "error": err.message })
         return;

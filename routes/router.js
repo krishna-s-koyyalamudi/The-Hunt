@@ -140,7 +140,7 @@ router.get('/team/invitePlayers', (req, res, next) => {
 // Route requests that start with an expression to a controller
 router.use('/user', require('../controllers/user/userController'))
 router.use('/user/Login', userLoginController)
-router.use('/userSignupController', userRegisterController)
+router.use('/user/userSignupController', userRegisterController)
 router.use('/team', require('../controllers/team/teamController'))
 router.use('/quest', require('../controllers/quest/questController'))
 router.use('/quest/delete', require('../controllers/quest/questDeleteController'))

@@ -15,15 +15,36 @@ app.post("/try", jsonParser, (req, res, next) => {
     console.log("this hits over login--------")
     // console.log(req.body, " ----request is here")
   let { email, password } = req.body;
-console.log(req.body,"reqyest body is here")
+console.log(req.body,"request body is here")
   let error = null;
-  console.log(db,"---db is here")
+  
 
-  db.get(`select * from user where email = 'dcase@nwmissouri.edu' and password = 'dcase1'}'`, (err, rows) => {
-    console.log(rows,"response is here")
+  db.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
+    console.log(email,password,"yo")
+    console.log(response,"response is here")
     console.log(err,"error is here")
+    if (err) {
+                console.error('Error trying to login', err);
+                error = 'Error trying to login to application';
+                res.render('login', { error: error });
+                 return response.json({
+                   "error": error
+                 })
+            } 
+            else if (!err && !res) {
+                console.log("Username or password invalid")
+              //   return res(1)
+              return response.json({
+                "error": "Username or password invalid"
+              })
+            }
+             else {
+                 console.log(res,"response is here")
+                 return res.json({"success": response})
+                // res.render('./partials/home');
+            }
 
-    return res.json({"success": rows})
+    return res.json({"success": response})
   })
 
 
@@ -42,7 +63,7 @@ console.log(req.body,"reqyest body is here")
 //       }
 //        else {
 //            console.log(res,"response is here")
-        //    return res(1)
+        //    return res(1)c
         //   res.render('./partials/home');
       //}
     //  return res.json({"result": 1})
