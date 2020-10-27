@@ -29,11 +29,11 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run('DROP Table IF EXISTS player');
     console.log("Table player has dropped")
 
-     // delete team
-     sqldb.run('DROP Table IF EXISTS team');
-     console.log("Table team has dropped")
+    // delete team
+    sqldb.run('DROP Table IF EXISTS team');
+    console.log("Table team has dropped")
 
-     // delete clue
+    // delete clue
     sqldb.run('DROP Table IF EXISTS clue');
     console.log("Table clue has dropped")
 
@@ -51,19 +51,19 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 
     // delete user
     sqldb.run('DROP Table IF EXISTS user');
-    
+
 
     // create tables in order of dependencies .......
 
     // create user
-    
+
     sqldb.run('CREATE TABLE IF NOT EXISTS user (email text,password text, userId INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table user created.")
 
     // create team 
     sqldb.run('CREATE TABLE IF NOT EXISTS team (teamName text, teamId INTEGER PRIMARY KEY AUTOINCREMENT)');
     console.log("Table team created.")
-     
+
     // create quest
     sqldb.run('CREATE TABLE IF NOT EXISTS quest(questId INTEGER PRIMARY KEY AUTOINCREMENT, questName text, questCreatorUserId INTEGER,longitude text, latitude text, FOREIGN KEY (questCreatorUserId) REFERENCES user(userId))');
     console.log("table quest created")
@@ -84,9 +84,9 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run('CREATE TABLE IF NOT EXISTS competitionTeamMapping (competitionId INTEGER PRIMARY KEY, competitionTeamId INTEGER REFERENCES team (teamId), datetimeInvited TEXT , datetimeAccepted TEXT, datetimeRejected TEXT , datetimeDeleted TEXT)');
     console.log("table competitionTeamMapping created")
 
-     // create player
-     sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY AUTOINCREMENT, playerTeamId INTEGER REFERENCES team(teamId) NOT NULL, playerUserId INTEGER REFERENCES user(userId), playerName text , datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT)');
-     console.log("table player created") 
+    // create player
+    sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY AUTOINCREMENT, playerTeamId INTEGER REFERENCES team(teamId) NOT NULL, playerUserId INTEGER REFERENCES user(userId), playerName text , datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT)');
+    console.log("table player created")
 
     // create playerScore
     sqldb.run('CREATE TABLE IF NOT EXISTS playerScore(playerScoreId INTEGER NOT NULL, playerOfPlayerId INTEGER REFERENCES player(playerId), playerOfLocationId INTEGER REFERENCES location(locationId))');
@@ -95,23 +95,30 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 
     // seed relational data into user table
     let sql = 'INSERT INTO user(email, password) VALUES (?,?)'
-    sqldb.run(sql,['dcase@nwmissouri.edu', md5('dcase1')])
-    sqldb.run(sql,['S538336@nwmissouri.edu', md5('vikas1')])
-    sqldb.run(sql,['S538358@nwmissouri.edu', md5('prasad')])
-    sqldb.run(sql,['S538365@nwmissouri.edu', md5('deekshith')])
-    sqldb.run(sql,['S538293@nwmissouri.edu', md5('puneeth')])
-    sqldb.run(sql,['S538361@nwmissouri.edu', md5('rajeshwari')])
-    sqldb.run(sql,['S538098@nwmissouri.edu', md5('raju123')])
-    sqldb.run(sql,['S538308@nwmissouri.edu', md5('rohith')])
-    sqldb.run(sql,['S536845@nwmissouri.edu', md5('prasad')])
-    sqldb.run(sql,['S538299@nwmissouri.edu', md5('harika')])
+    sqldb.run(sql, ['dcase@nwmissouri.edu', md5('dcase1')])
+    sqldb.run(sql, ['S538336@nwmissouri.edu', md5('vikas1')])
+    sqldb.run(sql, ['S538358@nwmissouri.edu', md5('prasad')])
+    sqldb.run(sql, ['S538365@nwmissouri.edu', md5('deekshith')])
+    sqldb.run(sql, ['S538293@nwmissouri.edu', md5('puneeth')])
+    sqldb.run(sql, ['S538361@nwmissouri.edu', md5('rajeshwari')])
+    sqldb.run(sql, ['S538098@nwmissouri.edu', md5('raju123')])
+    sqldb.run(sql, ['S538308@nwmissouri.edu', md5('rohith')])
+    sqldb.run(sql, ['S536845@nwmissouri.edu', md5('prasad')])
+    sqldb.run(sql, ['S538299@nwmissouri.edu', md5('harika')])
     console.log("Data inserted into user table.")
 
     // seed relational data into team table
+    let sql = 'INSERT INTO team(teamName, creatorId) VALUES(?,?)'
+    sqldb.run(sql, ['Indians', 1])
+    sqldb.run(sql, ['Americans', 2])
+
 
     // seed relational data into quest table
 
     // seed relational data into competition table
+    let sql = 'INSERT INTO competition(competitionName, questId) VALUES(?,?)'
+    sqldb.run(sql, ['Baahubali', 1])
+    sqldb.run(sql, ['Avengers', 2])
 
     // seed relational data into location table
 
@@ -122,7 +129,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     // seed relational data into competitionTeamMapping table
 
     // seed relational data into playerScore table
-          
+
 });
 
 // // close the database connection
