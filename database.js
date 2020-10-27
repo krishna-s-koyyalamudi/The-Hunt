@@ -94,31 +94,31 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 
 
     // seed relational data into user table
-    let sql = 'INSERT INTO user(email, password) VALUES (?,?)'
-    sqldb.run(sql, ['dcase@nwmissouri.edu', md5('dcase1')])
-    sqldb.run(sql, ['S538336@nwmissouri.edu', md5('vikas1')])
-    sqldb.run(sql, ['S538358@nwmissouri.edu', md5('prasad')])
-    sqldb.run(sql, ['S538365@nwmissouri.edu', md5('deekshith')])
-    sqldb.run(sql, ['S538293@nwmissouri.edu', md5('puneeth')])
-    sqldb.run(sql, ['S538361@nwmissouri.edu', md5('rajeshwari')])
-    sqldb.run(sql, ['S538098@nwmissouri.edu', md5('raju123')])
-    sqldb.run(sql, ['S538308@nwmissouri.edu', md5('rohith')])
-    sqldb.run(sql, ['S536845@nwmissouri.edu', md5('prasad')])
-    sqldb.run(sql, ['S538299@nwmissouri.edu', md5('harika')])
+    let sql1 = 'INSERT INTO user(email, password) VALUES (?,?)'
+    sqldb.run(sql1, ['dcase@nwmissouri.edu', md5('dcase1')])
+    sqldb.run(sql1, ['S538336@nwmissouri.edu', md5('vikas1')])
+    sqldb.run(sql1, ['S538358@nwmissouri.edu', md5('prasad')])
+    sqldb.run(sql1, ['S538365@nwmissouri.edu', md5('deekshith')])
+    sqldb.run(sql1, ['S538293@nwmissouri.edu', md5('puneeth')])
+    sqldb.run(sql1, ['S538361@nwmissouri.edu', md5('rajeshwari')])
+    sqldb.run(sql1, ['S538098@nwmissouri.edu', md5('raju123')])
+    sqldb.run(sql1, ['S538308@nwmissouri.edu', md5('rohith')])
+    sqldb.run(sql1, ['S536845@nwmissouri.edu', md5('prasad')])
+    sqldb.run(sql1, ['S538299@nwmissouri.edu', md5('harika')])
     console.log("Data inserted into user table.")
 
     // seed relational data into team table
-    let sql = 'INSERT INTO team(teamName, creatorId) VALUES(?,?)'
-    sqldb.run(sql, ['Indians', 1])
-    sqldb.run(sql, ['Americans', 2])
+    let sql2 = 'INSERT INTO team(teamName, creatorId) VALUES(?,?)'
+    sqldb.run(sql2, ['Indians', 1])
+    sqldb.run(sql2, ['Americans', 2])
 
 
     // seed relational data into quest table
 
     // seed relational data into competition table
-    let sql = 'INSERT INTO competition(competitionName, questId) VALUES(?,?)'
-    sqldb.run(sql, ['Baahubali', 1])
-    sqldb.run(sql, ['Avengers', 2])
+    let sql3 = 'INSERT INTO competition(competitionName, questId) VALUES(?,?)'
+    sqldb.run(sql3, ['Baahubali', 1])
+    sqldb.run(sql3, ['Avengers', 2])
 
     // seed relational data into location table
 
