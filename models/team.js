@@ -20,7 +20,10 @@ module.exports = (sequelize, DataTypes) => {
         },
         teamName: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            validate:{
+                len: [3,10]
+            }
         },
         creatorUserId: {
             type: DataTypes.INTEGER,
@@ -31,12 +34,9 @@ module.exports = (sequelize, DataTypes) => {
 
         }
 
-
-
     });
 
     return team;
-
 
 };
 
