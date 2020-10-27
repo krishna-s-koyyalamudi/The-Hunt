@@ -16,6 +16,9 @@ module.exports = (sequelize, DataTypes) => {
        },
        questName: {
            type: DataTypes.STRING,
+           validate: {
+             len: [3,10]
+           },
            allowNull: false,
            unique: {
             args: 'questName',
