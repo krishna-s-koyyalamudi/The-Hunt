@@ -21,7 +21,7 @@
 //             console.error('Unable to delete playerScore', err);
 //             error = 'Unable to delete player score';
 //         } else if (!err && !response) {
-//             console.log("Player Score not fount")
+//             console.log("Player Score not found")
 //         } else {
 //             console.log("Player Score Deleted successfully")
 //         }
