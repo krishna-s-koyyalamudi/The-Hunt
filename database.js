@@ -140,10 +140,10 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 
 
     // seed relational data into clue table
-    let sql6='INSERT INTO clues(locationId,clueString) VALUES(?,?) ORDER BY clueId ASC'
-    sqldb.run(sql6, [666,'All the worlds wisdom can be found inside our college'])
-    sqldb.run(sql6, [667,'All the subject knowledge will be developed daily so that it helps to build our future'])
-    console.log("Data inserted into Clues table.")
+    // let sql6='INSERT INTO clues(locationId,clueString) VALUES(?,?) ORDER BY clueId ASC'
+    // sqldb.run(sql6, [666,'All the worlds wisdom can be found inside our college'])
+    // sqldb.run(sql6, [667,'All the subject knowledge will be developed daily so that it helps to build our future'])
+    // console.log("Data inserted into Clues table.")
 
     // seed relational data into player table
 
