@@ -144,6 +144,7 @@ End to End tests
 ![EditQuestChangeName](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditQuestChangeName.png)<br>
 ![EditQuestChangeLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditQuestChangeLocation.png)<br>
 ![DeleteQuestScreen01](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/DeleteQuestScreen01.png)<br>
+![DeleteQuestSccreen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/DeleteQuestScreen.png)<br>
 
 
 
