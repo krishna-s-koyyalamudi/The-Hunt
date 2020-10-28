@@ -110,17 +110,17 @@ let sqldb = new sqlite3.Database("./hunt.db", (err) => {
     console.log("Data inserted into user table.")
 
     // seed relational data into team table
-    let sql2 = 'INSERT INTO team (teamName, CreatorUserId) VALUES(?)'
-    sqldb.run(sql2, ['Indians'])
-    sqldb.run(sql2, ['Americans'])
+    // let sql2 = 'INSERT INTO team (teamName, CreatorUserId) VALUES(?)'
+    // sqldb.run(sql2, ['Indians',1])
+    // sqldb.run(sql2, ['Americans',2])
 
 
     // seed relational data into quest table
 
     // seed relational data into competition table
-    let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
-    sqldb.run(sql3, ['Baahubali', 1])
-    sqldb.run(sql3, ['Avengers', 2])
+    // let sql3 = 'INSERT INTO competition(competitionName) VALUES(?)'
+    // sqldb.run(sql3, ['Baahubali'])
+    // sqldb.run(sql3, ['Avengers'])
 
     // seed relational data into location table
 
