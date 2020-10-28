@@ -15,10 +15,6 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
     allowIncrement : true 
    },
-    userName: {
-      type: DataTypes.STRING,
-      notEmpty: true,
-    },
     email: {
       type: DataTypes.STRING,
       validate: {
