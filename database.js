@@ -121,10 +121,10 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("Data inserted into quest table.")
 
     // seed relational data into competition table
-    // let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
-    // sqldb.run(sql3, ['Baahubali', 1])
-    // sqldb.run(sql3, ['Avengers', 2])
-    // console.log("Data inserted into competition table.")
+    let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
+    sqldb.run(sql3, ['Baahubali', 1])
+    sqldb.run(sql3, ['Avengers', 2])
+    console.log("Data inserted into competition table.")
 
     // seed relational data into location table
       let sql5 = 'INSERT INTO location(locationId,locationQuestId) VALUES(?,?)'
