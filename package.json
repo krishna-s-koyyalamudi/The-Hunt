@@ -14,7 +14,6 @@
     "axios": "latest",
     "body-parser": "latest",
     "consolidate": "latest",
-    "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
     "ejs": "latest",
     "ejs-lint": "latest",
