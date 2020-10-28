@@ -22,6 +22,15 @@ const userRegisterController = require('../controllers/user/userSignupController
 
 // app.use(bodyParser.json());
 
+router.get('/', (req, res) => {
+  res.render('./user/loginpage', { title: 'Login', layout: false})
+})
+
+
+
+router.get('/index', (req, res) => {
+  res.render('./user/loginpage', { title: 'Login', layout: false})
+})
 
 
 

@@ -20,9 +20,6 @@ console.log(req.body,"request body is here")
   
 
   db.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
-    console.log(email,password,"yo")
-    console.log(response,"response is here")
-    console.log(err,"error is here")
     if (err) {
                 console.error('Error trying to login', err);
                 error = 'Error trying to login to application';
@@ -39,12 +36,8 @@ console.log(req.body,"request body is here")
               })
             }
              else {
-                 console.log(res,"response is here")
                  return res.json({"success": response})
-                // res.render('./partials/home');
             }
-
-    return res.json({"success": response})
   })
 
 
