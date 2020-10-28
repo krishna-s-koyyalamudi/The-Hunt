@@ -3,9 +3,9 @@ const sqlite3 = require('sqlite3').verbose();
 // const dbfile = 'hunt.db';
 // const dbpath = path.join(__dirname, 'database', dbfile);
 
-const DBSOURCE = "hunt.db"
+// const DBSOURCE = "hunt.db"
 // create Database object representing the connection to the SQLite database
-let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
+let sqldb = new sqlite3.Database("./hunt.db", (err) => {
     if (err) {
         // Cannot open database
         console.error(err.message)
@@ -17,9 +17,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
 
     // delete all existing tables in reverse order of creation...
 
-    // delete competitionTeamMapping
-    sqldb.run('DROP Table IF EXISTS competitionTeamMapping');
-    // console.log("Table competitionTeamMapping has dropped")
+    
 
     // delete playerScore
     sqldb.run('DROP Table IF EXISTS playerScore');
@@ -29,9 +27,9 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run('DROP Table IF EXISTS player');
     // console.log("Table player has dropped")
 
-    // delete team
-    sqldb.run('DROP Table IF EXISTS team');
-    // console.log("Table team has dropped")
+    // delete competitionTeamMapping
+    sqldb.run('DROP Table IF EXISTS competitionTeamMapping');
+    // console.log("Table competitionTeamMapping has dropped")
 
     // delete clue
     sqldb.run('DROP Table IF EXISTS clue');
@@ -49,7 +47,11 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run('DROP Table IF EXISTS quest');
     // console.log("Table quest has dropped")
 
-    // delete user
+    // delete team
+    sqldb.run('DROP Table IF EXISTS team');
+    // console.log("Table team has dropped")
+
+    //delete user
     sqldb.run('DROP Table IF EXISTS user');
 
 
@@ -73,7 +75,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("table competition created")
 
     // create location
-    sqldb.run('CREATE TABLE IF NOT EXISTS location(locationId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,locationQuestId INTEGER REFERENCES quest(questId) NOT NULL, locationLatitude TEXT NOT NULL, locationLongitude TEXT NOT NULL, locationValue INTEGER NOT NULL)');
+    sqldb.run('CREATE TABLE IF NOT EXISTS location(locationId INTEGER PRIMARY KEY AUTOINCREMENT,locationQuestId INTEGER REFERENCES quest(questId) , locationLatitude TEXT , locationLongitude TEXT , locationValue INTEGER )');
     console.log("table location created")
 
     // create clue
@@ -108,17 +110,17 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("Data inserted into user table.")
 
     // seed relational data into team table
-    // let sql2 = 'INSERT INTO team (teamName) VALUES(?)'
-    // sqldb.run(sql2, ['Indians'])
-    // sqldb.run(sql2, ['Americans'])
+    let sql2 = 'INSERT INTO team (teamName, CreatorUserId) VALUES(?)'
+    sqldb.run(sql2, ['Indians'])
+    sqldb.run(sql2, ['Americans'])
 
 
     // seed relational data into quest table
 
     // seed relational data into competition table
-    // let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
-    // sqldb.run(sql3, ['Baahubali', 1])
-    // sqldb.run(sql3, ['Avengers', 2])
+    let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
+    sqldb.run(sql3, ['Baahubali', 1])
+    sqldb.run(sql3, ['Avengers', 2])
 
     // seed relational data into location table
 
