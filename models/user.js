@@ -8,7 +8,7 @@
 */
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var user = sequelize.define('user', {
+  sequelize.define('user', {
     userId: {
       type: DataTypes.INTEGER,
       notEmpty: true,
@@ -29,6 +29,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
  
     // associations can be defined here
-    return User;
+    // return User;
   };
 

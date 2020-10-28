@@ -7,33 +7,33 @@
 
 var clues = {};
 module.exports = (sequelize, DataTypes) => {
-    clues = sequelize.define('clues', {
+    sequelize.define('clue', {
         clueId: {
-            type: DataTypes.INTEGERS,
+            type: DataTypes.INTEGER,
             primaryKey: true,
             allowIncrement: true
         },
-locationId: {
-    type: this.DataTypes.INTEGERS,
+clueLocationId: {
+    type: DataTypes.INTEGER,
    references: {
        Model: "location",
        primaryKey: "locationId"}
    },
 
    clueString : {
-       type: this.DataTypes.String,
+       type: DataTypes.STRING(200),
        allowNull: false
    
    },
    clueSortOrder: {
-       type: this.DataTypes.INTEGERS,
+       type: DataTypes.INTEGER,
        allowNull: false,
        order: ['clueSortOrder', 'ASC'] // Sorts by COLUMN_NAME in ascending order;
     }
 });
-   clues.associate = function(models) {
-   };
-   return clues;
+//    clues.associate = function(models) {
+//    };
+//    return clues;
     
 };
 

@@ -9,7 +9,7 @@
 */
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  const location = sequelize.define('location', {
+  sequelize.define('location', {
     locationId: {
       type: DataTypes.INTEGER,
       primaryKey: true,
@@ -39,8 +39,8 @@ module.exports = (sequelize, DataTypes) => {
 
 
   });
-  location.associate = function (models) {
+  // location.associate = function (models) {
     // associations can be defined here
-  };
-  return location;
+  // };
+  // return location;
 };

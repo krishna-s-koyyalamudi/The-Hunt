@@ -6,11 +6,11 @@
  * @author nookaRaju
  */
 
-var quest = {};
+// var quest = {};
 module.exports = (sequelize, DataTypes) => {
-    quest = sequelize.define('quest', {
+    sequelize.define('quest', {
        questId: {
-           type: DataTypes.INTEGERS,
+           type: DataTypes.INTEGER,
            primaryKey: true,
            allowIncrement: true
        },
@@ -48,13 +48,13 @@ module.exports = (sequelize, DataTypes) => {
 
         },
         latitude: {
-            type: Sequelize.INTEGER,
+            type: DataTypes.INTEGER,
             allowNull: true,
             defaultValue: null,
             validate: { min: -90, max: 90 }
           },
           longitude: {
-            type: Sequelize.INTEGER,
+            type: DataTypes.INTEGER,
             allowNull: true,
             defaultValue: null,
             validate: { min: -180, max: 180 }
@@ -69,5 +69,5 @@ module.exports = (sequelize, DataTypes) => {
           }
 
     });
-   module.exports = quest;
+  //  module.exports = quest;
 }

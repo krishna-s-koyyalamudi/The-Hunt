@@ -10,7 +10,7 @@
 
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-    const team = sequelize.define('team', {
+    sequelize.define('team', {
         teamId: {
             type: DataTypes.INTEGER,
             notEmpty: true,
@@ -36,7 +36,7 @@ module.exports = (sequelize, DataTypes) => {
 
     });
 
-    return team;
+    // return team;
 
 };
 

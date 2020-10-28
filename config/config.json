@@ -1,0 +1,20 @@
+{
+    "development": {
+      "dialect": "sqlite",
+      "storage": "./hunt.db",
+      "logQueryParameters": true,
+      "benchmark": true
+    },
+    "test": {
+      "dialect": "sqlite",
+      "storage": "./huntTest.db",
+      "logQueryParameters": true,
+      "benchmark": true
+    },
+    "production": {
+      "dialect": "sqlite",
+      "storage": "./huntProd.db",
+      "logQueryParameters": true,
+      "benchmark": true
+    }
+  }

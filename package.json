@@ -23,7 +23,6 @@
     "md5": "latest",
     "mongoose": "latest",
     "sequelize": "latest",
-    "sqlite": "latest",
     "sqlite3": "latest"
   },
   "devDependencies": {
