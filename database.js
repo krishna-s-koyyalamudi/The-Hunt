@@ -21,6 +21,10 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     sqldb.run('DROP Table IF EXISTS playerScore');
     console.log("Table playerScore has dropped")
 
+    // delete player
+    sqldb.run('DROP Table IF EXISTS player');
+    console.log("Table player has dropped")
+
     // delete competitionTeamMapping
     sqldb.run('DROP Table IF EXISTS competitionTeamMapping');
     console.log("Table competitionTeamMapping has dropped")
@@ -36,10 +40,6 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     // delete competition
     sqldb.run('DROP Table IF EXISTS competition');
     console.log("Table competition has dropped")
-
-    // delete player
-    sqldb.run('DROP Table IF EXISTS player');
-    console.log("Table player has dropped")
 
     // delete quest
     sqldb.run('DROP Table IF EXISTS quest');
@@ -68,10 +68,6 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     // create quest
     sqldb.run('CREATE TABLE IF NOT EXISTS quest(questId INTEGER PRIMARY KEY AUTOINCREMENT, questName text, questCreatorUserId INTEGER,longitude text, latitude text, FOREIGN KEY (questCreatorUserId) REFERENCES user(userId))');
     console.log("table quest created")
-    
-    // create player
-    sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY AUTOINCREMENT, playerTeamId INTEGER REFERENCES team(teamId) NOT NULL, playerUserId INTEGER REFERENCES user(userId), playerName text , datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT)');
-    console.log("table player created")
 
     // create competition 
     sqldb.run('CREATE TABLE IF NOT EXISTS competition(competitionId INTEGER PRIMARY KEY AUTOINCREMENT, competitionName text, competitionCreatorUserId INTEGER, competitionQuestId INTEGER, startDateTime TEXT, endDateTime TEXT,FOREIGN KEY (competitionCreatorUserId) REFERENCES user(userId), FOREIGN KEY (competitionQuestId) REFERENCES quest(questId))');
@@ -88,6 +84,10 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     // create competitionTeamMapping 
     sqldb.run('CREATE TABLE IF NOT EXISTS competitionTeamMapping (competitionId INTEGER PRIMARY KEY, competitionTeamId INTEGER, datetimeInvited TEXT , datetimeAccepted TEXT, datetimeRejected TEXT , datetimeDeleted TEXT,FOREIGN KEY(competitionTeamId) REFERENCES team (teamId))');
     console.log("table competitionTeamMapping created")
+
+    // create player
+    sqldb.run('CREATE TABLE IF NOT EXISTS player (playerId INTEGER PRIMARY KEY AUTOINCREMENT, playerTeamId INTEGER REFERENCES team(teamId) NOT NULL, playerUserId INTEGER REFERENCES user(userId), playerName text , datetimeInvited TEXT, datetimeAccepted TEXT, datetimeRejected TEXT, datetimeDeleted  TEXT)');
+    console.log("table player created")
 
     // create playerScore
     sqldb.run('CREATE TABLE IF NOT EXISTS playerScore(playerScoreId INTEGER , playerOfPlayerId INTEGER, playerOfLocationId INTEGER,FOREIGN KEY(playerOfPlayerId) REFERENCES player(playerId), FOREIGN KEY(playerOfLocationId)REFERENCES location(locationId))');
@@ -112,14 +112,15 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     let sql2 = 'INSERT INTO team (teamName, creatorUserId) VALUES(?,?)'
     sqldb.run(sql2, ['Indians',1])
     sqldb.run(sql2, ['Americans',2])
-
+    console.log("Data inserted into team table.")
 
     // seed relational data into quest table
 
     // seed relational data into competition table
-    // let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
-    // sqldb.run(sql3, ['Baahubali', 1])
-    // sqldb.run(sql3, ['Avengers', 2])
+    let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
+    sqldb.run(sql3, ['Baahubali', 1])
+    sqldb.run(sql3, ['Avengers', 2])
+    console.log("Data inserted into competition table.")
 
     // seed relational data into location table
 
