@@ -115,6 +115,10 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("Data inserted into team table.")
 
     // seed relational data into quest table
+    let sql4 = 'INSERT INTO quest (questName, questCreatorUserId) VALUES(?,?)'
+    sqldb.run(sql4, ['maskOn', 1])
+    sqldb.run(sql4, ['findMe', 2])
+    console.log("Data inserted into quest table.")
 
     // seed relational data into competition table
     let sql3 = 'INSERT INTO competition(competitionName, CompetitionQuestId) VALUES(?,?)'
@@ -123,6 +127,7 @@ let sqldb = new sqlite3.Database(DBSOURCE, (err) => {
     console.log("Data inserted into competition table.")
 
     // seed relational data into location table
+
 
     // seed relational data into clue table
 
