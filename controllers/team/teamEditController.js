@@ -32,3 +32,26 @@ var jsonParser = bodyParser.json()
         })
       });
   })
+
+  async function edit(req, res, next)
+{
+      try 
+      {
+        const id = parseInt(req.params.id, 10);
+     
+        const success = await employees.edit(id);
+     
+        if (success)
+        {
+          res.status(200).end();
+        } 
+          else
+          {
+          res.status(404).end();
+        }
+      } 
+    catch (err) {
+        next(err);
+      }
+    }
+  
