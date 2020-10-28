@@ -18,7 +18,7 @@
     "dotenv": "^8.2.0",
     "ejs": "latest",
     "ejs-lint": "latest",
-    "express": "latest",
+    "express": "^4.17.1",
     "express-ejs-layouts": "latest",
     "heroku": "latest",
     "md5": "latest",
