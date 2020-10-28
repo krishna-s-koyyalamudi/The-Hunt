@@ -141,7 +141,8 @@ End to End tests
 ![FindLocationLastClue](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationLastClue.png)<br>
 ![ListOfQuests](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ListOfQuests.png)<br>
 ![ListOfCompetitions](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ListOfCompetitions.png)<br>
-![EditQuestScreenChangeName](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditQuestChangeName.png)<br>
+![EditQuestChangeName](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditQuestChangeName.png)<br>
+![EditQuestChangeLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditQuestChangeLocation.png)<br>
 
 
 
