@@ -54,4 +54,6 @@ var jsonParser = bodyParser.json()
         next(err);
       }
     }
+
+    module.exports = app;
   
