@@ -50,7 +50,7 @@ async function assertDatabaseConnectionOk() {
 async function seedDatabase() {
     console.log('Initialize the SQLite database with dummy data.');
     await db.sync({ force: true });
-    console.dir(db.models);
+    // console.dir(db.models);
 
     // user
 

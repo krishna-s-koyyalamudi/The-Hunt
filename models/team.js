@@ -27,15 +27,12 @@ module.exports = (sequelize, DataTypes) => {
         },
         creatorUserId: {
             type: DataTypes.INTEGER,
-            references: {
-                model: "user",
-                foreignKey: "userId"
-            }
+            // references: {
+            //     model: "user",
+            //     foreignKey: "userId"
+            // }
 
-        }
-        
-        
-
+        }   
     });
 // team.associate = function(models){
 //     team.belongsTo(user);
