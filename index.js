@@ -71,8 +71,8 @@ async function seedDatabase() {
 
     // seed team
     await db.models.team.bulkCreate([
-        { teamId: 101, teamName: 'Indians', creatorUserId: 1 },
-        { teamId: 102, teamName: 'Americans', creatorUserId: 2 }
+        {  teamName: 'Indians', creatorUserId: 1 },
+        {  teamName: 'Americans', creatorUserId: 2 }
     ]);
     const numTeams = await db.models.team.count();
     console.info(`Seeded ${numTeams} teams.`);
