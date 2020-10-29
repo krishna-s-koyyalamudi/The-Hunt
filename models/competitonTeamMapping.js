@@ -1,5 +1,5 @@
 /**
-*  competition model
+*  competitionTeamMapping model
 *  explains each attribute in a competition.
 *
 * @author Rajashekar Gande

@@ -1,5 +1,5 @@
 /**
-*  competition model
+*  player model
 *  explains each attribute in a competition.
 *
 * @author Rajashekar Gande
@@ -7,7 +7,7 @@
 */
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-    sequelize.define('competitionTeamMapping', {
+    sequelize.define('player', {
         playerId: {
             type: DataTypes.INTEGER,
             primaryKey: true,
