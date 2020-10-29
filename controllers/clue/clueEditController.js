@@ -15,3 +15,11 @@
 //    const [updated] = await db.models.clue.update(req.body, {
 //      where: { id: clueId },
 //    });
+//    if (updated) {
+//      return res.redirect('/clue');
+//    }
+//    throw new Error(`${clueId} not found`);
+//  } catch (error) {
+//    return res.status(500).send(error.message);
+//  }
+//}
