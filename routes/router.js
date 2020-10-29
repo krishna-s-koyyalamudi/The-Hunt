@@ -88,6 +88,9 @@ router.get('/team/createTeam', (req, res, next) => {
 
 router.get('/team/invitePlayers', (req, res, next) => {
   res.render('./team/invitePlayers', { title: "Invite Players"})
+}) 
+router.get('/location/delete', (req, res, next) => {
+  res.render('./location/delete', { title: "Locationdelete"})
 })
 
 // router.use('/api/user/Regitser' , jsonParser, (req, res, next) => {
