@@ -66,59 +66,34 @@ async function seedDatabase() {
         { email: 'S536845@nwmissouri.edu', password: md5('prasad') },
         { email: 'S538299@nwmissouri.edu', password: md5('harika') }
     ]);
-
     const numUsers = await db.models.user.count();
-
     console.info(`Seeded ${numUsers} users.`);
 
-
-
     // seed team
-
     await db.models.team.bulkCreate([
-
-        { name: 'Indians', creatorUserId: 1 },
-
-        { name: 'Americans', creatorUserId: 2 },
-
+        { teamId: 101, teamName: 'Indians', creatorUserId: 1 },
+        { teamId: 102, teamName: 'Americans', creatorUserId: 2 }
     ]);
-
     const numTeams = await db.models.team.count();
-
     console.info(`Seeded ${numTeams} teams.`);
 
-
-
     // seed quest
-
     await db.models.quest.bulkCreate([
-
-        //  sqldb.run(sql4, ['maskOn', 1])
-
-        //  sqldb.run(sql4, ['findMe', 2])
-
+        { questName: 'maskOn', creatorUserId: 1 },
+        { questName: 'findMe', creatorUserId: 2 }
     ]);
-
     const numQuests = await db.models.quest.count();
-
     console.info(`Seeded ${numQuests} quests.`);
 
-
-
     // seed competition
-
-    await db.models.competition.bulkCreate([
-
+    // await db.models.competition.bulkCreate([
         //   sqldb.run(sql3, ['Baahubali', 1])
-
         //   sqldb.run(sql3, ['Avengers', 2])
-
-    ]);
-
-    const numCompetitions = await db.models.competition.count();
-
-    console.info(`Seeded ${numCompetitions} competitions.`);
+    // ]);
+    // const numCompetitions = await db.models.competition.count();
+    // console.info(`Seeded ${numCompetitions} competitions.`);
 }
+
 app.listen(port, async () => {
 
     try {

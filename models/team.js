@@ -10,7 +10,7 @@
 
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-    sequelize.define('team', {
+  sequelize.define('team', {
         teamId: {
             type: DataTypes.INTEGER,
             notEmpty: true,
@@ -29,14 +29,18 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             references: {
                 model: "user",
-                foreignKey: "userid"
+                foreignKey: "userId"
             }
 
         }
+        
+        
 
     });
-
-    // return team;
+// team.associate = function(models){
+//     team.belongsTo(user);
+// }
+//     return team;
 
 };
 
