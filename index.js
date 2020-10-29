@@ -92,6 +92,14 @@ async function seedDatabase() {
     // ]);
     // const numCompetitions = await db.models.competition.count();
     // console.info(`Seeded ${numCompetitions} competitions.`);
+
+    // seed player
+    await db.models.player.bulkCreate([
+        { playeName: 'Rebel', userId: '101'},
+        { playerName: 'King', userId: '102'}
+    ]);
+    const numPlayers = await db.models.quest.count();
+    console.info(`Seeded ${numPlayers} Players.`);
 }
 
 app.listen(port, async () => {

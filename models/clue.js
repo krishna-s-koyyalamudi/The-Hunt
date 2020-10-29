@@ -31,9 +31,9 @@ clueLocationId: {
        order: ['clueSortOrder', 'ASC'] // Sorts by COLUMN_NAME in ascending order;
     }
 });
-//    clues.associate = function(models) {
-//    };
-//    return clues;
+ // clues.associate = function(models) {
+ // };
+ // return clues;
     
 };
 

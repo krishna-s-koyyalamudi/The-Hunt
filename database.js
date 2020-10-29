@@ -154,6 +154,8 @@
 //     // seed relational data into competitionTeamMapping table
 
 //     // seed relational data into playerScore table
+//     let sql7 = 'INSERT INTO playerscore(locationId,playerScoreId) VALUES(?, ?)'
+//     sql.db.run(sql7,[101, ])
 
 //     }
 //     catch(err){
