@@ -1,4 +1,5 @@
 ##Add files to ignore pushing to remote from local
 
+package-lock.json
 node_modules
 hunt.db
