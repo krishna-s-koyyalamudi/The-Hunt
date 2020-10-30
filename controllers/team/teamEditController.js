@@ -39,7 +39,7 @@ var jsonParser = bodyParser.json()
       {
         const id = parseInt(req.params.id, 10);
      
-        const success = await employees.edit(id);
+        const success = await team.edit(teamName);
      
         if (success)
         {
