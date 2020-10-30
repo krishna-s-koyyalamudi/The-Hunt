@@ -1,3 +1,9 @@
+/**
+ * @sample_create_competition - cypress test
+ *
+ *
+ * @author Sumana Reddy
+ */
 
 /// <reference types="Cypress"/>
 
@@ -15,4 +21,3 @@
      
     })
 })
-  
