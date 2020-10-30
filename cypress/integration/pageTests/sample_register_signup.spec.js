@@ -11,7 +11,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   })
   describe('Register page',function(){
     it('Register!',function() {
-      cy.visit('https://hunt2020.herokuapp.com/Register') // Opens URL
+      cy.visit('https://hunt2020.herokuapp.com/user/Register') // Opens URL
     
       cy.get('#email').type('csrisudheera96@gmail.com') // Gives Email 
 
@@ -23,7 +23,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
     cy.wait(3000) // waits for going to other page after clicking register
 
-    cy.visit('https://hunt2020.herokuapp.com/Register') // Opens URL
+    cy.visit('https://hunt2020.herokuapp.com/user/Register') // Opens URL
     cy.wait(3000) // Waits for visiting login page
 
 
