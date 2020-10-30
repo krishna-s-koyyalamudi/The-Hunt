@@ -13,11 +13,11 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 describe('Cypress Test for the body', function(){
     it('Verify input types &Buttons',function()  {
-      cy.visit('https://hunt2020.herokuapp.com') // Opens URL
+      cy.visit('https://hunt2020.herokuapp.com/Home') // Opens URL
       
       cy.get('body > header > div > label').contains('Logout').click() // Clicks on logout
 
-      cy.visit('https://hunt2020.herokuapp.com') // Opens URL
+      cy.visit('https://hunt2020.herokuapp.com/Home') // Opens URL
 
       cy.get('.fas.fa-home').click() // Cicks on home page
       cy.wait(2000)
