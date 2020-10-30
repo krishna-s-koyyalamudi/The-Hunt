@@ -1,9 +1,8 @@
 body {
     background: #f8f6f6;
-    
     vertical-align: middle;
-  
 }
+
 .text-line {
     margin: 0;
     background-color: transparent;
@@ -16,7 +15,6 @@ body {
     border-right: none;
     border-bottom: solid #070707 1px;
     padding: 3px 10px;
-    
 }
 
 .textbox-n {
@@ -31,7 +29,7 @@ body {
     border-left: none;
     border-right: none;
     border-bottom: none;
-   /* border-bottom: solid #070707 1px;
+    /* border-bottom: solid #070707 1px;
     padding: 3px 20px;*/
 }
 
@@ -46,25 +44,29 @@ body {
     border-left: none;
     border-right: none;
     border-bottom: none;
-   /* border-bottom: solid #070707 1px;
+    /* border-bottom: solid #070707 1px;
     padding: 3px 10px;*/
+}
 
+input[type="date"]::before {
+    color: #10533f;
+    content: attr(placeholder) ": ";
 }
 
 
-
-input[type="date"]::before{
-    color: #10533f;
-    content: attr(placeholder) ": ";
- }
- /* input[type="date"]:focus::before {
+/* input[type="date"]:focus::before {
     content: "" !important;
  }*/
 
- input[type="time"]::before{
+input[type="time"]::before {
     color: #10533f;
     content: attr(placeholder) ": ";
- }
- input[type="time"]:focus::before {
+}
+
+input[type="time"]:focus::before {
     content: "" !important;
- }
+}
+
+#createbutton {
+    background-color: #00674c;
+}
