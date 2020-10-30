@@ -22,11 +22,14 @@ app.post("/:teamCreate", (req, res, next) => {
         errors.push("No teamName specified.");
     }
 
+    var team = {
+        teamName: req.body.teamName
+    }
+
     if (errors.length) {
         res.status(400).json({ "error": errors.join(",") });
         return;
-    }
-    else {
+    } else {
         db.run(sql, params, function(err, result) {
             if (err) {
                 res.status(400).json({ "error": err.message })
@@ -36,8 +39,8 @@ app.post("/:teamCreate", (req, res, next) => {
                 "message": "success",
                 "data": data
             })
-    })
-}
+        })
+    }
 });
 
 
