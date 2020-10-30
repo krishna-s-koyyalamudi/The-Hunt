@@ -1,4 +1,9 @@
-
+/**
+ * @createscreen.spec.js - cypress testing for create screen
+ *
+ *
+ * @author Sumana Reddy
+ */
 /// <reference types="Cypress"/>
 
 Cypress.on('uncaught:exception', (err, runnable) => {
@@ -14,8 +19,8 @@ describe('Cypress Test for Create Screen', function(){
      cy.url().should('include','Screen')
      if(cy.get('#button1').click()){
          // cy.get('#button1').click();
-     cy.visit('https://hunt2020.herokuapp.com/createTeam')
-     cy.go('forward')
+    // cy.visit('https://hunt2020.herokuapp.com/createTeam')
+   //   cy.go('forward')
      cy.go('back')
      }
       if(cy.get('button[id="button2"]').click())
