@@ -98,7 +98,7 @@ async function seedDatabase() {
 //         { playeName: 'Rebel', userId: '101'},
 //         { playerName: 'King', userId: '102'}
 //     ]);
-//     const numPlayers = await db.models.quest.count();
+//     const numPlayers = await db.models.player.count();
 //     console.info(`Seeded ${numPlayers} Players.`);
 }
 
