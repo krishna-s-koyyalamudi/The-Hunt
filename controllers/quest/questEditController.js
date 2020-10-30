@@ -13,16 +13,12 @@
 //     var data = {
 //       questName: req.body.questName,
 //       questid: req.body.questid,
-//       latitude: req.body.latitude,
-//       longitude: req.body.longitude
 //     }
 //     db.run(
 //       `UPDATE quest set 
 //            questName = coalesce(?,questName), 
-//            latitude = COALESCE(?,latitude)
-//            longitude = COALESCE(?,longitude) 
 //            WHERE questId = ?`,
-//       [data.questName, data.questId, data.latitude, data.longitude, req.params.questId],
+//       [data.questName, req.params.questId],
 //       (err, result) => {
 //         if (err) {
 //           res.status(400).json({ "error": res.message })
