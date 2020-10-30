@@ -86,6 +86,21 @@ router.get('/quest/createQuest', (req, res, next) => {
     res.render('./quest/create', { title: "Quest" })
 })
 
+router.get('/quest', (req, res, next) => {
+    res.render('./quest/index', { title: "Quest" })
+})
+
+router.get('/quest/details', (req, res, next) => {
+    res.render('./quest/details', { title: "Quest details" })
+})
+router.get('/quest/delete', (req, res, next) => {
+    res.render('./quest/delete', { title: "Delete Quest" })
+})
+
+router.get('/quest/edit', (req, res, next) => {
+    res.render('./quest/edit', { title: "Edit Quest" })
+})
+
 router.get('/user/profile', (req, res, next) => {
     res.render('./player/details', { title: "profile" })
 })
@@ -96,11 +111,20 @@ router.get('/team/createTeam', (req, res, next) => {
 })
 
 
+router.get('/team/teamInvite', (req, res, next) => {
+    res.render('./team/teamInvite', { title: "Team" })
+})
+
+
 router.get('/team/invitePlayers', (req, res, next) => {
     res.render('./team/invitePlayers', { title: "Invite Players" })
 })
 router.get('/location/delete', (req, res, next) => {
     res.render('./location/delete', { title: "Locationdelete" })
+})
+
+router.get('/location/create', (req, res, next) => {
+    res.render('./location/create', { title: "Create Location" })
 })
 
 // router.use('/api/user/Regitser' , jsonParser, (req, res, next) => {
