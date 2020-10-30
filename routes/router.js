@@ -70,6 +70,13 @@ router.get('/create_competition', (req, res, next) => {
 router.get('/competition/delete', (req, res, next) => {
     res.render('./competition/delete', { title: 'Delete Competition' })
 })
+router.get('/competition/details', (req, res, next) => {
+    res.render('./competition/details', { title: 'Details of Competition' })
+})
+
+router.get('/competition', (req, res, next) => {
+    res.render('./competition/index', { title: 'Competition' })
+})
 
 router.get('/createScreen', (req, res, next) => {
     res.render('createScreen', { title: 'Create Screen' })
