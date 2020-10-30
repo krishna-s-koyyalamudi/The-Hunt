@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * This will handle the request for location/create
  * 
  * get - returns the page for creating a new location
@@ -26,3 +27,12 @@ app.post("/locationCreate", (req, res, next) => {
     })
 });
 module.exports = app;
+=======
+ * Author 
+ */
+
+const express = require('express');
+const app = express.Router();
+
+const model = require('../models/location.js');
+>>>>>>> 04762f3bb64bd928d59660cd28307ae5b9d8fcd9
