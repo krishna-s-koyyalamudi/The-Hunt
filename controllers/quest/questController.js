@@ -8,7 +8,7 @@
 const express = require('express');
 const app = express.Router();
 // const LOG = require('../utils/logger.js');
-// const Model = require('../models/quest.js');
+const Model = require('../models/quest.js');
 // const notfoundstring = 'quest not found'
 
 
