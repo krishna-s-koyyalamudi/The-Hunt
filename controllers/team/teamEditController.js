@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 var jsonParser = bodyParser.json()
  
- app.patch("/edit",jsonParser, (req, res, next) => {
+ app.patch("/edit",jsonParser , (req, res, next) => {
     var data = {
       teamName: req.body.teamName,
       teamid: req.body.teamid
