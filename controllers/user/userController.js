@@ -9,7 +9,6 @@ const app = express.Router();
 const Model=require('../../models/user')
 
 app.get("/user", (req, res, next) => {
-  console.log("--user hits")
     var sql = "select * from user"
     var params = []
     db.all(sql, params, (err, rows) => {

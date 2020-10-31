@@ -39,28 +39,6 @@ console.log(req.body,"request body is here")
                  return res.json({"success": response})
             }
   })
-
-
-
- 
-//    db.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
-//       if (err) {
-//           console.error('Error trying to login', err);
-//           error = 'Error trying to login to application';
-//           res.render('login', { error: error });
-//         //   return res(1)
-//       } 
-//       else if (!err && !res) {
-//           console.log("Username or password invalid")
-//         //   return res(1)
-//       }
-//        else {
-//            console.log(res,"response is here")
-        //    return res(1)c
-        //   res.render('./partials/home');
-      //}
-    //  return res.json({"result": 1})
- // })
 })
 
 module.exports = app;

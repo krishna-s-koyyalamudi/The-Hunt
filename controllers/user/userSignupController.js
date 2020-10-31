@@ -22,7 +22,6 @@ const sqldb = require('../../database')
       return;
     }
     var data = {
-    //  userName : req.body.userName,
       email: req.body.email,
       password: md5(req.body.password)
     }
@@ -36,7 +35,6 @@ const sqldb = require('../../database')
       res.json({
         "message": "success",
         "data": data,
-        // "userName": this.lastuserName
       })
     });
   })
