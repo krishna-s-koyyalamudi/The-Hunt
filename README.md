@@ -151,6 +151,7 @@ End to End tests
 ![DeleteQuestSccreen](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/DeleteQuestScreen.png)<br>
 ![EditCompetitionChangeName](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditCompetitionChangeName.png)<br>
 ![EditCompetitionChangeLocation](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditCompetitionChangeLocation.png)<br>
+![EditCompetitionChangeDate](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/EditCompetitionChangeDate.png)<br>
 
 
 
