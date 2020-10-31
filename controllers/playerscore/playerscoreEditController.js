@@ -8,8 +8,8 @@ const express = require('express');
 const app = express.Router();
 
 const bodyParser = require('body-parser');
-// app.use(bodyParser.urlencoded({ extended: true }));
-// var jsonParser = bodyParser.json()
+app.use(bodyParser.urlencoded({ extended: true }));
+var jsonParser = bodyParser.json()
 
 // app.edit("/playerScore/edit", jsonParser, (req, res, next) => {
 //     console.log(req, " ----request is here")
