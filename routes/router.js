@@ -127,61 +127,8 @@ router.get('/location/create', (req, res, next) => {
     res.render('./location/create', { title: "Create Location" })
 })
 
-// router.use('/api/user/Regitser' , jsonParser, (req, res, next) => {
-//   console.log(req.body,"---request is here")
-//   var errors = []
-//   if (!req.body.password) {
-//     errors.push("No password specified");
-//   }
-//   if (!req.body.email) {
-//     errors.push("No email specified");
-//   }
-//   if (errors.length) {
-//     res.status(400).json({ "error": errors.join(",") });
-//     return;
-//   }
-//   var data = {
-//   //  userName : req.body.userName,
-//     email: req.body.email,
-//     password: md5(req.body.password)
-//   }
-//   var sql = 'INSERT INTO user (email, password) VALUES (?,?)'
-//   var params = [data.email, data.password]
-//   sqldb.run(sql, params, function (err, result) {
-//     if (err) {
-//       res.status(400).json({ "error": err.message })
-//       return;
-//     }
-//     res.json({
-//       "message": "success",
-//       "data": data,
-//       // "userName": this.lastuserName
-//     })
-// })
-// })
 
-// router.use('/ap/user/Login' , jsonParser, (req, res, next) => {
-//   let { email, password } = req.body;
-//   let error = null;
-//   sqldb.get('select * from user where email = ? and password = ?', [email, md5(password)], (err, response) => {
-//       if (err) {
-//           console.error('Error trying to login', err);
-//           error = 'Error trying to login to application';
-//           res.render('login', { error: error });
-//       } else if (!err && !response) {
-//           console.log("Username or password invalid")
-//       } else {
-//           res.render('./partials/home');
-//       }
-//       console.log(err, res);
-//   })
-// })
-
-//  router.post('/user/login', function(req, res) {
-//    res.req("/controllers/userController")
-//  })
-
-
+        
 
 // Route requests that start with an expression to a controller
 router.use('/user', require('../controllers/user/userController'))
