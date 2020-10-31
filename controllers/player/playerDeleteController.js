@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var jsonParser = bodyParser.json()
 
 app.delete("/player/delete", jsonParser, (req, res, next) => {
-    console.log(req, " ----request is here")
+    console.log(req, "----request is here")
     let userId = req.body;
 
     let error = null;
@@ -21,7 +21,7 @@ app.delete("/player/delete", jsonParser, (req, res, next) => {
         } else if (!err && !response) {
             console.log("Player not found")
         } else {
-            //   res.render('./partials/home');
+               res.render('./partials/home');
             console.log("Player Deleted successfully")
         }
         console.log(err, res);
