@@ -8,6 +8,12 @@
 // const app = express.Router();
 
 // const Model = require('../models/clue.js');
+//Json format
+//exports.showCreate = (req, res) => {
+   // res.render('clue/clueCreate.js', {
+//       title: ,
+//    });
+//   };
 
 // app.post("/:clueCreate", (req, res, next) => {
 //     var model = require('../../models/clue');
