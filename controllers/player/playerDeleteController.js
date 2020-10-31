@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var jsonParser = bodyParser.json()
 
 app.delete("/player/delete", jsonParser, (req, res, next) => {
-    console.log(req, "----request is here")
+    console.log(req, "------request is here")
     let userId = req.body;
 
     let error = null;
