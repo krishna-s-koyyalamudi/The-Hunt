@@ -81,6 +81,12 @@ var form = event.target.form; // storing the form
   closeOnConfirm: false,
   closeOnCancel: false
 },
-
+function(isConfirm){
+  if (isConfirm) {
+    form.submit();          // submitting the form when user press yes
+  } else {
+    swal("Cancelled", "Your imaginary file is safe :)", "error");
+  }
+});
 }
  </script>
