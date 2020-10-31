@@ -138,6 +138,7 @@ End to End tests
 ![FindLocation_Clue1](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_1.png)<br>
 - When the user clicks again on the "Click for Clue" button, below screen shows up.<br>
 ![FindLocation_Clue2](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindlocationClue_2.png)<br>
+- When the user clicks on the "Click for Clue" button for the third button, below screen shows up.<br>
 ![FindLocationClue3](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationClue_3.png)<br>
 ![FindLocationLastClue](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/FindLocationLastClue.png)<br>
 ![ListOfQuests](https://github.com/Krishna-Koyyalamudi/The-Hunt/blob/master/UI/UI_Screens/ListOfQuests.png)<br>
