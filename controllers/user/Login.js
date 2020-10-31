@@ -7,10 +7,7 @@ var jsonParser = bodyParser.json()
 const md5 = require('md5')
 const db = require('../../database')
 
-    //  exports.user_login = function(req, res) {
-
-//   function user_login(req, res){
-    
+   
 app.post("/try", jsonParser, (req, res, next) => {
     console.log("this hits over login--------")
     // console.log(req.body, " ----request is here")
